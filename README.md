@@ -19,4 +19,4 @@ HTML5, CSS3, JavaScript
 - Integration with backend services for user data storage and comprehensive exam management.
 - Enhanced UI/UX features for a more intuitive user experience.
 
-Explore the project live [here](<your project live link>) or clone the repository to view the code and contribute to its development.
+Explore the project live [here](<https://fouad-gabr.github.io/Examination-System/>) or clone the repository to view the code and contribute to its development.

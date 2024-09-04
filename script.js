@@ -134,7 +134,7 @@ class SingUpPage2 extends SingUpPage {
     let labelStr = "label";
     let u = ["email", "last name"];
     let pick_pict = document.getElementById("pick-picture-part");
-    pick_pict.innerHTML = `<input type="file" style="visibility: hidden;height: 0;width: 0;"  id="file">
+    pick_pict.innerHTML = `<input type="file" accept="image/png, image/gif, image/jpeg"  style="visibility: hidden;height: 0;width: 0;"  id="file">
                             <input type="button" value="Pick Picture" class="pick-picture" onclick="SingUpPage2.pickImage()">
                             <span id="picture-label"></span>`;
     let inputStr = "input-form";

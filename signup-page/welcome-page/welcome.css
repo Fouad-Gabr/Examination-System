@@ -251,7 +251,23 @@ img {
   align-items: center;
   cursor: pointer;
 }
-
+.answer-check{
+  width: calc((100% - 40px) / 2);
+  height: 80px;
+  text-align: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin: 5px 10px;
+  border: 1px solid #383e46;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: cyan;
+}
 .answer:hover {
   background-color: cyan;
 }
@@ -380,7 +396,8 @@ h3 {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   cursor: pointer;
-  display: none;
+  /*
+  display: none;*/
 }
 
 .submit {

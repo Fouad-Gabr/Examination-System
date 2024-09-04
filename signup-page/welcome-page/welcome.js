@@ -16,8 +16,88 @@ let usernameField = document.getElementById("userField");
 let timeBar = document.getElementById("timeBar");
 let Percent = document.getElementById("timePercent");
 let barFillEle = document.getElementById("barFill");
+let questionsList=[];
+let cur_qustion=0;
 
-function startExam() {
+function clickPrev(){
+  if(cur_qustion==0){
+    return;
+  }
+  cur_qustion--;
+  update_qustion(questionsList[cur_qustion]);
+}
+
+function clickNext(){
+  if(cur_qustion==questionsList.length-1){
+    return;
+  }
+  cur_qustion++;
+  update_qustion(questionsList[cur_qustion]);
+}
+
+
+
+function makeChoice(val){
+  for(let i=0;i<4;i++){
+    let answer=document.getElementById(`ans${i}`);
+    answer.classList.remove(...answer.classList);
+    answer.classList.add("answer");
+  }
+  let answer=document.getElementById(`ans${val}`);
+    answer.classList.remove(...answer.classList);
+    answer.classList.add("answer-check");
+    questionsList[cur_qustion].your_answer=val;
+}
+async function getQuestion(){
+ 
+  const response = await fetch("../questions.json");
+    const json = await response.json();
+    //console.log(json);
+  nums=new Set();
+  while(nums.size!=10){
+    nums.add(Math.floor(Math.random() * json["result"].length));
+  }
+  console.log(nums)
+  for(num1 of nums){
+    questionsList.push(json["result"][num1]);
+  }
+  console.log(questionsList);
+}
+function get_flage(){
+  this.index;
+  update_qustion(questionsList[this.index]);
+  cur_qustion=this.index;
+}
+function addFlage(){
+  let flageBar=document.getElementsByClassName("flags-questions")[0];
+  bt1=document.createElement("button");
+  bt1.classList.add("flag");
+  bt1.innerHTML=`Question ${cur_qustion+1}`;
+  f1=get_flage.bind({index:cur_qustion});
+  bt1.onclick=f1;
+  flageBar.appendChild(bt1);
+}
+function update_qustion(qustInfo){
+  console.log(qustInfo);
+  
+  let qustion=document.getElementById("question");
+  qustion.innerHTML=`${qustInfo["question"]}`
+  if(qustInfo["code"]!=""){
+    qustion.innerHTML+= `<br/><pre> ${qustInfo["code"]}}<pre/>`;
+  }
+  for(let i=0;i<4;i++){
+    let answer=document.getElementById(`ans${i}`);
+    answer.innerText=qustInfo["choice"][i];
+    answer.classList.remove(...answer.classList);
+    answer.classList.add("answer");
+  }
+  if(qustInfo["your_answer"]!=null){
+    let answer=document.getElementById(`ans${qustInfo["your_answer"]}`);
+    answer.classList.remove(...answer.classList);
+    answer.classList.add("answer-check");
+  }
+}
+async function startExam() {
   svg.style.opacity = "0";
   para.style.opacity = "0";
   btn.innerText = "";
@@ -30,15 +110,24 @@ function startExam() {
   infoBar.classList.add("info-bar-animation");
   photoFile && userPhoto.setAttribute("src", `${photoFile}`);
   usernameField.innerText = username;
-
-  document.getElementById("timer").innerHTML = 05 + ":" + 00;
+  await getQuestion();
+  update_qustion(questionsList[cur_qustion]);
+  document.getElementById("timer").innerHTML = `05:00` ;
   setTimeout(startTimer, 4000);
   disableBackButton();
 }
-
+function checkAnswer(){
+  let count=0;
+  for (let i=0; i<questionsList.length; i++){
+    if(questionsList[i]["your_answer"]!=null&&questionsList[i]["your_answer"]==questionsList[i]["answer"].charCodeAt(0)-"A".charCodeAt(0)){
+      count++;
+  }
+}
+  return count;
+}
 function getScore() {
   // calc score
-  let score = 0;
+  let score =  checkAnswer();
 
   // go to score page
   container.innerHTML = "";
@@ -71,6 +160,9 @@ function startTimer() {
   document.getElementById("timer").innerHTML = m + ":" + s;
   setTimeout(startTimer, 1000);
   barFill(m, s);
+  if (m==0&&s==0) {
+    location.href = "../time/time.html";
+  }
 }
 
 function checkSecond(sec) {
@@ -91,9 +183,7 @@ function barFill(m, s) {
   if (timePercent >= 0) {
     Percent.innerText = `${timePercent} %`;
   }
-  if (Percent.innerText == "100 %") {
-    location.href = "../time/time.html";
-  }
+  
 }
 
 function disableBackButton() {

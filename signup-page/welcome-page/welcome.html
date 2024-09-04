@@ -20,19 +20,19 @@
             <div class="time-percent" id="timePercent"></div>
 
             <div class="question-location">
-                <div class="question">Question</div>
+                <div class="question" id="question">Question</div>
             </div>
             <div class="answers-location">
-                <div class="answer first-answer">first</div>
-                <div class="answer second-answer">second</div>
-                <div class="answer third-answer">third</div>
-                <div class="answer fourth-answer">fourth</div>
+                <button class="answer first-answer" id="ans0" onclick="makeChoice(0)">first</button>
+                <button class="answer second-answer"  id="ans1" onclick="makeChoice(1)">second</button>
+                <div class="answer third-answer" id="ans2" onclick="makeChoice(2)">third</div>
+                <div class="answer fourth-answer"  id="ans3" onclick="makeChoice(3)">fourth</div>
             </div>
 
             <div class="buttons-section">
-                <div class="btn previous-btn">Previous</div>
-                <div class="btn flag-btn"><i class="fa-solid fa-flag"></i></div>
-                <div class="btn next-btn">Next</div>
+                <div class="btn previous-btn" onclick="clickPrev()">Previous</div>
+                <button class="btn flag-btn" onclick=" addFlage()"><i class="fa-solid fa-flag"></i></button>
+                <div class="btn next-btn" onclick="clickNext()">Next</div>
             </div>
             <div class="circles-parent">
                 <div class="circle first-circle"></div>
@@ -61,7 +61,7 @@
                 <div class="bookmark"><i class="fa-solid fa-bookmark"></i></div>
             </div>
             <div class="flags-questions">
-                <div class="flag first-flag">Question 1</div>
+                <!--
                 <div class="flag second-flag">Question 2</div>
                 <div class="flag third-flag">Question 3</div>
                 <div class="flag fourth-flag">Question 4</div>
@@ -71,6 +71,7 @@
                 <div class="flag eighth-flag">Question 8</div>
                 <div class="flag ninth-flag">Question 9</div>
                 <div class="flag tenth-flag">Question 10</div>
+            -->
             </div>
 
             <button type="button" class="submit" onclick="getScore()">Submit</button>
@@ -83,7 +84,7 @@
                 Welcome to CodeExaminer Exam,<br>We wish you success as you embark<br>on this assessment.<br>Begin
                 confidently & do your best!
             </p>
-            <div class="start-btn" id="startBtn" onclick="startExam()">Start Now - ></div>
+            <button class="start-btn" id="startBtn" onclick="startExam()">Start Now - ></button>
         </div>
         <div class="svg-location" id="svg">
             <img src="./welcome.svg" alt="svg image for exam">

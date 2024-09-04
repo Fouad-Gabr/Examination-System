@@ -1,1 +1,2364 @@
-{"result": [{"question": " Why so JavaScript and Java have similar name?", "choice": [" JavaScript is a stripped-down version of Java", " JavaScript's syntax is loosely based on Java's", " They both originated on the island of Java", " None of the above"], "answer": "B"}, {"question": " When a user views a page containing a JavaScript program, which machine actually executes the script?", "choice": [" The User's machine running a Web browser", " The Web server", " A central machine deep within Netscape's corporate offices", " None of the above"], "answer": "A"}, {"question": " ______ JavaScript is also called client-side JavaScript.", "choice": [" Microsoft", " Navigator", " LiveWire", " Native"], "answer": "B"}, {"question": " __________ JavaScript is also called server-side JavaScript.", "choice": [" Microsoft", " Navigator", " LiveWire", " Native"], "answer": "A"}, {"question": " What are variables used for in JavaScript Programs?", "choice": [" Storing numbers, dates, or other values", " Varying randomly", " Causing high-school algebra flashbacks", " None of the above"], "answer": "A"}, {"question": " _____ JavaScript statements embedded in an HTML page can respond to user events such as mouse-clicks, form input, and page navigation.", "choice": [" Client-side", " Server-side", " Local", " Native"], "answer": "A"}, {"question": " What should appear at the very end of your JavaScript?\nThe <script LANGUAGE=\"JavaScript\">tag", "choice": [" The </script>", " The <script>", " The END statement", " None of the above"], "answer": "A"}, {"question": " Which of the following can't be done with client-side JavaScript?", "choice": [" Validating a form", " Sending a form's contents by email", " Storing the form's contents to a database file on the server", " None of the above"], "answer": "A"}, {"question": " Which of the following are capabilities of functions in JavaScript?", "choice": [" Return a value", " Accept parameters and Return a value", " Accept parameters", " None of the above"], "answer": "B"}, {"question": " Which of the following is not a valid JavaScript variable name?", "choice": [" 2names", " _first_and_last_names", " FirstAndLast", " None of the above"], "answer": "A"}, {"question": " ______ tag is an extension to HTML that can enclose any number of JavaScript statements.", "choice": [" <SCRIPT>", " <BODY>", " <HEAD>", " <TITLE>"], "answer": "A"}, {"question": " How does JavaScript store dates in a date object?", "choice": [" The number of milliseconds since January 1st, 1970", " The number of days since January 1st, 1900", " The number of seconds since Netscape's public stock offering.", " None of the above"], "answer": "B"}, {"question": " Which of the following attribute can hold the JavaScript version?", "choice": [" LANGUAGE", " SCRIPT", " VERSION", " None of the above"], "answer": "B"}, {"question": " What is the correct JavaScript syntax to write \"Hello World\"?", "choice": [" System.out.println(\"Hello World\")", " println (\"Hello World\")", " document.write(\"Hello World\")", " response.write(\"Hello World\")"], "answer": "A"}, {"question": " Which of the following way can be used to indicate the LANGUAGE attribute?", "choice": [" <LANGUAGE=\"JavaScriptVersion\">", " <SCRIPT LANGUAGE=\"JavaScriptVersion\">", " <SCRIPT LANGUAGE=\"JavaScriptVersion\"> JavaScript statements\u2026</SCRIPT>", " <SCRIPT LANGUAGE=\"JavaScriptVersion\"!> JavaScript statements\u2026</SCRIPT>"], "answer": "B"}, {"question": " Inside which HTML element do we put the JavaScript?", "choice": [" <js>", " <scripting>", " <script>", " <javascript>"], "answer": "B"}, {"question": " What is the correct syntax for referring to an external script called \" abc.js\"?", "choice": [" <script href=\" abc.js\">", " <script name=\" abc.js\">", " <script src=\" abc.js\">", " None of the above"], "answer": "A"}, {"question": " Which types of image maps can be used with JavaScript?", "choice": [" Server-side image maps", " Client-side image maps", " Server-side image maps and Client-side image maps", " None of the above"], "answer": "B"}, {"question": " Which of the following navigator object properties is the same in both Netscape and IE?", "choice": [" navigator.appCodeName", " navigator.appName", " navigator.appVersion", " None of the above"], "answer": "A"}, {"question": " Which is the correct way to write a JavaScript array?", "choice": [" var txt = new Array(1:\"tim\",2:\"kim\",3:\"jim\")", " var txt = new Array:1=(\"tim\")2=(\"kim\")3=(\"jim\")", " var txt = new Array(\"tim\",\"kim\",\"jim\")", " var txt = new Array=\"tim\",\"kim\",\"jim\""], "answer": "A"}, {"question": " What does the <noscript> tag do?", "choice": [" Enclose text to be displayed by non-JavaScript browsers.", " Prevents scripts on the page from executing.", " Describes certain low-budget movies.", " None of the above"], "answer": "B"}, {"question": " If para1 is the DOM object for a paragraph, what is the correct syntax to change the text within the paragraph?", "choice": [" \"New Text\"?", " para1.value=\"New Text\";", " para1.firstChild.nodeValue= \"New Text\";", " para1.nodeValue=\"New Text\";"], "answer": "A"}, {"question": " JavaScript entities start with _______ and end with _________.", "choice": [" Semicolon, colon", " Semicolon, Ampersand", " Ampersand, colon", " Ampersand, semicolon"], "answer": "B"}, {"question": " Which of the following best describes JavaScript?", "choice": [" a low-level programming language.", " a scripting language precompiled in the browser.", " a compiled scripting language.", " an object-oriented scripting language."], "answer": "B"}, {"question": " Choose the server-side JavaScript object?", "choice": [" FileUpLoad", " Function", " File", " Date"], "answer": "A"}, {"question": " Choose the client-side JavaScript object?", "choice": [" Database", " Cursor", " Client", " FileUpLoad"], "answer": "B"}, {"question": " Which of the following is not considered a JavaScript operator?", "choice": [" new", " this", " delete", " typeof"], "answer": "B"}, {"question": " ______method evaluates a string of JavaScript code in the context of the specified object.", "choice": [" Eval", " ParseInt", " ParseFloat", " Efloat"], "answer": "A"}, {"question": " Which of the following event fires when the form element loses the focus: <button>, <input>, <label>, <select>, <textarea>?", "choice": [" onfocus", " onblur", " onclick", " ondblclick"], "answer": "A"}, {"question": " The syntax of Eval is ________________", "choice": [" [objectName.]eval(numeriC.", " [objectName.]eval(string)", " [EvalName.]eval(string)", " [EvalName.]eval(numeriC."], "answer": "A"}, {"question": " JavaScript is interpreted by _________", "choice": [" Client", " Server", " Object", " None of the above"], "answer": "A"}, {"question": " Using _______ statement is how you test for a specific condition.", "choice": [" Select", " If", " Switch", " For"], "answer": "A"}, {"question": " Which of the following is the structure of an if statement?", "choice": [" if (conditional expression is true) thenexecute this codeend if", " if (conditional expression is true)execute this codeend if", " if (conditional expression is true) {then execute this code>->}", " if (conditional expression is true) then {execute this code}"], "answer": "A"}, {"question": " How to create a Date object in JavaScript?", "choice": [" dateObjectName = new Date([parameters])", " dateObjectName.new Date([parameters])", " dateObjectName := new Date([parameters])", " dateObjectName Date([parameters])"], "answer": "A"}, {"question": " The _______ method of an Array object adds and/or removes elements from an array.", "choice": [" Reverse", " Shift", " Slice", " Splice"], "answer": "A"}, {"question": " To set up the window to capture all Click events, we use which of the following statement?", "choice": [" window.captureEvents(Event.CLICK);", " window.handleEvents (Event.CLICK);", " window.routeEvents(Event.CLICK );", " window.raiseEvents(Event.CLICK );"], "answer": "A"}, {"question": " Which tag(s) can handle mouse events in Netscape?", "choice": [" <IMG>", " <A>", " <BR>", " None of the above"], "answer": ""}, {"question": " ____________ is the tainted property of a window object.", "choice": [" Pathname", " Protocol", " Defaultstatus", " Host"], "answer": ""}, {"question": " To enable data tainting, the end user sets the _________ environment variable.", "choice": [" ENABLE_TAINT", " MS_ENABLE_TAINT", " NS_ENABLE_TAINT", " ENABLE_TAINT_NS"], "answer": ""}, {"question": " In JavaScript, _________ is an object of the target language data type that encloses an object of the source language.", "choice": [" a wrapper", " a link", " a cursor", " a form"], "answer": ""}, {"question": " When a JavaScript object is sent to Java, the runtime engine creates a Java wrapper of type ___________", "choice": [" ScriptObject", " JSObject", " JavaObject", " Jobject"], "answer": ""}, {"question": " _______ class provides an interface for invoking JavaScript methods and examining JavaScript properties.", "choice": [" ScriptObject", " JSObject", " JavaObject", " Jobject"], "answer": ""}, {"question": " _________ is a wrapped Java array, accessed from within JavaScript code.", "choice": [" JavaArray", " JavaClass", " JavaObject", " JavaPackage"], "answer": ""}, {"question": " A ________ object is a reference to one of the classes in a Java package, such as netscape.javascript .", "choice": [" JavaArray", " JavaClass", " JavaObject", " JavaPackage"], "answer": ""}, {"question": " The JavaScript exception is available to the Java code as an instance of __________", "choice": [" netscape.javascript.JSObject", " netscape.javascript.JSException", " netscape.plugin.JSException", " None of the above"], "answer": ""}, {"question": " To automatically open the console when a JavaScript error occurs which of the following is added to prefs.js?", "choice": [" user_pref(\" javascript.console.open_on_error\", false);", " user_pref(\"javascript.console.open_error \", true);", " user_pref(\"javascript.console.open_error \", false);", " user_pref(\"javascript.console.open_on_error\", true);"], "answer": ""}, {"question": " To open a dialog box each time an error occurs, which of the following is added to prefs.js?", "choice": [" user_pref(\"javascript.classic.error_alerts\", true);", " user_pref(\"javascript.classic.error_alerts \", false);", " user_pref(\"javascript.console.open_on_error \", true);", " user_pref(\"javascript.console.open_on_error \", false);"], "answer": ""}, {"question": " The syntax of a blur method in a button object is ______________", "choice": [" Blur()", " Blur(contrast)", " Blur(value)", " Blur(depth)"], "answer": ""}, {"question": " The syntax of capture events method for document object is ______________", "choice": [" captureEvents()", " captureEvents(args eventType)", " captureEvents(eventType)", " captureEvents(eventVal)"], "answer": ""}, {"question": " The syntax of close method for document object is ______________", "choice": [" Close(doC.", " Close(object)", " Close(val)", " Close()"], "answer": ""}, {"question": "", "choice": [" <script type=\"text/javascript\">\nx=4+\"4\";\ndocument.write(x);\n</script>"], "answer": ""}, {"question": " 44", "choice": [" 8", " 4", " Error output"], "answer": ""}, {"question": " Is it possible to nest functions in JavaScript?", "choice": [" True", " False"], "answer": ""}, {"question": " <script>\ndocument.write(navigator.appCodeName);\n</script>", "choice": [" get code name of the browser of a visitor", " set code name of the browser of a visitor", " None of the above"], "answer": ""}, {"question": " Scripting language are", "choice": [" High Level Programming language", " Assembly Level programming language", " Machine level programming language"], "answer": ""}, {"question": " Which best explains getSelection()?", "choice": [" Returns the VALUE of a selected OPTION.", " Returns document.URL of the window in focus.", " Returns the value of cursor-selected text", " Returns the VALUE of a checked radio input."], "answer": ""}, {"question": " Choose the client-side JavaScript object:", "choice": [" Database", " Cursor", " Client", " FileUpLoad"], "answer": ""}, {"question": " What is mean by \"this\" keyword in javascript?", "choice": [" It refers current object", " It referes previous object", " It is variable which contains value", " None of the above"], "answer": ""}, {"question": " In JavaScript, Window.prompt() method return true or false value ?", "choice": [" False", " True"], "answer": ""}, {"question": " <script language=\"javascript\">\nfunction x()\n{\ndocument.write(2+5+\"8\");\n}\n</script>", "choice": [" 258", " Error", " 7", " 78"], "answer": ""}, {"question": " <script type=\"text/javascript\">\nvar s = \"9123456 or 80000?\";\nvar pattern = /d{4}/;\nvar output = s.match(pattern);\ndocument.write(output);\n</script>", "choice": [" 9123", " 91234", " 80000", " None of the above"], "answer": ""}, {"question": "", "choice": [], "answer": ""}, {"question": "1. What's the output?\n\n```javascript\nfunction sayHi() {\n  console.log(name);\n  console.log(age);\n  var name = 'Lydia';\n  let age = 21;\n}\n\nsayHi();\n```\n", "choice": ["`Lydia` and `undefined`", "`Lydia` and `ReferenceError`", "`ReferenceError` and `21`", "`undefined` and `ReferenceError`"], "answer": "D"}, {"question": "2. What's the output?\n\n```javascript\nfor (var i = 0; i < 3; i++) {\n  setTimeout(() => console.log(i), 1);\n}\n\nfor (let i = 0; i < 3; i++) {\n  setTimeout(() => console.log(i), 1);\n}\n```\n", "choice": ["`0 1 2` and `0 1 2`", "`0 1 2` and `3 3 3`", "`3 3 3` and `0 1 2`"], "answer": "C"}, {"question": "3. What's the output?\n\n```javascript\nconst shape = {\n  radius: 10,\n  diameter() {\n    return this.radius * 2;\n  },\n  perimeter: () => 2 * Math.PI * this.radius,\n};\n\nconsole.log(shape.diameter());\nconsole.log(shape.perimeter());\n```\n", "choice": ["`20` and `62.83185307179586`", "`20` and `NaN`", "`20` and `63`", "`NaN` and `63`"], "answer": "B"}, {"question": "4. What's the output?\n\n```javascript\n+true;\n!'Lydia';\n```\n", "choice": ["`1` and `false`", "`false` and `NaN`", "`false` and `false`"], "answer": "A"}, {"question": "5. Which one is true?\n\n```javascript\nconst bird = {\n  size: 'small',\n};\n\nconst mouse = {\n  name: 'Mickey',\n  small: true,\n};\n```\n", "choice": ["`mouse.bird.size` is not valid", "`mouse[bird.size]` is not valid", "`mouse[bird[\"size\"]]` is not valid", "All of them are valid"], "answer": "A"}, {"question": "6. What's the output?\n\n```javascript\nlet c = { greeting: 'Hey!' };\nlet d;\n\nd = c;\nc.greeting = 'Hello';\nconsole.log(d.greeting);\n```\n", "choice": ["`Hello`", "`Hey!`", "`undefined`", "`ReferenceError`"], "answer": "A"}, {"question": "7. What's the output?\n\n```javascript\nlet a = 3;\nlet b = new Number(3);\nlet c = 3;\n\nconsole.log(a == b);\nconsole.log(a === b);\nconsole.log(b === c);\n```\n", "choice": ["`true` `false` `true`", "`false` `false` `true`", "`true` `false` `false`", "`false` `true` `true`"], "answer": "C"}, {"question": "8. What's the output?\n\n```javascript\nclass Chameleon {\n  static colorChange(newColor) {\n    this.newColor = newColor;\n    return this.newColor;\n  }\n\n  constructor({ newColor = 'green' } = {}) {\n    this.newColor = newColor;\n  }\n}\n\nconst freddie = new Chameleon({ newColor: 'purple' });\nconsole.log(freddie.colorChange('orange'));\n```\n", "choice": ["`orange`", "`purple`", "`green`", "`TypeError`"], "answer": "D"}, {"question": "9. What's the output?\n\n```javascript\nlet greeting;\ngreetign = {}; // Typo!\nconsole.log(greetign);\n```\n", "choice": ["`{}`", "`ReferenceError: greetign is not defined`", "`undefined`"], "answer": "A"}, {"question": "10. What happens when we do this?\n\n```javascript\nfunction bark() {\n  console.log('Woof!');\n}\n\nbark.animal = 'dog';\n```\n", "choice": ["Nothing, this is totally fine!", "`SyntaxError`. You cannot add properties to a function this way.", "`\"Woof\"` gets logged.", "`ReferenceError`"], "answer": "A"}, {"question": "11. What's the output?\n\n```javascript\nfunction Person(firstName, lastName) {\n  this.firstName = firstName;\n  this.lastName = lastName;\n}\n\nconst member = new Person('Lydia', 'Hallie');\nPerson.getFullName = function() {\n  return `${this.firstName} ${this.lastName}`;\n};\n\nconsole.log(member.getFullName());\n```\n", "choice": ["`TypeError`", "`SyntaxError`", "`Lydia Hallie`", "`undefined` `undefined`"], "answer": "A"}, {"question": "12. What's the output?\n\n```javascript\nfunction Person(firstName, lastName) {\n  this.firstName = firstName;\n  this.lastName = lastName;\n}\n\nconst lydia = new Person('Lydia', 'Hallie');\nconst sarah = Person('Sarah', 'Smith');\n\nconsole.log(lydia);\nconsole.log(sarah);\n```\n", "choice": ["`Person {firstName: \"Lydia\", lastName: \"Hallie\"}` and `undefined`", "`Person {firstName: \"Lydia\", lastName: \"Hallie\"}` and `Person {firstName: \"Sarah\", lastName: \"Smith\"}`", "`Person {firstName: \"Lydia\", lastName: \"Hallie\"}` and `{}`", "`Person {firstName: \"Lydia\", lastName: \"Hallie\"}` and `ReferenceError`"], "answer": "A"}, {"question": "13. What are the three phases of event propagation?\n", "choice": ["Target > Capturing > Bubbling", "Bubbling > Target > Capturing", "Target > Bubbling > Capturing", "Capturing > Target > Bubbling"], "answer": "D"}, {"question": "14. All object have prototypes.\n", "choice": ["true", "false"], "answer": "B"}, {"question": "15. What's the output?\n\n```javascript\nfunction sum(a, b) {\n  return a + b;\n}\n\nsum(1, '2');\n```\n", "choice": ["`NaN`", "`TypeError`", "`\"12\"`", "`3`"], "answer": "C"}, {"question": "16. What's the output?\n\n```javascript\nlet number = 0;\nconsole.log(number++);\nconsole.log(++number);\nconsole.log(number);\n```\n", "choice": ["`1` `1` `2`", "`1` `2` `2`", "`0` `2` `2`", "`0` `1` `2`"], "answer": "C"}, {"question": "17. What's the output?\n\n```javascript\nfunction getPersonInfo(one, two, three) {\n  console.log(one);\n  console.log(two);\n  console.log(three);\n}\n\nconst person = 'Lydia';\nconst age = 21;\n\ngetPersonInfo`${person} is ${age} years old`;\n```\n", "choice": ["`\"Lydia\"` `21` `[\"\", \" is \", \" years old\"]`", "`[\"\", \" is \", \" years old\"]` `\"Lydia\"` `21`", "`\"Lydia\"` `[\"\", \" is \", \" years old\"]` `21`"], "answer": "B"}, {"question": "18. What's the output?\n\n```javascript\nfunction checkAge(data) {\n  if (data === { age: 18 }) {\n    console.log('You are an adult!');\n  } else if (data == { age: 18 }) {\n    console.log('You are still an adult.');\n  } else {\n    console.log(`Hmm.. You don't have an age I guess`);\n  }\n}\n\ncheckAge({ age: 18 });\n```\n", "choice": ["`You are an adult!`", "`You are still an adult.`", "`Hmm.. You don't have an age I guess`"], "answer": "C"}, {"question": "19. What's the output?\n\n```javascript\nfunction getAge(...args) {\n  console.log(typeof args);\n}\n\ngetAge(21);\n```\n", "choice": ["`\"number\"`", "`\"array\"`", "`\"object\"`", "`\"NaN\"`"], "answer": "C"}, {"question": "20. What's the output?\n\n```javascript\nfunction getAge() {\n  'use strict';\n  age = 21;\n  console.log(age);\n}\n\ngetAge();\n```\n", "choice": ["`21`", "`undefined`", "`ReferenceError`", "`TypeError`"], "answer": "C"}, {"question": "21. What's the value of `sum`?\n\n```javascript\nconst sum = eval('10*10+5');\n```\n", "choice": ["`105`", "`\"105\"`", "`TypeError`", "`\"10*10+5\"`"], "answer": "A"}, {"question": "22. How long is cool_secret accessible?\n\n```javascript\nsessionStorage.setItem('cool_secret', 123);\n```\n", "choice": ["Forever, the data doesn't get lost.", "When the user closes the tab.", "When the user closes the entire browser, not only the tab.", "When the user shuts off their computer."], "answer": "B"}, {"question": "23. What's the output?\n\n```javascript\nvar num = 8;\nvar num = 10;\n\nconsole.log(num);\n```\n", "choice": ["`8`", "`10`", "`SyntaxError`", "`ReferenceError`"], "answer": "B"}, {"question": "24. What's the output?\n\n```javascript\nconst obj = { 1: 'a', 2: 'b', 3: 'c' };\nconst set = new Set([1, 2, 3, 4, 5]);\n\nobj.hasOwnProperty('1');\nobj.hasOwnProperty(1);\nset.has('1');\nset.has(1);\n```\n", "choice": ["`false` `true` `false` `true`", "`false` `true` `true` `true`", "`true` `true` `false` `true`", "`true` `true` `true` `true`"], "answer": "C"}, {"question": "25. What's the output?\n\n```javascript\nconst obj = { a: 'one', b: 'two', a: 'three' };\nconsole.log(obj);\n```\n", "choice": ["`{ a: \"one\", b: \"two\" }`", "`{ b: \"two\", a: \"three\" }`", "`{ a: \"three\", b: \"two\" }`", "`SyntaxError`"], "answer": "C"}, {"question": "26. The JavaScript global execution context creates two things for you: the global object, and the \"this\" keyword.\n", "choice": ["true", "false", "it depends"], "answer": "A"}, {"question": "27. What's the output?\n\n```javascript\nfor (let i = 1; i < 5; i++) {\n  if (i === 3) continue;\n  console.log(i);\n}\n```\n", "choice": ["`1` `2`", "`1` `2` `3`", "`1` `2` `4`", "`1` `3` `4`"], "answer": "C"}, {"question": "28. What's the output?\n\n```javascript\nString.prototype.giveLydiaPizza = () => {\n  return 'Just give Lydia pizza already!';\n};\n\nconst name = 'Lydia';\n\nconsole.log(name.giveLydiaPizza())\n```\n", "choice": ["`\"Just give Lydia pizza already!\"`", "`TypeError: not a function`", "`SyntaxError`", "`undefined`"], "answer": "A"}, {"question": "29. What's the output?\n\n```javascript\nconst a = {};\nconst b = { key: 'b' };\nconst c = { key: 'c' };\n\na[b] = 123;\na[c] = 456;\n\nconsole.log(a[b]);\n```\n", "choice": ["`123`", "`456`", "`undefined`", "`ReferenceError`"], "answer": "B"}, {"question": "30. What's the output?\n\n```javascript\nconst foo = () => console.log('First');\nconst bar = () => setTimeout(() => console.log('Second'));\nconst baz = () => console.log('Third');\n\nbar();\nfoo();\nbaz();\n```\n", "choice": ["`First` `Second` `Third`", "`First` `Third` `Second`", "`Second` `First` `Third`", "`Second` `Third` `First`"], "answer": "B"}, {"question": "31. What is the event.target when clicking the button?\n\n```html\n<div onclick=\"console.log('first div')\">\n  <div onclick=\"console.log('second div')\">\n    <button onclick=\"console.log('button')\">\n      Click!\n    </button>\n  </div>\n</div>\n```\n", "choice": ["Outer `div`", "Inner `div`", "`button`", "An array of all nested elements."], "answer": "C"}, {"question": "32. When you click the paragraph, what's the logged output?\n\n```html\n<div onclick=\"console.log('div')\">\n  <p onclick=\"console.log('p')\">\n    Click here!\n  </p>\n</div>\n```\n", "choice": ["`p` `div`", "`div` `p`", "`p`", "`div`"], "answer": "A"}, {"question": "33. What's the output?\n\n```javascript\nconst person = { name: 'Lydia' };\n\nfunction sayHi(age) {\n  return `${this.name} is ${age}`;\n}\n\nconsole.log(sayHi.call(person, 21));\nconsole.log(sayHi.bind(person, 21));\n```\n", "choice": ["`undefined is 21` `Lydia is 21`", "`function` `function`", "`Lydia is 21` `Lydia is 21`", "`Lydia is 21` `function`"], "answer": "D"}, {"question": "34. What's the output?\n\n```javascript\nfunction sayHi() {\n  return (() => 0)();\n}\n\nconsole.log(typeof sayHi());\n```\n", "choice": ["`\"object\"`", "`\"number\"`", "`\"function\"`", "`\"undefined\"`"], "answer": "B"}, {"question": "35. Which of these values are falsy?\n\n```javascript\n0;\nnew Number(0);\n('');\n(' ');\nnew Boolean(false);\nundefined;\n```\n", "choice": ["`0`, `''`, `undefined`", "`0`, `new Number(0)`, `''`, `new Boolean(false)`, `undefined`", "`0`, `''`, `new Boolean(false)`, `undefined`", "All of them are falsy"], "answer": "A"}, {"question": "36. What's the output?\n\n```javascript\nconsole.log(typeof typeof 1);\n```\n", "choice": ["`\"number\"`", "`\"string\"`", "`\"object\"`", "`\"undefined\"`"], "answer": "B"}, {"question": "37. What's the output?\n\n```javascript\nconst numbers = [1, 2, 3];\nnumbers[10] = 11;\nconsole.log(numbers);\n```\n", "choice": ["`[1, 2, 3, null x 7, 11]`", "`[1, 2, 3, 11]`", "`[1, 2, 3, empty x 7, 11]`", "`SyntaxError`"], "answer": "C"}, {"question": "38. What's the output?\n\n```javascript\n(() => {\n  let x, y;\n  try {\n    throw new Error();\n  } catch (x) {\n    (x = 1), (y = 2);\n    console.log(x);\n  }\n  console.log(x);\n  console.log(y);\n})();\n```\n", "choice": ["`1` `undefined` `2`", "`undefined` `undefined` `undefined`", "`1` `1` `2`", "`1` `undefined` `undefined`"], "answer": "A"}, {"question": "39. Everything in JavaScript is either a...\n", "choice": ["primitive or object", "function or object", "trick question! only objects", "number or object"], "answer": "A"}, {"question": "40. What's the output?\n\n```javascript\n[[0, 1], [2, 3]].reduce(\n  (acc, cur) => {\n    return acc.concat(cur);\n  },\n  [1, 2],\n);\n```\n", "choice": ["`[0, 1, 2, 3, 1, 2]`", "`[6, 1, 2]`", "`[1, 2, 0, 1, 2, 3]`", "`[1, 2, 6]`"], "answer": "C"}, {"question": "41. What's the output?\n\n```javascript\n!!null;\n!!'';\n!!1;\n```\n", "choice": ["`false` `true` `false`", "`false` `false` `true`", "`false` `true` `true`", "`true` `true` `false`"], "answer": "B"}, {"question": "42. What does the `setInterval` method return in the browser?\n\n```javascript\nsetInterval(() => console.log('Hi'), 1000);\n```\n", "choice": ["a unique id", "the amount of milliseconds specified", "the passed function", "`undefined`"], "answer": "A"}, {"question": "43. What does this return?\n\n```javascript\n[...'Lydia'];\n```\n", "choice": ["`[\"L\", \"y\", \"d\", \"i\", \"a\"]`", "`[\"Lydia\"]`", "`[[], \"Lydia\"]`", "`[[\"L\", \"y\", \"d\", \"i\", \"a\"]]`"], "answer": "A"}, {"question": "44. What's the output?\n\n```javascript\nfunction* generator(i) {\n  yield i;\n  yield i * 2;\n}\n\nconst gen = generator(10);\n\nconsole.log(gen.next().value);\nconsole.log(gen.next().value);\n```\n", "choice": ["`[0, 10], [10, 20]`", "`20, 20`", "`10, 20`", "`0, 10 and 10, 20`"], "answer": "C"}, {"question": "45. What does this return?\n\n```javascript\nconst firstPromise = new Promise((res, rej) => {\n  setTimeout(res, 500, 'one');\n});\n\nconst secondPromise = new Promise((res, rej) => {\n  setTimeout(res, 100, 'two');\n});\n\nPromise.race([firstPromise, secondPromise]).then(res => console.log(res));\n```\n", "choice": ["`\"one\"`", "`\"two\"`", "`\"two\" \"one\"`", "`\"one\" \"two\"`"], "answer": "B"}, {"question": "46. What's the output?\n\n```javascript\nlet person = { name: 'Lydia' };\nconst members = [person];\nperson = null;\n\nconsole.log(members);\n```\n", "choice": ["`null`", "`[null]`", "`[{}]`", "`[{ name: \"Lydia\" }]`"], "answer": "D"}, {"question": "47. What's the output?\n\n```javascript\nconst person = {\n  name: 'Lydia',\n  age: 21,\n};\n\nfor (const item in person) {\n  console.log(item);\n}\n```\n", "choice": ["`{ name: \"Lydia\" }, { age: 21 }`", "`\"name\", \"age\"`", "`\"Lydia\", 21`", "`[\"name\", \"Lydia\"], [\"age\", 21]`"], "answer": "B"}, {"question": "48. What's the output?\n\n```javascript\nconsole.log(3 + 4 + '5');\n```\n", "choice": ["`\"345\"`", "`\"75\"`", "`12`", "`\"12\"`"], "answer": "B"}, {"question": "49. What's the value of `num`?\n\n```javascript\nconst num = parseInt('7*6', 10);\n```\n", "choice": ["`42`", "`\"42\"`", "`7`", "`NaN`"], "answer": "C"}, {"question": "50. What's the output?\n\n```javascript\n[1, 2, 3].map(num => {\n  if (typeof num === 'number') return;\n  return num * 2;\n});\n```\n", "choice": ["`[]`", "`[null, null, null]`", "`[undefined, undefined, undefined]`", "`[ 3 x empty ]`"], "answer": "C"}, {"question": "51. What's the output?\n\n```javascript\nfunction getInfo(member, year) {\n  member.name = 'Lydia';\n  year = '1998';\n}\n\nconst person = { name: 'Sarah' };\nconst birthYear = '1997';\n\ngetInfo(person, birthYear);\n\nconsole.log(person, birthYear);\n```\n", "choice": ["`{ name: \"Lydia\" }, \"1997\"`", "`{ name: \"Sarah\" }, \"1998\"`", "`{ name: \"Lydia\" }, \"1998\"`", "`{ name: \"Sarah\" }, \"1997\"`"], "answer": "A"}, {"question": "52. What's the output?\n\n```javascript\nfunction greeting() {\n  throw 'Hello world!';\n}\n\nfunction sayHi() {\n  try {\n    const data = greeting();\n    console.log('It worked!', data);\n  } catch (e) {\n    console.log('Oh no an error:', e);\n  }\n}\n\nsayHi();\n```\n", "choice": ["`It worked! Hello world!`", "`Oh no an error: undefined`", "`SyntaxError: can only throw Error objects`", "`Oh no an error: Hello world!`"], "answer": "D"}, {"question": "53. What's the output?\n\n```javascript\nfunction Car() {\n  this.make = 'Lamborghini';\n  return { make: 'Maserati' };\n}\n\nconst myCar = new Car();\nconsole.log(myCar.make);\n```\n", "choice": ["`\"Lamborghini\"`", "`\"Maserati\"`", "`ReferenceError`", "`TypeError`"], "answer": "B"}, {"question": "54. What's the output?\n\n```javascript\n(() => {\n  let x = (y = 10);\n})();\n\nconsole.log(typeof x);\nconsole.log(typeof y);\n```\n", "choice": ["`\"undefined\", \"number\"`", "`\"number\", \"number\"`", "`\"object\", \"number\"`", "`\"number\", \"undefined\"`"], "answer": "A"}, {"question": "55. What's the output?\n\n```javascript\nclass Dog {\n  constructor(name) {\n    this.name = name;\n  }\n}\n\nDog.prototype.bark = function() {\n  console.log(`Woof I am ${this.name}`);\n};\n\nconst pet = new Dog('Mara');\n\npet.bark();\n\ndelete Dog.prototype.bark;\n\npet.bark();\n```\n", "choice": ["`\"Woof I am Mara\"`, `TypeError`", "`\"Woof I am Mara\"`, `\"Woof I am Mara\"`", "`\"Woof I am Mara\"`, `undefined`", "`TypeError`, `TypeError`"], "answer": "A"}, {"question": "56. What's the output?\n\n```javascript\nconst set = new Set([1, 1, 2, 3, 4]);\n\nconsole.log(set);\n```\n", "choice": ["`[1, 1, 2, 3, 4]`", "`[1, 2, 3, 4]`", "`{1, 1, 2, 3, 4}`", "`{1, 2, 3, 4}`"], "answer": "D"}, {"question": "57. What's the output?\n\n```javascript\n// counter.js\nlet counter = 10;\nexport default counter;\n```\n\n```javascript\n// index.js\nimport myCounter from './counter';\n\nmyCounter += 1;\n\nconsole.log(myCounter);\n```\n", "choice": ["`10`", "`11`", "`Error`", "`NaN`"], "answer": "C"}, {"question": "58. What's the output?\n\n```javascript\nconst name = 'Lydia';\nage = 21;\n\nconsole.log(delete name);\nconsole.log(delete age);\n```\n", "choice": ["`false`, `true`", "`\"Lydia\"`, `21`", "`true`, `true`", "`undefined`, `undefined`"], "answer": "A"}, {"question": "59. What's the output?\n\n```javascript\nconst numbers = [1, 2, 3, 4, 5];\nconst [y] = numbers;\n\nconsole.log(y);\n```\n", "choice": ["`[[1, 2, 3, 4, 5]]`", "`[1, 2, 3, 4, 5]`", "`1`", "`[1]`"], "answer": "C"}, {"question": "60. What's the output?\n\n```javascript\nconst user = { name: 'Lydia', age: 21 };\nconst admin = { admin: true, ...user };\n\nconsole.log(admin);\n```\n", "choice": ["`{ admin: true, user: { name: \"Lydia\", age: 21 } }`", "`{ admin: true, name: \"Lydia\", age: 21 }`", "`{ admin: true, user: [\"Lydia\", 21] }`", "`{ admin: true }`"], "answer": "B"}, {"question": "61. What's the output?\n\n```javascript\nconst person = { name: 'Lydia' };\n\nObject.defineProperty(person, 'age', { value: 21 });\n\nconsole.log(person);\nconsole.log(Object.keys(person));\n```\n", "choice": ["`{ name: \"Lydia\", age: 21 }`, `[\"name\", \"age\"]`", "`{ name: \"Lydia\", age: 21 }`, `[\"name\"]`", "`{ name: \"Lydia\"}`, `[\"name\", \"age\"]`", "`{ name: \"Lydia\"}`, `[\"age\"]`"], "answer": "B"}, {"question": "62. What's the output?\n\n```javascript\nconst settings = {\n  username: 'lydiahallie',\n  level: 19,\n  health: 90,\n};\n\nconst data = JSON.stringify(settings, ['level', 'health']);\nconsole.log(data);\n```\n", "choice": ["`\"{\"level\":19, \"health\":90}\"`", "`\"{\"username\": \"lydiahallie\"}\"`", "`\"[\"level\", \"health\"]\"`", "`\"{\"username\": \"lydiahallie\", \"level\":19, \"health\":90}\"`"], "answer": "A"}, {"question": "63. What's the output?\n\n```javascript\nlet num = 10;\n\nconst increaseNumber = () => num++;\nconst increasePassedNumber = number => number++;\n\nconst num1 = increaseNumber();\nconst num2 = increasePassedNumber(num1);\n\nconsole.log(num1);\nconsole.log(num2);\n```\n", "choice": ["`10`, `10`", "`10`, `11`", "`11`, `11`", "`11`, `12`"], "answer": "A"}, {"question": "64. What's the output?\n\n```javascript\nconst value = { number: 10 };\n\nconst multiply = (x = { ...value }) => {\n  console.log((x.number *= 2));\n};\n\nmultiply();\nmultiply();\nmultiply(value);\nmultiply(value);\n```\n", "choice": ["`20`, `40`, `80`, `160`", "`20`, `40`, `20`, `40`", "`20`, `20`, `20`, `40`", "`NaN`, `NaN`, `20`, `40`"], "answer": "C"}, {"question": "65. What's the output?\n\n```javascript\n[1, 2, 3, 4].reduce((x, y) => console.log(x, y));\n```\n", "choice": ["`1` `2` and `3` `3` and `6` `4`", "`1` `2` and `2` `3` and `3` `4`", "`1` `undefined` and `2` `undefined` and `3` `undefined` and `4` `undefined`", "`1` `2` and `undefined` `3` and `undefined` `4`"], "answer": "D"}, {"question": "66. With which constructor can we successfully extend the `Dog` class?\n\n```javascript\nclass Dog {\n  constructor(name) {\n    this.name = name;\n  }\n};\n\nclass Labrador extends Dog {\n  // 1\n  constructor(name, size) {\n    this.size = size;\n  }\n  // 2\n  constructor(name, size) {\n    super(name);\n    this.size = size;\n  }\n  // 3\n  constructor(size) {\n    super(name);\n    this.size = size;\n  }\n  // 4\n  constructor(name, size) {\n    this.name = name;\n    this.size = size;\n  }\n\n};\n```\n", "choice": ["1", "2", "3", "4"], "answer": "B"}, {"question": "67. What's the output?\n\n```javascript\n// index.js\nconsole.log('running index.js');\nimport { sum } from './sum.js';\nconsole.log(sum(1, 2));\n\n// sum.js\nconsole.log('running sum.js');\nexport const sum = (a, b) => a + b;\n```\n", "choice": ["`running index.js`, `running sum.js`, `3`", "`running sum.js`, `running index.js`, `3`", "`running sum.js`, `3`, `running index.js`", "`running index.js`, `undefined`, `running sum.js`"], "answer": "B"}, {"question": "68. What's the output?\n\n```javascript\nconsole.log(Number(2) === Number(2));\nconsole.log(Boolean(false) === Boolean(false));\nconsole.log(Symbol('foo') === Symbol('foo'));\n```\n", "choice": ["`true`, `true`, `false`", "`false`, `true`, `false`", "`true`, `false`, `true`", "`true`, `true`, `true`"], "answer": "A"}, {"question": "69. What's the output?\n\n```javascript\nconst name = 'Lydia Hallie';\nconsole.log(name.padStart(13));\nconsole.log(name.padStart(2));\n```\n", "choice": ["`\"Lydia Hallie\"`, `\"Lydia Hallie\"`", "`\" Lydia Hallie\"`, `\" Lydia Hallie\"` (`\"[13x whitespace]Lydia Hallie\"`, `\"[2x whitespace]Lydia Hallie\"`)", "`\" Lydia Hallie\"`, `\"Lydia Hallie\"` (`\"[1x whitespace]Lydia Hallie\"`, `\"Lydia Hallie\"`)", "`\"Lydia Hallie\"`, `\"Lyd\"`,"], "answer": "C"}, {"question": "70. What's the output?\n\n```javascript\nconsole.log('\ud83e\udd51' + '\ud83d\udcbb');\n```\n", "choice": ["`\"\ud83e\udd51\ud83d\udcbb\"`", "`257548`", "A string containing their code points", "Error"], "answer": "A"}, {"question": "71. How can we log the values that are commented out after the console.log statement?\n\n```javascript\nfunction* startGame() {\n  const answer = yield 'Do you love JavaScript?';\n  if (answer !== 'Yes') {\n    return \"Oh wow... Guess we're done here\";\n  }\n  return 'JavaScript loves you back \u2764\ufe0f';\n}\n\nconst game = startGame();\nconsole.log(/* 1 */); // Do you love JavaScript?\nconsole.log(/* 2 */); // JavaScript loves you back \u2764\ufe0f\n```\n", "choice": ["`game.next(\"Yes\").value` and `game.next().value`", "`game.next.value(\"Yes\")` and `game.next.value()`", "`game.next().value` and `game.next(\"Yes\").value`", "`game.next.value()` and `game.next.value(\"Yes\")`"], "answer": "C"}, {"question": "72. What's the output?\n\n```javascript\nconsole.log(String.raw`Hello\\nworld`);\n```\n", "choice": ["`Hello world!`", "`Hello` <br />&nbsp; &nbsp; &nbsp;`world`", "`Hello\\nworld`", "`Hello\\n` <br /> &nbsp; &nbsp; &nbsp;`world`"], "answer": "C"}, {"question": "73. What's the output?\n\n```javascript\nasync function getData() {\n  return await Promise.resolve('I made it!');\n}\n\nconst data = getData();\nconsole.log(data);\n```\n", "choice": ["`\"I made it!\"`", "`Promise {<resolved>: \"I made it!\"}`", "`Promise {<pending>}`", "`undefined`"], "answer": "C"}, {"question": "74. What's the output?\n\n```javascript\nfunction addToList(item, list) {\n  return list.push(item);\n}\n\nconst result = addToList('apple', ['banana']);\nconsole.log(result);\n```\n", "choice": ["`['apple', 'banana']`", "`2`", "`true`", "`undefined`"], "answer": "B"}, {"question": "75. What's the output?\n\n```javascript\nconst box = { x: 10, y: 20 };\n\nObject.freeze(box);\n\nconst shape = box;\nshape.x = 100;\n\nconsole.log(shape);\n```\n", "choice": ["`{ x: 100, y: 20 }`", "`{ x: 10, y: 20 }`", "`{ x: 100 }`", "`ReferenceError`"], "answer": "B"}, {"question": "76. What's the output?\n\n```javascript\nconst { firstName: myName } = { firstName: 'Lydia' };\n\nconsole.log(firstName);\n```\n", "choice": ["`\"Lydia\"`", "`\"myName\"`", "`undefined`", "`ReferenceError`"], "answer": "D"}, {"question": "77. Is this a pure function?\n\n```javascript\nfunction sum(a, b) {\n  return a + b;\n}\n```\n", "choice": ["Yes", "No"], "answer": "A"}, {"question": "78. What is the output?\n\n```javascript\nconst add = () => {\n  const cache = {};\n  return num => {\n    if (num in cache) {\n      return `From cache! ${cache[num]}`;\n    } else {\n      const result = num + 10;\n      cache[num] = result;\n      return `Calculated! ${result}`;\n    }\n  };\n};\n\nconst addFunction = add();\nconsole.log(addFunction(10));\nconsole.log(addFunction(10));\nconsole.log(addFunction(5 * 2));\n```\n", "choice": ["`Calculated! 20` `Calculated! 20` `Calculated! 20`", "`Calculated! 20` `From cache! 20` `Calculated! 20`", "`Calculated! 20` `From cache! 20` `From cache! 20`", "`Calculated! 20` `From cache! 20` `Error`"], "answer": "C"}, {"question": "79. What is the output?\n\n```javascript\nconst myLifeSummedUp = ['\u2615', '\ud83d\udcbb', '\ud83c\udf77', '\ud83c\udf6b'];\n\nfor (let item in myLifeSummedUp) {\n  console.log(item);\n}\n\nfor (let item of myLifeSummedUp) {\n  console.log(item);\n}\n```\n", "choice": ["`0` `1` `2` `3` and `\"\u2615\"` `\"\ud83d\udcbb\"` `\"\ud83c\udf77\"` `\"\ud83c\udf6b\"`", "`\"\u2615\"` `\"\ud83d\udcbb\"` `\"\ud83c\udf77\"` `\"\ud83c\udf6b\"` and `\"\u2615\"` `\"\ud83d\udcbb\"` `\"\ud83c\udf77\"` `\"\ud83c\udf6b\"`", "`\"\u2615\"` `\"\ud83d\udcbb\"` `\"\ud83c\udf77\"` `\"\ud83c\udf6b\"` and `0` `1` `2` `3`", "`0` `1` `2` `3` and `{0: \"\u2615\", 1: \"\ud83d\udcbb\", 2: \"\ud83c\udf77\", 3: \"\ud83c\udf6b\"}`"], "answer": "A"}, {"question": "80. What is the output?\n\n```javascript\nconst list = [1 + 2, 1 * 2, 1 / 2];\nconsole.log(list);\n```\n", "choice": ["`[\"1 + 2\", \"1 * 2\", \"1 / 2\"]`", "`[\"12\", 2, 0.5]`", "`[3, 2, 0.5]`", "`[1, 1, 1]`"], "answer": "C"}, {"question": "81. What is the output?\n\n```javascript\nfunction sayHi(name) {\n  return `Hi there, ${name}`;\n}\n\nconsole.log(sayHi());\n```\n", "choice": ["`Hi there,`", "`Hi there, undefined`", "`Hi there, null`", "`ReferenceError`"], "answer": "B"}, {"question": "82. What is the output?\n\n```javascript\nvar status = '\ud83d\ude0e';\n\nsetTimeout(() => {\n  const status = '\ud83d\ude0d';\n\n  const data = {\n    status: '\ud83e\udd51',\n    getStatus() {\n      return this.status;\n    },\n  };\n\n  console.log(data.getStatus());\n  console.log(data.getStatus.call(this));\n}, 0);\n```\n", "choice": ["`\"\ud83e\udd51\"` and `\"\ud83d\ude0d\"`", "`\"\ud83e\udd51\"` and `\"\ud83d\ude0e\"`", "`\"\ud83d\ude0d\"` and `\"\ud83d\ude0e\"`", "`\"\ud83d\ude0e\"` and `\"\ud83d\ude0e\"`"], "answer": "B"}, {"question": "83. What is the output?\n\n```javascript\nconst person = {\n  name: 'Lydia',\n  age: 21,\n};\n\nlet city = person.city;\ncity = 'Amsterdam';\n\nconsole.log(person);\n```\n", "choice": ["`{ name: \"Lydia\", age: 21 }`", "`{ name: \"Lydia\", age: 21, city: \"Amsterdam\" }`", "`{ name: \"Lydia\", age: 21, city: undefined }`", "`\"Amsterdam\"`"], "answer": "A"}, {"question": "84. What is the output?\n\n```javascript\nfunction checkAge(age) {\n  if (age < 18) {\n    const message = \"Sorry, you're too young.\";\n  } else {\n    const message = \"Yay! You're old enough!\";\n  }\n\n  return message;\n}\n\nconsole.log(checkAge(21));\n```\n", "choice": ["`\"Sorry, you're too young.\"`", "`\"Yay! You're old enough!\"`", "`ReferenceError`", "`undefined`"], "answer": "C"}, {"question": "85. What kind of information would get logged?\n\n```javascript\nfetch('https://www.website.com/api/user/1')\n  .then(res => res.json())\n  .then(res => console.log(res));\n```\n", "choice": ["The result of the `fetch` method.", "The result of the second invocation of the `fetch` method.", "The result of the callback in the previous `.then()`.", "It would always be undefined."], "answer": "C"}, {"question": "86. Which option is a way to set `hasName` equal to `true`, provided you cannot pass `true` as an argument?\n\n```javascript\nfunction getName(name) {\n  const hasName = //\n}\n```\n", "choice": ["`!!name`", "`name`", "`new Boolean(name)`", "`name.length`"], "answer": "A"}, {"question": "87. What's the output?\n\n```javascript\nconsole.log('I want pizza'[0]);\n```\n", "choice": ["`\"\"\"`", "`\"I\"`", "`SyntaxError`", "`undefined`"], "answer": "B"}, {"question": "88. What's the output?\n\n```javascript\nfunction sum(num1, num2 = num1) {\n  console.log(num1 + num2);\n}\n\nsum(10);\n```\n", "choice": ["`NaN`", "`20`", "`ReferenceError`", "`undefined`"], "answer": "B"}, {"question": "89. What's the output?\n\n```javascript\n// module.js\nexport default () => 'Hello world';\nexport const name = 'Lydia';\n\n// index.js\nimport * as data from './module';\n\nconsole.log(data);\n```\n", "choice": ["`{ default: function default(), name: \"Lydia\" }`", "`{ default: function default() }`", "`{ default: \"Hello world\", name: \"Lydia\" }`", "Global object of `module.js`"], "answer": "A"}, {"question": "90. What's the output?\n\n```javascript\nclass Person {\n  constructor(name) {\n    this.name = name;\n  }\n}\n\nconst member = new Person('John');\nconsole.log(typeof member);\n```\n", "choice": ["`\"class\"`", "`\"function\"`", "`\"object\"`", "`\"string\"`"], "answer": "C"}, {"question": "91. What's the output?\n\n```javascript\nlet newList = [1, 2, 3].push(4);\n\nconsole.log(newList.push(5));\n```\n", "choice": ["`[1, 2, 3, 4, 5]`", "`[1, 2, 3, 5]`", "`[1, 2, 3, 4]`", "`Error`"], "answer": "D"}, {"question": "92. What's the output?\n\n```javascript\nfunction giveLydiaPizza() {\n  return 'Here is pizza!';\n}\n\nconst giveLydiaChocolate = () =>\n  \"Here's chocolate... now go hit the gym already.\";\n\nconsole.log(giveLydiaPizza.prototype);\nconsole.log(giveLydiaChocolate.prototype);\n```\n", "choice": ["`{ constructor: ...}` `{ constructor: ...}`", "`{}` `{ constructor: ...}`", "`{ constructor: ...}` `{}`", "`{ constructor: ...}` `undefined`"], "answer": "D"}, {"question": "93. What's the output?\n\n```javascript\nconst person = {\n  name: 'Lydia',\n  age: 21,\n};\n\nfor (const [x, y] of Object.entries(person)) {\n  console.log(x, y);\n}\n```\n", "choice": ["`name` `Lydia` and `age` `21`", "`[\"name\", \"Lydia\"]` and `[\"age\", 21]`", "`[\"name\", \"age\"]` and `undefined`", "`Error`"], "answer": "A"}, {"question": "94. What's the output?\n\n```javascript\nfunction getItems(fruitList, ...args, favoriteFruit) {\n  return [...fruitList, ...args, favoriteFruit]\n}\n\ngetItems([\"banana\", \"apple\"], \"pear\", \"orange\")\n```\n", "choice": ["`[\"banana\", \"apple\", \"pear\", \"orange\"]`", "`[[\"banana\", \"apple\"], \"pear\", \"orange\"]`", "`[\"banana\", \"apple\", [\"pear\"], \"orange\"]`", "`SyntaxError`"], "answer": "D"}, {"question": "95. What's the output?\n\n```javascript\nfunction nums(a, b) {\n  if (a > b) console.log('a is bigger');\n  else console.log('b is bigger');\n  return\n  a + b;\n}\n\nconsole.log(nums(4, 2));\nconsole.log(nums(1, 2));\n```\n", "choice": ["`a is bigger`, `6` and `b is bigger`, `3`", "`a is bigger`, `undefined` and `b is bigger`, `undefined`", "`undefined` and `undefined`", "`SyntaxError`"], "answer": "B"}, {"question": "96. What's the output?\n\n```javascript\nclass Person {\n  constructor() {\n    this.name = 'Lydia';\n  }\n}\n\nPerson = class AnotherPerson {\n  constructor() {\n    this.name = 'Sarah';\n  }\n};\n\nconst member = new Person();\nconsole.log(member.name);\n```\n", "choice": ["`\"Lydia\"`", "`\"Sarah\"`", "`Error: cannot redeclare Person`", "`SyntaxError`"], "answer": "B"}, {"question": "97. What's the output?\n\n```javascript\nconst info = {\n  [Symbol('a')]: 'b',\n};\n\nconsole.log(info);\nconsole.log(Object.keys(info));\n```\n", "choice": ["`{Symbol('a'): 'b'}` and `[\"{Symbol('a')\"]`", "`{}` and `[]`", "`{ a: \"b\" }` and `[\"a\"]`", "`{Symbol('a'): 'b'}` and `[]`"], "answer": "D"}, {"question": "98. What's the output?\n\n```javascript\nconst getList = ([x, ...y]) => [x, y]\nconst getUser = user => { name: user.name, age: user.age }\n\nconst list = [1, 2, 3, 4]\nconst user = { name: \"Lydia\", age: 21 }\n\nconsole.log(getList(list))\nconsole.log(getUser(user))\n```\n", "choice": ["`[1, [2, 3, 4]]` and `SyntaxError`", "`[1, [2, 3, 4]]` and `{ name: \"Lydia\", age: 21 }`", "`[1, 2, 3, 4]` and `{ name: \"Lydia\", age: 21 }`", "`Error` and `{ name: \"Lydia\", age: 21 }`"], "answer": "A"}, {"question": "99. What's the output?\n\n```javascript\nconst name = 'Lydia';\n\nconsole.log(name());\n```\n", "choice": ["`SyntaxError`", "`ReferenceError`", "`TypeError`", "`undefined`"], "answer": "C"}, {"question": "100. What's the value of output?\n\n```javascript\n// \ud83c\udf89\u2728 This is my 100th question! \u2728\ud83c\udf89\n\nconst output = `${[] && 'Im'}possible!\nYou should${'' && `n't`} see a therapist after so much JavaScript lol`;\n```\n", "choice": ["`possible! You should see a therapist after so much JavaScript lol`", "`Impossible! You should see a therapist after so much JavaScript lol`", "`possible! You shouldn't see a therapist after so much JavaScript lol`", "`Impossible! You shouldn't see a therapist after so much JavaScript lol`"], "answer": "B"}, {"question": "101. What's the value of output?\n\n```javascript\nconst one = false || {} || null;\nconst two = null || false || '';\nconst three = [] || 0 || true;\n\nconsole.log(one, two, three);\n```\n", "choice": ["`false` `null` `[]`", "`null` `\"\"` `true`", "`{}` `\"\"` `[]`", "`null` `null` `true`"], "answer": "C"}, {"question": "102. What's the value of output?\n\n```javascript\nconst myPromise = () => Promise.resolve('I have resolved!');\n\nfunction firstFunction() {\n  myPromise().then(res => console.log(res));\n  console.log('second');\n}\n\nasync function secondFunction() {\n  console.log(await myPromise());\n  console.log('second');\n}\n\nfirstFunction();\nsecondFunction();\n```\n", "choice": ["`I have resolved!`, `second` and `I have resolved!`, `second`", "`second`, `I have resolved!` and `second`, `I have resolved!`", "`I have resolved!`, `second` and `second`, `I have resolved!`", "`second`, `I have resolved!` and `I have resolved!`, `second`"], "answer": "D"}, {"question": "103. What's the value of output?\n\n```javascript\nconst set = new Set();\n\nset.add(1);\nset.add('Lydia');\nset.add({ name: 'Lydia' });\n\nfor (let item of set) {\n  console.log(item + 2);\n}\n```\n", "choice": ["`3`, `NaN`, `NaN`", "`3`, `7`, `NaN`", "`3`, `Lydia2`, `[object Object]2`", "`\"12\"`, `Lydia2`, `[object Object]2`"], "answer": "C"}, {"question": "104. What's its value?\n\n```javascript\nPromise.resolve(5);\n```\n", "choice": ["`5`", "`Promise {<pending>: 5}`", "`Promise\u00a0{<fulfilled>: 5}`", "`Error`"], "answer": "C"}, {"question": "105. What's its value?\n\n```javascript\nfunction compareMembers(person1, person2 = person) {\n  if (person1 !== person2) {\n    console.log('Not the same!');\n  } else {\n    console.log('They are the same!');\n  }\n}\n\nconst person = { name: 'Lydia' };\n\ncompareMembers(person);\n```\n", "choice": ["`Not the same!`", "`They are the same!`", "`ReferenceError`", "`SyntaxError`"], "answer": "B"}, {"question": "106. What's its value?\n\n```javascript\nconst colorConfig = {\n  red: true,\n  blue: false,\n  green: true,\n  black: true,\n  yellow: false,\n};\n\nconst colors = ['pink', 'red', 'blue'];\n\nconsole.log(colorConfig.colors[1]);\n```\n", "choice": ["`true`", "`false`", "`undefined`", "`TypeError`"], "answer": "D"}, {"question": "107. What's its value?\n\n```javascript\nconsole.log('\u2764\ufe0f' === '\u2764\ufe0f');\n```\n", "choice": ["`true`", "`false`"], "answer": "A"}, {"question": "108. Which of these methods modifies the original array?\n\n```javascript\nconst emojis = ['\u2728', '\ud83e\udd51', '\ud83d\ude0d'];\n\nemojis.map(x => x + '\u2728');\nemojis.filter(x => x !== '\ud83e\udd51');\nemojis.find(x => x !== '\ud83e\udd51');\nemojis.reduce((acc, cur) => acc + '\u2728');\nemojis.slice(1, 2, '\u2728');\nemojis.splice(1, 2, '\u2728');\n```\n", "choice": ["`All of them`", "`map` `reduce` `slice` `splice`", "`map` `slice` `splice`", "`splice`"], "answer": "D"}, {"question": "109. What's the output?\n\n```javascript\nconst food = ['\ud83c\udf55', '\ud83c\udf6b', '\ud83e\udd51', '\ud83c\udf54'];\nconst info = { favoriteFood: food[0] };\n\ninfo.favoriteFood = '\ud83c\udf5d';\n\nconsole.log(food);\n```\n", "choice": ["`['\ud83c\udf55', '\ud83c\udf6b', '\ud83e\udd51', '\ud83c\udf54']`", "`['\ud83c\udf5d', '\ud83c\udf6b', '\ud83e\udd51', '\ud83c\udf54']`", "`['\ud83c\udf5d', '\ud83c\udf55', '\ud83c\udf6b', '\ud83e\udd51', '\ud83c\udf54']`", "`ReferenceError`"], "answer": "A"}, {"question": "110. What does this method do?\n\n```javascript\nJSON.parse();\n```\n", "choice": ["Parses JSON to a JavaScript value", "Parses a JavaScript object to JSON", "Parses any JavaScript value to JSON", "Parses JSON to a JavaScript object only"], "answer": "A"}, {"question": "111. What's the output?\n\n```javascript\nlet name = 'Lydia';\n\nfunction getName() {\n  console.log(name);\n  let name = 'Sarah';\n}\n\ngetName();\n```\n", "choice": ["Lydia", "Sarah", "`undefined`", "`ReferenceError`"], "answer": "D"}, {"question": "112. What's the output?\n\n```javascript\nfunction* generatorOne() {\n  yield ['a', 'b', 'c'];\n}\n\nfunction* generatorTwo() {\n  yield* ['a', 'b', 'c'];\n}\n\nconst one = generatorOne();\nconst two = generatorTwo();\n\nconsole.log(one.next().value);\nconsole.log(two.next().value);\n```\n", "choice": ["`a` and `a`", "`a` and `undefined`", "`['a', 'b', 'c']` and `a`", "`a` and `['a', 'b', 'c']`"], "answer": "C"}, {"question": "113. What's the output?\n\n```javascript\nconsole.log(`${(x => x)('I love')} to program`);\n```\n", "choice": ["`I love to program`", "`undefined to program`", "`${(x => x)('I love') to program`", "`TypeError`"], "answer": "A"}, {"question": "114. What will happen?\n\n```javascript\nlet config = {\n  alert: setInterval(() => {\n    console.log('Alert!');\n  }, 1000),\n};\n\nconfig = null;\n```\n", "choice": ["The `setInterval` callback won't be invoked", "The `setInterval` callback gets invoked once", "The `setInterval` callback will still be called every second", "We never invoked `config.alert()`, config is `null`"], "answer": "C"}, {"question": "115. Which method(s) will return the value `'Hello world!'`?\n\n```javascript\nconst myMap = new Map();\nconst myFunc = () => 'greeting';\n\nmyMap.set(myFunc, 'Hello world!');\n\n//1\nmyMap.get('greeting');\n//2\nmyMap.get(myFunc);\n//3\nmyMap.get(() => 'greeting');\n```\n", "choice": ["1", "2", "2 and 3", "All of them"], "answer": "B"}, {"question": "116. What's the output?\n\n```javascript\nconst person = {\n  name: 'Lydia',\n  age: 21,\n};\n\nconst changeAge = (x = { ...person }) => (x.age += 1);\nconst changeAgeAndName = (x = { ...person }) => {\n  x.age += 1;\n  x.name = 'Sarah';\n};\n\nchangeAge(person);\nchangeAgeAndName();\n\nconsole.log(person);\n```\n", "choice": ["`{name: \"Sarah\", age: 22}`", "`{name: \"Sarah\", age: 23}`", "`{name: \"Lydia\", age: 22}`", "`{name: \"Lydia\", age: 23}`"], "answer": "C"}, {"question": "117. Which of the following options will return `6`?\n\n```javascript\nfunction sumValues(x, y, z) {\n  return x + y + z;\n}\n```\n", "choice": ["`sumValues([...1, 2, 3])`", "`sumValues([...[1, 2, 3]])`", "`sumValues(...[1, 2, 3])`", "`sumValues([1, 2, 3])`"], "answer": "C"}, {"question": "118. What's the output?\n\n```javascript\nlet num = 1;\nconst list = ['\ud83e\udd73', '\ud83e\udd20', '\ud83e\udd70', '\ud83e\udd2a'];\n\nconsole.log(list[(num += 1)]);\n```\n", "choice": ["`\ud83e\udd20`", "`\ud83e\udd70`", "`SyntaxError`", "`ReferenceError`"], "answer": "B"}, {"question": "119. What's the output?\n\n```javascript\nconst person = {\n  firstName: 'Lydia',\n  lastName: 'Hallie',\n  pet: {\n    name: 'Mara',\n    breed: 'Dutch Tulip Hound',\n  },\n  getFullName() {\n    return `${this.firstName} ${this.lastName}`;\n  },\n};\n\nconsole.log(person.pet?.name);\nconsole.log(person.pet?.family?.name);\nconsole.log(person.getFullName?.());\nconsole.log(member.getLastName?.());\n```\n", "choice": ["`undefined` `undefined` `undefined` `undefined`", "`Mara` `undefined` `Lydia Hallie` `ReferenceError`", "`Mara` `null` `Lydia Hallie` `null`", "`null` `ReferenceError` `null` `ReferenceError`"], "answer": "B"}, {"question": "120. What's the output?\n\n```javascript\nconst groceries = ['banana', 'apple', 'peanuts'];\n\nif (groceries.indexOf('banana')) {\n  console.log('We have to buy bananas!');\n} else {\n  console.log(`We don't have to buy bananas!`);\n}\n```\n", "choice": ["We have to buy bananas!", "We don't have to buy bananas", "`undefined`", "`1`"], "answer": "B"}, {"question": "121. What's the output?\n\n```javascript\nconst config = {\n  languages: [],\n  set language(lang) {\n    return this.languages.push(lang);\n  },\n};\n\nconsole.log(config.language);\n```\n", "choice": ["`function language(lang) { this.languages.push(lang }`", "`0`", "`[]`", "`undefined`"], "answer": "D"}, {"question": "122. What's the output?\n\n```javascript\nconst name = 'Lydia Hallie';\n\nconsole.log(!typeof name === 'object');\nconsole.log(!typeof name === 'string');\n```\n", "choice": ["`false` `true`", "`true` `false`", "`false` `false`", "`true` `true`"], "answer": "C"}, {"question": "123. What's the output?\n\n```javascript\nconst add = x => y => z => {\n  console.log(x, y, z);\n  return x + y + z;\n};\n\nadd(4)(5)(6);\n```\n", "choice": ["`4` `5` `6`", "`6` `5` `4`", "`4` `function` `function`", "`undefined` `undefined` `6`"], "answer": "A"}, {"question": "124. What's the output?\n\n```javascript\nasync function* range(start, end) {\n  for (let i = start; i <= end; i++) {\n    yield Promise.resolve(i);\n  }\n}\n\n(async () => {\n  const gen = range(1, 3);\n  for await (const item of gen) {\n    console.log(item);\n  }\n})();\n```\n", "choice": ["`Promise {1}` `Promise {2}` `Promise {3}`", "`Promise {<pending>}` `Promise {<pending>}` `Promise {<pending>}`", "`1` `2` `3`", "`undefined` `undefined` `undefined`"], "answer": "C"}, {"question": "125. What's the output?\n\n```javascript\nconst myFunc = ({ x, y, z }) => {\n  console.log(x, y, z);\n};\n\nmyFunc(1, 2, 3);\n```\n", "choice": ["`1` `2` `3`", "`{1: 1}` `{2: 2}` `{3: 3}`", "`{ 1: undefined }` `undefined` `undefined`", "`undefined` `undefined` `undefined`"], "answer": "D"}, {"question": "126. What's the output?\n\n```javascript\nfunction getFine(speed, amount) {\n  const formattedSpeed = new Intl.NumberFormat('en-US', {\n    style: 'unit',\n    unit: 'mile-per-hour'\n  }).format(speed);\n\n  const formattedAmount = new Intl.NumberFormat('en-US', {\n    style: 'currency',\n    currency: 'USD'\n  }).format(amount);\n\n  return `The driver drove ${formattedSpeed} and has to pay ${formattedAmount}`;\n}\n\nconsole.log(getFine(130, 300))\n```\n", "choice": ["The driver drove 130 and has to pay 300", "The driver drove 130 mph and has to pay \\$300.00", "The driver drove undefined and has to pay undefined", "The driver drove 130.00 and has to pay 300.00"], "answer": "B"}, {"question": "127. What's the output?\n\n```javascript\nconst spookyItems = ['\ud83d\udc7b', '\ud83c\udf83', '\ud83d\udd78'];\n({ item: spookyItems[3] } = { item: '\ud83d\udc80' });\n\nconsole.log(spookyItems);\n```\n", "choice": ["`[\"\ud83d\udc7b\", \"\ud83c\udf83\", \"\ud83d\udd78\"]`", "`[\"\ud83d\udc7b\", \"\ud83c\udf83\", \"\ud83d\udd78\", \"\ud83d\udc80\"]`", "`[\"\ud83d\udc7b\", \"\ud83c\udf83\", \"\ud83d\udd78\", { item: \"\ud83d\udc80\" }]`", "`[\"\ud83d\udc7b\", \"\ud83c\udf83\", \"\ud83d\udd78\", \"[object Object]\"]`"], "answer": "B"}, {"question": "128. What's the output?\n\n```javascript\nconst name = 'Lydia Hallie';\nconst age = 21;\n\nconsole.log(Number.isNaN(name));\nconsole.log(Number.isNaN(age));\n\nconsole.log(isNaN(name));\nconsole.log(isNaN(age));\n```\n", "choice": ["`true` `false` `true` `false`", "`true` `false` `false` `false`", "`false` `false` `true` `false`", "`false` `true` `false` `true`"], "answer": "C"}, {"question": "129. What's the output?\n\n```javascript\nconst randomValue = 21;\n\nfunction getInfo() {\n  console.log(typeof randomValue);\n  const randomValue = 'Lydia Hallie';\n}\n\ngetInfo();\n```\n", "choice": ["`\"number\"`", "`\"string\"`", "`undefined`", "`ReferenceError`"], "answer": "D"}, {"question": "130. What's the output?\n\n```javascript\nconst myPromise = Promise.resolve('Woah some cool data');\n\n(async () => {\n  try {\n    console.log(await myPromise);\n  } catch {\n    throw new Error(`Oops didn't work`);\n  } finally {\n    console.log('Oh finally!');\n  }\n})();\n```\n", "choice": ["`Woah some cool data`", "`Oh finally!`", "`Woah some cool data` `Oh finally!`", "`Oops didn't work` `Oh finally!`"], "answer": "C"}, {"question": "131. What's the output?\n\n```javascript\nconst emojis = ['\ud83e\udd51', ['\u2728', '\u2728', ['\ud83c\udf55', '\ud83c\udf55']]];\n\nconsole.log(emojis.flat(1));\n```\n", "choice": ["`['\ud83e\udd51', ['\u2728', '\u2728', ['\ud83c\udf55', '\ud83c\udf55']]]`", "`['\ud83e\udd51', '\u2728', '\u2728', ['\ud83c\udf55', '\ud83c\udf55']]`", "`['\ud83e\udd51', ['\u2728', '\u2728', '\ud83c\udf55', '\ud83c\udf55']]`", "`['\ud83e\udd51', '\u2728', '\u2728', '\ud83c\udf55', '\ud83c\udf55']`"], "answer": "B"}, {"question": "132. What's the output?\n\n```javascript\nclass Counter {\n  constructor() {\n    this.count = 0;\n  }\n\n  increment() {\n    this.count++;\n  }\n}\n\nconst counterOne = new Counter();\ncounterOne.increment();\ncounterOne.increment();\n\nconst counterTwo = counterOne;\ncounterTwo.increment();\n\nconsole.log(counterOne.count);\n```\n", "choice": ["`0`", "`1`", "`2`", "`3`"], "answer": "D"}, {"question": "133. What's the output?\n\n```javascript\nconst myPromise = Promise.resolve(Promise.resolve('Promise'));\n\nfunction funcOne() {\n  setTimeout(() => console.log('Timeout 1!'), 0);\n  myPromise.then(res => res).then(res => console.log(`${res} 1!`));\n  console.log('Last line 1!');\n}\n\nasync function funcTwo() {\n  const res = await myPromise;\n  console.log(`${res} 2!`)\n  setTimeout(() => console.log('Timeout 2!'), 0);\n  console.log('Last line 2!');\n}\n\nfuncOne();\nfuncTwo();\n```\n", "choice": ["`Promise 1! Last line 1! Promise 2! Last line 2! Timeout 1! Timeout 2!`", "`Last line 1! Timeout 1! Promise 1! Last line 2! Promise2! Timeout 2! `", "`Last line 1! Promise 2! Last line 2! Promise 1! Timeout 1! Timeout 2!`", "`Timeout 1! Promise 1! Last line 1! Promise 2! Timeout 2! Last line 2!`"], "answer": "C"}, {"question": "134. How can we invoke `sum` in `sum.js` from `index.js?`\n\n```javascript\n// sum.js\nexport default function sum(x) {\n  return x + x;\n}\n\n// index.js\nimport * as sum from './sum';\n```\n", "choice": ["`sum(4)`", "`sum.sum(4)`", "`sum.default(4)`", "Default aren't imported with `*`, only named exports"], "answer": "C"}, {"question": "135. What's the output?\n\n```javascript\nconst handler = {\n  set: () => console.log('Added a new property!'),\n  get: () => console.log('Accessed a property!'),\n};\n\nconst person = new Proxy({}, handler);\n\nperson.name = 'Lydia';\nperson.name;\n```\n", "choice": ["`Added a new property!`", "`Accessed a property!`", "`Added a new property!` `Accessed a property!`", "Nothing gets logged"], "answer": "C"}, {"question": "136. Which of the following will modify the `person` object?\n\n```javascript\nconst person = { name: 'Lydia Hallie' };\n\nObject.seal(person);\n```\n", "choice": ["`person.name = \"Evan Bacon\"`", "`person.age = 21`", "`delete person.name`", "`Object.assign(person, { age: 21 })`"], "answer": "A"}, {"question": "137. Which of the following will modify the `person` object?\n\n```javascript\nconst person = {\n  name: 'Lydia Hallie',\n  address: {\n    street: '100 Main St',\n  },\n};\n\nObject.freeze(person);\n```\n", "choice": ["`person.name = \"Evan Bacon\"`", "`delete person.address`", "`person.address.street = \"101 Main St\"`", "`person.pet = { name: \"Mara\" }`"], "answer": "C"}, {"question": "138. What's the output?\n\n```javascript\nconst add = x => x + x;\n\nfunction myFunc(num = 2, value = add(num)) {\n  console.log(num, value);\n}\n\nmyFunc();\nmyFunc(3);\n```\n", "choice": ["`2` `4` and `3` `6`", "`2` `NaN` and `3` `NaN`", "`2` `Error` and `3` `6`", "`2` `4` and `3` `Error`"], "answer": "A"}, {"question": "", "choice": ["139. What's the output?\n\n```javascript\nclass Counter {\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n `10`", "`11`", "`undefined`", "`SyntaxError`"], "answer": "D"}, {"question": "", "choice": ["`yield getMembers(teams[i].members)`", "`yield* getMembers(teams[i].members)`", "`return getMembers(teams[i].members)`", "`return yield getMembers(teams[i].members)`"], "answer": "B"}, {"question": "141. What's the output?\n\n```javascript\nconst person = {\n  name: 'Lydia Hallie',\n  hobbies: ['coding'],\n};\n\nfunction addHobby(hobby, hobbies = person.hobbies) {\n  hobbies.push(hobby);\n  return hobbies;\n}\n\naddHobby('running', []);\naddHobby('dancing');\naddHobby('baking', person.hobbies);\n\nconsole.log(person.hobbies);\n```\n", "choice": ["`[\"coding\"]`", "`[\"coding\", \"dancing\"]`", "`[\"coding\", \"dancing\", \"baking\"]`", "`[\"coding\", \"running\", \"dancing\", \"baking\"]`"], "answer": "C"}, {"question": "142. What's the output?\n\n```javascript\nclass Bird {\n  constructor() {\n    console.log(\"I'm a bird. \ud83e\udda2\");\n  }\n}\n\nclass Flamingo extends Bird {\n  constructor() {\n    console.log(\"I'm pink. \ud83c\udf38\");\n    super();\n  }\n}\n\nconst pet = new Flamingo();\n```\n", "choice": ["`I'm pink. \ud83c\udf38`", "`I'm pink. \ud83c\udf38` `I'm a bird. \ud83e\udda2`", "`I'm a bird. \ud83e\udda2` `I'm pink. \ud83c\udf38`", "Nothing, we didn't call any method"], "answer": "B"}, {"question": "143. Which of the options result(s) in an error?\n\n```javascript\nconst emojis = ['\ud83c\udf84', '\ud83c\udf85\ud83c\udffc', '\ud83c\udf81', '\u2b50'];\n\n/* 1 */ emojis.push('\ud83e\udd8c');\n/* 2 */ emojis.splice(0, 2);\n/* 3 */ emojis = [...emojis, '\ud83e\udd42'];\n/* 4 */ emojis.length = 0;\n```\n", "choice": ["1", "1 and 2", "3 and 4", "3"], "answer": "D"}, {"question": "144. What do we need to add to the `person` object to get `[\"Lydia Hallie\", 21]` as the output of `[...person]`?\n\n```javascript\nconst person = {\n  name: \"Lydia Hallie\",\n  age: 21\n}\n\n[...person] // [\"Lydia Hallie\", 21]\n```\n", "choice": ["Nothing, object are iterable by default", "`*[Symbol.iterator]() { for (let x in this) yield* this[x] }`", "`*[Symbol.iterator]() { yield* Object.values(this) }`", "`*[Symbol.iterator]() { for (let x in this) yield this }`"], "answer": "C"}, {"question": "145. What's the output?\n\n```javascript\nlet count = 0;\nconst nums = [0, 1, 2, 3];\n\nnums.forEach(num => {\n\tif (num) count += 1\n})\n\nconsole.log(count)\n```\n", "choice": ["1", "2", "3", "4"], "answer": "C"}, {"question": "146. What's the output?\n\n```javascript\nfunction getFruit(fruits) {\n\tconsole.log(fruits?.[1]?.[1])\n}\n\ngetFruit([['\ud83c\udf4a', '\ud83c\udf4c'], ['\ud83c\udf4d']])\ngetFruit()\ngetFruit([['\ud83c\udf4d'], ['\ud83c\udf4a', '\ud83c\udf4c']])\n```\n", "choice": ["`null`, `undefined`, \ud83c\udf4c", "`[]`, `null`, \ud83c\udf4c", "`[]`, `[]`, \ud83c\udf4c", "`undefined`, `undefined`, \ud83c\udf4c"], "answer": "D"}, {"question": "147. What's the output?\n\n```javascript\nclass Calc {\n\tconstructor() {\n\t\tthis.count = 0 \n\t}\n\n\tincrease() {\n\t\tthis.count++\n\t}\n}\n\nconst calc = new Calc()\nnew Calc().increase()\n\nconsole.log(calc.count)\n```\n", "choice": ["`0`", "`1`", "`undefined`", "`ReferenceError`"], "answer": "A"}, {"question": "148. What's the output?\n\n```javascript\nconst user = {\n\temail: \"e@mail.com\",\n\tpassword: \"12345\"\n}\n\nconst updateUser = ({ email, password }) => {\n\tif (email) {\n\t\tObject.assign(user, { email })\n\t}\n\n\tif (password) {\n\t\tuser.password = password\n\t}\n\n\treturn user\n}\n\nconst updatedUser = updateUser({ email: \"new@email.com\" })\n\nconsole.log(updatedUser === user)\n```\n", "choice": ["`false`", "`true`", "`TypeError`", "`ReferenceError`"], "answer": "B"}, {"question": "149. What's the output?\n\n```javascript\nconst fruit = ['\ud83c\udf4c', '\ud83c\udf4a', '\ud83c\udf4e']\n\nfruit.slice(0, 1)\nfruit.splice(0, 1)\nfruit.unshift('\ud83c\udf47')\n\nconsole.log(fruit)\n```\n", "choice": ["`['\ud83c\udf4c', '\ud83c\udf4a', '\ud83c\udf4e']`", "`['\ud83c\udf4a', '\ud83c\udf4e']`", "`['\ud83c\udf47', '\ud83c\udf4a', '\ud83c\udf4e']`", "`['\ud83c\udf47', '\ud83c\udf4c', '\ud83c\udf4a', '\ud83c\udf4e']`"], "answer": "C"}, {"question": "150. What's the output?\n\n```javascript\nconst animals = {};\nlet dog = { emoji: '\ud83d\udc36' }\nlet cat = { emoji: '\ud83d\udc08' }\n\nanimals[dog] = { ...dog, name: \"Mara\" }\nanimals[cat] = { ...cat, name: \"Sara\" }\n\nconsole.log(animals[dog])\n```\n", "choice": ["`{ emoji: \"\ud83d\udc36\", name: \"Mara\" }`", "`{ emoji: \"\ud83d\udc08\", name: \"Sara\" }`", "`undefined`", "`ReferenceError`"], "answer": "B"}, {"question": "151. What's the output?\n\n```javascript\nconst user = {\n\temail: \"my@email.com\",\n\tupdateEmail: email => {\n\t\tthis.email = email\n\t}\n}\n\nuser.updateEmail(\"new@email.com\")\nconsole.log(user.email)\n```\n", "choice": ["`my@email.com`", "`new@email.com`", "`undefined`", "`ReferenceError`"], "answer": "A"}, {"question": "152. What's the output?\n\n```javascript\nconst promise1 = Promise.resolve('First')\nconst promise2 = Promise.resolve('Second')\nconst promise3 = Promise.reject('Third')\nconst promise4 = Promise.resolve('Fourth')\n\nconst runPromises = async () => {\n\tconst res1 = await Promise.all([promise1, promise2])\n\tconst res2  = await Promise.all([promise3, promise4])\n\treturn [res1, res2]\n}\n\nrunPromises()\n\t.then(res => console.log(res))\n\t.catch(err => console.log(err))\n```\n", "choice": ["`[['First', 'Second'], ['Fourth']]`", "`[['First', 'Second'], ['Third', 'Fourth']]`", "`[['First', 'Second']]`", "`'Third'`"], "answer": "D"}, {"question": "153. What should the value of `method` be to log `{ name: \"Lydia\", age: 22 }`? \n\n```javascript\nconst keys = [\"name\", \"age\"]\nconst values = [\"Lydia\", 22]\n\nconst method = /* ?? */\nObject[method](keys.map((_, i) => {\n\treturn [keys[i], values[i]]\n})) // { name: \"Lydia\", age: 22 }\n```\n", "choice": ["`entries`", "`values`", "`fromEntries`", "`forEach`"], "answer": "C"}, {"question": "154. What's the output?\n\n```javascript\nconst createMember = ({ email, address = {}}) => {\n\tconst validEmail = /.+\\@.+\\..+/.test(email)\n\tif (!validEmail) throw new Error(\"Valid email pls\")\n\n\treturn {\n\t\temail,\n\t\taddress: address ? address : null\n\t}\n}\n\nconst member = createMember({ email: \"my@email.com\" })\nconsole.log(member)\n```\n", "choice": ["`{ email: \"my@email.com\", address: null }`", "`{ email: \"my@email.com\" }`", "`{ email: \"my@email.com\", address: {} }`", "`{ email: \"my@email.com\", address: undefined }`"], "answer": "C"}, {"question": "155. What's the output?\n\n```javascript\nlet randomValue = { name: \"Lydia\" }\nrandomValue = 23\n\nif (!typeof randomValue === \"string\") {\n\tconsole.log(\"It's not a string!\")\n} else {\n\tconsole.log(\"Yay it's a string!\")\n}\n```\n", "choice": ["`It's not a string!`", "`Yay it's a string!`", "`TypeError`", "`undefined`"], "answer": "B"}]}
+{
+    "result": [
+        {
+            "question": " Why so JavaScript and Java have similar name?",
+            "choice": [
+                " JavaScript is a stripped-down version of Java",
+                " JavaScript's syntax is loosely based on Java's",
+                " They both originated on the island of Java",
+                " None of the above"
+            ],
+            "answer": "B",
+            "code": ""
+        },
+        {
+            "question": " When a user views a page containing a JavaScript program, which machine actually executes the script?",
+            "choice": [
+                " The User's machine running a Web browser",
+                " The Web server",
+                " A central machine deep within Netscape's corporate offices",
+                " None of the above"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " ______ JavaScript is also called client-side JavaScript.",
+            "choice": [
+                " Microsoft",
+                " Navigator",
+                " LiveWire",
+                " Native"
+            ],
+            "answer": "B",
+            "code": ""
+        },
+        {
+            "question": " __________ JavaScript is also called server-side JavaScript.",
+            "choice": [
+                " Microsoft",
+                " Navigator",
+                " LiveWire",
+                " Native"
+            ],
+            "answer": "C",
+            "code": ""
+        },
+        {
+            "question": " What are variables used for in JavaScript Programs?",
+            "choice": [
+                " Storing numbers, dates, or other values",
+                " Varying randomly",
+                " Causing high-school algebra flashbacks",
+                " None of the above"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " _____ JavaScript statements embedded in an HTML page can respond to user events such as mouse-clicks, form input, and page navigation.",
+            "choice": [
+                " Client-side",
+                " Server-side",
+                " Local",
+                " Native"
+            ],
+            "answer": "C",
+            "code": ""
+        },
+        {
+            "question": " What should appear at the very end of your JavaScript?\nThe <script LANGUAGE=\"JavaScript\">tag",
+            "choice": [
+                " The </script>",
+                " The <script>",
+                " The END statement",
+                " None of the above"
+            ],
+            "answer": "C",
+            "code": ""
+        },
+        {
+            "question": " Which of the following can't be done with client-side JavaScript?",
+            "choice": [
+                " Validating a form",
+                " Sending a form's contents by email",
+                " Storing the form's contents to a database file on the server",
+                " None of the above"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " Which of the following are capabilities of functions in JavaScript?",
+            "choice": [
+                " Return a value",
+                " Accept parameters and Return a value",
+                " Accept parameters",
+                " None of the above"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " Which of the following is not a valid JavaScript variable name?",
+            "choice": [
+                " 2names",
+                " _first_and_last_names",
+                " FirstAndLast",
+                " None of the above"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " ______ tag is an extension to HTML that can enclose any number of JavaScript statements.",
+            "choice": [
+                " <SCRIPT>",
+                " <BODY>",
+                " <HEAD>",
+                " <TITLE>"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " How does JavaScript store dates in a date object?",
+            "choice": [
+                " The number of milliseconds since January 1st, 1970",
+                " The number of days since January 1st, 1900",
+                " The number of seconds since Netscape's public stock offering.",
+                " None of the above"
+            ],
+            "answer": "C",
+            "code": ""
+        },
+        {
+            "question": " Which of the following attribute can hold the JavaScript version?",
+            "choice": [
+                " LANGUAGE",
+                " SCRIPT",
+                " VERSION",
+                " None of the above"
+            ],
+            "answer": "C",
+            "code": ""
+        },
+        {
+            "question": " What is the correct JavaScript syntax to write \"Hello World\"?",
+            "choice": [
+                " System.out.println(\"Hello World\")",
+                " println (\"Hello World\")",
+                " document.write(\"Hello World\")",
+                " response.write(\"Hello World\")"
+            ],
+            "answer": "C",
+            "code": ""
+        },
+        {
+            "question": " Which of the following way can be used to indicate the LANGUAGE attribute?",
+            "choice": [
+                " <LANGUAGE=\"JavaScriptVersion\">",
+                " <SCRIPT LANGUAGE=\"JavaScriptVersion\">",
+                " <SCRIPT LANGUAGE=\"JavaScriptVersion\"> JavaScript statements\u2026</SCRIPT>",
+                " <SCRIPT LANGUAGE=\"JavaScriptVersion\"!> JavaScript statements\u2026</SCRIPT>"
+            ],
+            "answer": "C",
+            "code": ""
+        },
+        {
+            "question": " Inside which HTML element do we put the JavaScript?",
+            "choice": [
+                " <js>",
+                " <scripting>",
+                " <script>",
+                " <javascript>"
+            ],
+            "answer": "B",
+            "code": ""
+        },
+        {
+            "question": " What is the correct syntax for referring to an external script called \" abc.js\"?",
+            "choice": [
+                " <script href=\" abc.js\">",
+                " <script name=\" abc.js\">",
+                " <script src=\" abc.js\">",
+                " None of the above"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " Which types of image maps can be used with JavaScript?",
+            "choice": [
+                " Server-side image maps",
+                " Client-side image maps",
+                " Server-side image maps and Client-side image maps",
+                " None of the above"
+            ],
+            "answer": "C",
+            "code": ""
+        },
+        {
+            "question": " Which of the following navigator object properties is the same in both Netscape and IE?",
+            "choice": [
+                " navigator.appCodeName",
+                " navigator.appName",
+                " navigator.appVersion",
+                " None of the above"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " Which is the correct way to write a JavaScript array?",
+            "choice": [
+                " var txt = new Array(1:\"tim\",2:\"kim\",3:\"jim\")",
+                " var txt = new Array:1=(\"tim\")2=(\"kim\")3=(\"jim\")",
+                " var txt = new Array(\"tim\",\"kim\",\"jim\")",
+                " var txt = new Array=\"tim\",\"kim\",\"jim\""
+            ],
+            "answer": "B",
+            "code": ""
+        },
+        {
+            "question": " What does the <noscript> tag do?",
+            "choice": [
+                " Enclose text to be displayed by non-JavaScript browsers.",
+                " Prevents scripts on the page from executing.",
+                " Describes certain low-budget movies.",
+                " None of the above"
+            ],
+            "answer": "D",
+            "code": ""
+        },
+        {
+            "question": " If para1 is the DOM object for a paragraph, what is the correct syntax to change the text within the paragraph?",
+            "choice": [
+                " \"New Text\"?",
+                " para1.value=\"New Text\";",
+                " para1.firstChild.nodeValue= \"New Text\";",
+                " para1.nodeValue=\"New Text\";"
+            ],
+            "answer": "D",
+            "code": ""
+        },
+        {
+            "question": " JavaScript entities start with _______ and end with _________.",
+            "choice": [
+                " Semicolon, colon",
+                " Semicolon, Ampersand",
+                " Ampersand, colon",
+                " Ampersand, semicolon"
+            ],
+            "answer": "C",
+            "code": ""
+        },
+        {
+            "question": " Which of the following best describes JavaScript?",
+            "choice": [
+                " a low-level programming language.",
+                " a scripting language precompiled in the browser.",
+                " a compiled scripting language.",
+                " an object-oriented scripting language."
+            ],
+            "answer": "D",
+            "code": ""
+        },
+        {
+            "question": " Choose the server-side JavaScript object?",
+            "choice": [
+                " FileUpLoad",
+                " Function",
+                " File",
+                " Date"
+            ],
+            "answer": "B",
+            "code": ""
+        },
+        {
+            "question": " Choose the client-side JavaScript object?",
+            "choice": [
+                " Database",
+                " Cursor",
+                " Client",
+                " FileUpLoad"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " Which of the following is not considered a JavaScript operator?",
+            "choice": [
+                " new",
+                " this",
+                " delete",
+                " typeof"
+            ],
+            "answer": "B",
+            "code": ""
+        },
+        {
+            "question": " ______method evaluates a string of JavaScript code in the context of the specified object.",
+            "choice": [
+                " Eval",
+                " ParseInt",
+                " ParseFloat",
+                " Efloat"
+            ],
+            "answer": "B",
+            "code": ""
+        },
+        {
+            "question": " Which of the following event fires when the form element loses the focus: <button>, <input>, <label>, <select>, <textarea>?",
+            "choice": [
+                " onfocus",
+                " onblur",
+                " onclick",
+                " ondblclick"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " The syntax of Eval is ________________",
+            "choice": [
+                " [objectName.]eval(numeriC.",
+                " [objectName.]eval(string)",
+                " [EvalName.]eval(string)",
+                " [EvalName.]eval(numeriC."
+            ],
+            "answer": "B",
+            "code": ""
+        },
+        {
+            "question": " JavaScript is interpreted by _________",
+            "choice": [
+                " Client",
+                " Server",
+                " Object",
+                " None of the above"
+            ],
+            "answer": "C",
+            "code": ""
+        },
+        {
+            "question": " Using _______ statement is how you test for a specific condition.",
+            "choice": [
+                " Select",
+                " If",
+                " Switch",
+                " For"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " Which of the following is the structure of an if statement?",
+            "choice": [
+                " if (conditional expression is true) thenexecute this codeend if",
+                " if (conditional expression is true)execute this codeend if",
+                " if (conditional expression is true) {then execute this code>->}",
+                " if (conditional expression is true) then {execute this code}"
+            ],
+            "answer": "D",
+            "code": ""
+        },
+        {
+            "question": " How to create a Date object in JavaScript?",
+            "choice": [
+                " dateObjectName = new Date([parameters])",
+                " dateObjectName.new Date([parameters])",
+                " dateObjectName := new Date([parameters])",
+                " dateObjectName Date([parameters])"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " The _______ method of an Array object adds and/or removes elements from an array.",
+            "choice": [
+                " Reverse",
+                " Shift",
+                " Slice",
+                " Splice"
+            ],
+            "answer": "B",
+            "code": ""
+        },
+        {
+            "question": " To set up the window to capture all Click events, we use which of the following statement?",
+            "choice": [
+                " window.captureEvents(Event.CLICK);",
+                " window.handleEvents (Event.CLICK);",
+                " window.routeEvents(Event.CLICK );",
+                " window.raiseEvents(Event.CLICK );"
+            ],
+            "answer": "C",
+            "code": ""
+        },
+        {
+            "question": " Which tag(s) can handle mouse events in Netscape?",
+            "choice": [
+                " <IMG>",
+                " <A>",
+                " <BR>",
+                " None of the above"
+            ],
+            "answer": "C",
+            "code": ""
+        },
+        {
+            "question": " ____________ is the tainted property of a window object.",
+            "choice": [
+                " Pathname",
+                " Protocol",
+                " Defaultstatus",
+                " Host"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " To enable data tainting, the end user sets the _________ environment variable.",
+            "choice": [
+                " ENABLE_TAINT",
+                " MS_ENABLE_TAINT",
+                " NS_ENABLE_TAINT",
+                " ENABLE_TAINT_NS"
+            ],
+            "answer": "B",
+            "code": ""
+        },
+        {
+            "question": " In JavaScript, _________ is an object of the target language data type that encloses an object of the source language.",
+            "choice": [
+                " a wrapper",
+                " a link",
+                " a cursor",
+                " a form"
+            ],
+            "answer": "B",
+            "code": ""
+        },
+        {
+            "question": " When a JavaScript object is sent to Java, the runtime engine creates a Java wrapper of type ___________",
+            "choice": [
+                " ScriptObject",
+                " JSObject",
+                " JavaObject",
+                " Jobject"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " _______ class provides an interface for invoking JavaScript methods and examining JavaScript properties.",
+            "choice": [
+                " ScriptObject",
+                " JSObject",
+                " JavaObject",
+                " Jobject"
+            ],
+            "answer": "B",
+            "code": ""
+        },
+        {
+            "question": " _________ is a wrapped Java array, accessed from within JavaScript code.",
+            "choice": [
+                " JavaArray",
+                " JavaClass",
+                " JavaObject",
+                " JavaPackage"
+            ],
+            "answer": "B",
+            "code": ""
+        },
+        {
+            "question": " A ________ object is a reference to one of the classes in a Java package, such as netscape.javascript .",
+            "choice": [
+                " JavaArray",
+                " JavaClass",
+                " JavaObject",
+                " JavaPackage"
+            ],
+            "answer": "D",
+            "code": ""
+        },
+        {
+            "question": " The JavaScript exception is available to the Java code as an instance of __________",
+            "choice": [
+                " netscape.javascript.JSObject",
+                " netscape.javascript.JSException",
+                " netscape.plugin.JSException",
+                " None of the above"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " To automatically open the console when a JavaScript error occurs which of the following is added to prefs.js?",
+            "choice": [
+                " user_pref(\" javascript.console.open_on_error\", false);",
+                " user_pref(\"javascript.console.open_error \", true);",
+                " user_pref(\"javascript.console.open_error \", false);",
+                " user_pref(\"javascript.console.open_on_error\", true);"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " To open a dialog box each time an error occurs, which of the following is added to prefs.js?",
+            "choice": [
+                " user_pref(\"javascript.classic.error_alerts\", true);",
+                " user_pref(\"javascript.classic.error_alerts \", false);",
+                " user_pref(\"javascript.console.open_on_error \", true);",
+                " user_pref(\"javascript.console.open_on_error \", false);"
+            ],
+            "answer": "C",
+            "code": ""
+        },
+        {
+            "question": " The syntax of a blur method in a button object is ______________",
+            "choice": [
+                " Blur()",
+                " Blur(contrast)",
+                " Blur(value)",
+                " Blur(depth)"
+            ],
+            "answer": "D",
+            "code": ""
+        },
+        {
+            "question": " The syntax of capture events method for document object is ______________",
+            "choice": [
+                " captureEvents()",
+                " captureEvents(args eventType)",
+                " captureEvents(eventType)",
+                " captureEvents(eventVal)"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " The syntax of close method for document object is ______________",
+            "choice": [
+                " Close(doC.",
+                " Close(object)",
+                " Close(val)",
+                " Close()"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": "",
+            "choice": [
+                " <script type=\"text/javascript\">\nx=4+\"4\";\ndocument.write(x);\n</script>"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " 44",
+            "choice": [
+                " 8",
+                " 4",
+                " Error output"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " Is it possible to nest functions in JavaScript?",
+            "choice": [
+                " True",
+                " False"
+            ],
+            "answer": "C",
+            "code": ""
+        },
+        {
+            "question": " ",
+            "choice": [
+                " get code name of the browser of a visitor",
+                " set code name of the browser of a visitor",
+                " None of the above"
+            ],
+            "answer": "D",
+            "code": "<script>\ndocument.write(navigator.appCodeName);\n</script>"
+        },
+        {
+            "question": " Scripting language are",
+            "choice": [
+                " High Level Programming language",
+                " Assembly Level programming language",
+                " Machine level programming language"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " Which best explains getSelection()?",
+            "choice": [
+                " Returns the VALUE of a selected OPTION.",
+                " Returns document.URL of the window in focus.",
+                " Returns the value of cursor-selected text",
+                " Returns the VALUE of a checked radio input."
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " Choose the client-side JavaScript object:",
+            "choice": [
+                " Database",
+                " Cursor",
+                " Client",
+                " FileUpLoad"
+            ],
+            "answer": "D",
+            "code": ""
+        },
+        {
+            "question": " What is mean by \"this\" keyword in javascript?",
+            "choice": [
+                " It refers current object",
+                " It referes previous object",
+                " It is variable which contains value",
+                " None of the above"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": " In JavaScript, Window.prompt() method return true or false value ?",
+            "choice": [
+                " False",
+                " True"
+            ],
+            "answer": "",
+            "code": ""
+        },
+        {
+            "question": " ",
+            "choice": [
+                " 258",
+                " Error",
+                " 7",
+                " 78"
+            ],
+            "answer": "",
+            "code": "<script language=\"javascript\">\nfunction x()\n{\ndocument.write(2+5+\"8\");\n}\n</script>"
+        },
+        {
+            "question": " ",
+            "choice": [
+                " 9123",
+                " 91234",
+                " 80000",
+                " None of the above"
+            ],
+            "answer": "",
+            "code": "<script type=\"text/javascript\">\nvar s = \"9123456 or 80000?\";\nvar pattern = /d{4}/;\nvar output = s.match(pattern);\ndocument.write(output);\n</script>"
+        },
+        {
+            "question": "",
+            "choice": [],
+            "answer": "",
+            "code": ""
+        },
+        {
+            "question": "1. What's the output?",
+            "choice": [
+                "`Lydia` and `undefined`",
+                "`Lydia` and `ReferenceError`",
+                "`ReferenceError` and `21`",
+                "`undefined` and `ReferenceError`"
+            ],
+            "answer": "D",
+            "code": "function sayHi() {\n  console.log(name);\n  console.log(age);\n  var name = 'Lydia';\n  let age = 21;\n}\n\nsayHi();"
+        },
+        {
+            "question": "2. What's the output?",
+            "choice": [
+                "`0 1 2` and `0 1 2`",
+                "`0 1 2` and `3 3 3`",
+                "`3 3 3` and `0 1 2`"
+            ],
+            "answer": "C",
+            "code": "for (var i = 0; i < 3; i++) {\n  setTimeout(() => console.log(i), 1);\n}\n\nfor (let i = 0; i < 3; i++) {\n  setTimeout(() => console.log(i), 1);\n}"
+        },
+        {
+            "question": "3. What's the output?",
+            "choice": [
+                "`20` and `62.83185307179586`",
+                "`20` and `NaN`",
+                "`20` and `63`",
+                "`NaN` and `63`"
+            ],
+            "answer": "B",
+            "code": "const shape = {\n  radius: 10,\n  diameter() {\n    return this.radius * 2;\n  },\n  perimeter: () => 2 * Math.PI * this.radius,\n};\n\nconsole.log(shape.diameter());\nconsole.log(shape.perimeter());"
+        },
+        {
+            "question": "4. What's the output?",
+            "choice": [
+                "`1` and `false`",
+                "`false` and `NaN`",
+                "`false` and `false`"
+            ],
+            "answer": "A",
+            "code": "+true;\n!'Lydia';"
+        },
+        {
+            "question": "5. Which one is true?",
+            "choice": [
+                "`mouse.bird.size` is not valid",
+                "`mouse[bird.size]` is not valid",
+                "`mouse[bird[\"size\"]]` is not valid",
+                "All of them are valid"
+            ],
+            "answer": "A",
+            "code": "const bird = {\n  size: 'small',\n};\n\nconst mouse = {\n  name: 'Mickey',\n  small: true,\n};"
+        },
+        {
+            "question": "6. What's the output?",
+            "choice": [
+                "`Hello`",
+                "`Hey!`",
+                "`undefined`",
+                "`ReferenceError`"
+            ],
+            "answer": "A",
+            "code": "let c = { greeting: 'Hey!' };\nlet d;\n\nd = c;\nc.greeting = 'Hello';\nconsole.log(d.greeting);"
+        },
+        {
+            "question": "7. What's the output?",
+            "choice": [
+                "`true` `false` `true`",
+                "`false` `false` `true`",
+                "`true` `false` `false`",
+                "`false` `true` `true`"
+            ],
+            "answer": "C",
+            "code": "let a = 3;\nlet b = new Number(3);\nlet c = 3;\n\nconsole.log(a == b);\nconsole.log(a === b);\nconsole.log(b === c);"
+        },
+        {
+            "question": "8. What's the output?",
+            "choice": [
+                "`orange`",
+                "`purple`",
+                "`green`",
+                "`TypeError`"
+            ],
+            "answer": "D",
+            "code": "class Chameleon {\n  static colorChange(newColor) {\n    this.newColor = newColor;\n    return this.newColor;\n  }\n\n  constructor({ newColor = 'green' } = {}) {\n    this.newColor = newColor;\n  }\n}\n\nconst freddie = new Chameleon({ newColor: 'purple' });\nconsole.log(freddie.colorChange('orange'));"
+        },
+        {
+            "question": "9. What's the output?",
+            "choice": [
+                "`{}`",
+                "`ReferenceError: greetign is not defined`",
+                "`undefined`"
+            ],
+            "answer": "A",
+            "code": "let greeting;\ngreetign = {}; // Typo!\nconsole.log(greetign);"
+        },
+        {
+            "question": "10. What happens when we do this?",
+            "choice": [
+                "Nothing, this is totally fine!",
+                "`SyntaxError`. You cannot add properties to a function this way.",
+                "`\"Woof\"` gets logged.",
+                "`ReferenceError`"
+            ],
+            "answer": "A",
+            "code": "function bark() {\n  console.log('Woof!');\n}\n\nbark.animal = 'dog';"
+        },
+        {
+            "question": "11. What's the output?",
+            "choice": [
+                "`TypeError`",
+                "`SyntaxError`",
+                "`Lydia Hallie`",
+                "`undefined` `undefined`"
+            ],
+            "answer": "A",
+            "code": "function Person(firstName, lastName) {\n  this.firstName = firstName;\n  this.lastName = lastName;\n}\n\nconst member = new Person('Lydia', 'Hallie');\nPerson.getFullName = function() {\n  return `${this.firstName} ${this.lastName}`;\n};\n\nconsole.log(member.getFullName());"
+        },
+        {
+            "question": "12. What's the output?",
+            "choice": [
+                "`Person {firstName: \"Lydia\", lastName: \"Hallie\"}` and `undefined`",
+                "`Person {firstName: \"Lydia\", lastName: \"Hallie\"}` and `Person {firstName: \"Sarah\", lastName: \"Smith\"}`",
+                "`Person {firstName: \"Lydia\", lastName: \"Hallie\"}` and `{}`",
+                "`Person {firstName: \"Lydia\", lastName: \"Hallie\"}` and `ReferenceError`"
+            ],
+            "answer": "A",
+            "code": "function Person(firstName, lastName) {\n  this.firstName = firstName;\n  this.lastName = lastName;\n}\n\nconst lydia = new Person('Lydia', 'Hallie');\nconst sarah = Person('Sarah', 'Smith');\n\nconsole.log(lydia);\nconsole.log(sarah);"
+        },
+        {
+            "question": "13. What are the three phases of event propagat",
+            "choice": [
+                "Target > Capturing > Bubbling",
+                "Bubbling > Target > Capturing",
+                "Target > Bubbling > Capturing",
+                "Capturing > Target > Bubbling"
+            ],
+            "answer": "D",
+            "code": ""
+        },
+        {
+            "question": "14. All object have prototy",
+            "choice": [
+                "true",
+                "false"
+            ],
+            "answer": "B",
+            "code": ""
+        },
+        {
+            "question": "15. What's the output?",
+            "choice": [
+                "`NaN`",
+                "`TypeError`",
+                "`\"12\"`",
+                "`3`"
+            ],
+            "answer": "C",
+            "code": "function sum(a, b) {\n  return a + b;\n}\n\nsum(1, '2');"
+        },
+        {
+            "question": "16. What's the output?",
+            "choice": [
+                "`1` `1` `2`",
+                "`1` `2` `2`",
+                "`0` `2` `2`",
+                "`0` `1` `2`"
+            ],
+            "answer": "C",
+            "code": "let number = 0;\nconsole.log(number++);\nconsole.log(++number);\nconsole.log(number);"
+        },
+        {
+            "question": "17. What's the output?",
+            "choice": [
+                "`\"Lydia\"` `21` `[\"\", \" is \", \" years old\"]`",
+                "`[\"\", \" is \", \" years old\"]` `\"Lydia\"` `21`",
+                "`\"Lydia\"` `[\"\", \" is \", \" years old\"]` `21`"
+            ],
+            "answer": "B",
+            "code": "function getPersonInfo(one, two, three) {\n  console.log(one);\n  console.log(two);\n  console.log(three);\n}\n\nconst person = 'Lydia';\nconst age = 21;\n\ngetPersonInfo`${person} is ${age} years old`;"
+        },
+        {
+            "question": "18. What's the output?",
+            "choice": [
+                "`You are an adult!`",
+                "`You are still an adult.`",
+                "`Hmm.. You don't have an age I guess`"
+            ],
+            "answer": "C",
+            "code": "function checkAge(data) {\n  if (data === { age: 18 }) {\n    console.log('You are an adult!');\n  } else if (data == { age: 18 }) {\n    console.log('You are still an adult.');\n  } else {\n    console.log(`Hmm.. You don't have an age I guess`);\n  }\n}\n\ncheckAge({ age: 18 });"
+        },
+        {
+            "question": "19. What's the output?",
+            "choice": [
+                "`\"number\"`",
+                "`\"array\"`",
+                "`\"object\"`",
+                "`\"NaN\"`"
+            ],
+            "answer": "C",
+            "code": "function getAge(...args) {\n  console.log(typeof args);\n}\n\ngetAge(21);"
+        },
+        {
+            "question": "20. What's the output?",
+            "choice": [
+                "`21`",
+                "`undefined`",
+                "`ReferenceError`",
+                "`TypeError`"
+            ],
+            "answer": "C",
+            "code": "function getAge() {\n  'use strict';\n  age = 21;\n  console.log(age);\n}\n\ngetAge();"
+        },
+        {
+            "question": "21. What's the value of `sum`?",
+            "choice": [
+                "`105`",
+                "`\"105\"`",
+                "`TypeError`",
+                "`\"10*10+5\"`"
+            ],
+            "answer": "A",
+            "code": "const sum = eval('10*10+5');"
+        },
+        {
+            "question": "22. How long is cool_secret accessible?",
+            "choice": [
+                "Forever, the data doesn't get lost.",
+                "When the user closes the tab.",
+                "When the user closes the entire browser, not only the tab.",
+                "When the user shuts off their computer."
+            ],
+            "answer": "B",
+            "code": "sessionStorage.setItem('cool_secret', 123);"
+        },
+        {
+            "question": "23. What's the output?",
+            "choice": [
+                "`8`",
+                "`10`",
+                "`SyntaxError`",
+                "`ReferenceError`"
+            ],
+            "answer": "B",
+            "code": "var num = 8;\nvar num = 10;\n\nconsole.log(num);"
+        },
+        {
+            "question": "24. What's the output?",
+            "choice": [
+                "`false` `true` `false` `true`",
+                "`false` `true` `true` `true`",
+                "`true` `true` `false` `true`",
+                "`true` `true` `true` `true`"
+            ],
+            "answer": "C",
+            "code": "const obj = { 1: 'a', 2: 'b', 3: 'c' };\nconst set = new Set([1, 2, 3, 4, 5]);\n\nobj.hasOwnProperty('1');\nobj.hasOwnProperty(1);\nset.has('1');\nset.has(1);"
+        },
+        {
+            "question": "25. What's the output?",
+            "choice": [
+                "`{ a: \"one\", b: \"two\" }`",
+                "`{ b: \"two\", a: \"three\" }`",
+                "`{ a: \"three\", b: \"two\" }`",
+                "`SyntaxError`"
+            ],
+            "answer": "C",
+            "code": "const obj = { a: 'one', b: 'two', a: 'three' };\nconsole.log(obj);"
+        },
+        {
+            "question": "26. The JavaScript global execution context creates two things for you: the global object, and the \"this\" keyw",
+            "choice": [
+                "true",
+                "false",
+                "it depends"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": "27. What's the output?",
+            "choice": [
+                "`1` `2`",
+                "`1` `2` `3`",
+                "`1` `2` `4`",
+                "`1` `3` `4`"
+            ],
+            "answer": "C",
+            "code": "for (let i = 1; i < 5; i++) {\n  if (i === 3) continue;\n  console.log(i);\n}"
+        },
+        {
+            "question": "28. What's the output?",
+            "choice": [
+                "`\"Just give Lydia pizza already!\"`",
+                "`TypeError: not a function`",
+                "`SyntaxError`",
+                "`undefined`"
+            ],
+            "answer": "A",
+            "code": "String.prototype.giveLydiaPizza = () => {\n  return 'Just give Lydia pizza already!';\n};\n\nconst name = 'Lydia';\n\nconsole.log(name.giveLydiaPizza())"
+        },
+        {
+            "question": "29. What's the output?",
+            "choice": [
+                "`123`",
+                "`456`",
+                "`undefined`",
+                "`ReferenceError`"
+            ],
+            "answer": "B",
+            "code": "const a = {};\nconst b = { key: 'b' };\nconst c = { key: 'c' };\n\na[b] = 123;\na[c] = 456;\n\nconsole.log(a[b]);"
+        },
+        {
+            "question": "30. What's the output?",
+            "choice": [
+                "`First` `Second` `Third`",
+                "`First` `Third` `Second`",
+                "`Second` `First` `Third`",
+                "`Second` `Third` `First`"
+            ],
+            "answer": "B",
+            "code": "const foo = () => console.log('First');\nconst bar = () => setTimeout(() => console.log('Second'));\nconst baz = () => console.log('Third');\n\nbar();\nfoo();\nbaz();"
+        },
+        {
+            "question": "31. What is the event.target when clicking the button?",
+            "choice": [
+                "Outer `div`",
+                "Inner `div`",
+                "`button`",
+                "An array of all nested elements."
+            ],
+            "answer": "C",
+            "code": "nclick=\"console.log('first div')\">\n  <div onclick=\"console.log('second div')\">\n    <button onclick=\"console.log('button')\">\n      Click!\n    </button>\n  </div>\n</div>"
+        },
+        {
+            "question": "32. When you click the paragraph, what's the logged output?",
+            "choice": [
+                "`p` `div`",
+                "`div` `p`",
+                "`p`",
+                "`div`"
+            ],
+            "answer": "A",
+            "code": "nclick=\"console.log('div')\">\n  <p onclick=\"console.log('p')\">\n    Click here!\n  </p>\n</div>"
+        },
+        {
+            "question": "33. What's the output?",
+            "choice": [
+                "`undefined is 21` `Lydia is 21`",
+                "`function` `function`",
+                "`Lydia is 21` `Lydia is 21`",
+                "`Lydia is 21` `function`"
+            ],
+            "answer": "D",
+            "code": "const person = { name: 'Lydia' };\n\nfunction sayHi(age) {\n  return `${this.name} is ${age}`;\n}\n\nconsole.log(sayHi.call(person, 21));\nconsole.log(sayHi.bind(person, 21));"
+        },
+        {
+            "question": "34. What's the output?",
+            "choice": [
+                "`\"object\"`",
+                "`\"number\"`",
+                "`\"function\"`",
+                "`\"undefined\"`"
+            ],
+            "answer": "B",
+            "code": "function sayHi() {\n  return (() => 0)();\n}\n\nconsole.log(typeof sayHi());"
+        },
+        {
+            "question": "35. Which of these values are falsy?",
+            "choice": [
+                "`0`, `''`, `undefined`",
+                "`0`, `new Number(0)`, `''`, `new Boolean(false)`, `undefined`",
+                "`0`, `''`, `new Boolean(false)`, `undefined`",
+                "All of them are falsy"
+            ],
+            "answer": "A",
+            "code": "0;\nnew Number(0);\n('');\n(' ');\nnew Boolean(false);\nundefined;"
+        },
+        {
+            "question": "36. What's the output?",
+            "choice": [
+                "`\"number\"`",
+                "`\"string\"`",
+                "`\"object\"`",
+                "`\"undefined\"`"
+            ],
+            "answer": "B",
+            "code": "console.log(typeof typeof 1);"
+        },
+        {
+            "question": "37. What's the output?",
+            "choice": [
+                "`[1, 2, 3, null x 7, 11]`",
+                "`[1, 2, 3, 11]`",
+                "`[1, 2, 3, empty x 7, 11]`",
+                "`SyntaxError`"
+            ],
+            "answer": "C",
+            "code": "const numbers = [1, 2, 3];\nnumbers[10] = 11;\nconsole.log(numbers);"
+        },
+        {
+            "question": "38. What's the output?",
+            "choice": [
+                "`1` `undefined` `2`",
+                "`undefined` `undefined` `undefined`",
+                "`1` `1` `2`",
+                "`1` `undefined` `undefined`"
+            ],
+            "answer": "A",
+            "code": "(() => {\n  let x, y;\n  try {\n    throw new Error();\n  } catch (x) {\n    (x = 1), (y = 2);\n    console.log(x);\n  }\n  console.log(x);\n  console.log(y);\n})();"
+        },
+        {
+            "question": "39. Everything in JavaScript is either ",
+            "choice": [
+                "primitive or object",
+                "function or object",
+                "trick question! only objects",
+                "number or object"
+            ],
+            "answer": "A",
+            "code": ""
+        },
+        {
+            "question": "40. What's the output?",
+            "choice": [
+                "`[0, 1, 2, 3, 1, 2]`",
+                "`[6, 1, 2]`",
+                "`[1, 2, 0, 1, 2, 3]`",
+                "`[1, 2, 6]`"
+            ],
+            "answer": "C",
+            "code": "[[0, 1], [2, 3]].reduce(\n  (acc, cur) => {\n    return acc.concat(cur);\n  },\n  [1, 2],\n);"
+        },
+        {
+            "question": "41. What's the output?",
+            "choice": [
+                "`false` `true` `false`",
+                "`false` `false` `true`",
+                "`false` `true` `true`",
+                "`true` `true` `false`"
+            ],
+            "answer": "B",
+            "code": "!!null;\n!!'';\n!!1;"
+        },
+        {
+            "question": "42. What does the `setInterval` method return in the browser?",
+            "choice": [
+                "a unique id",
+                "the amount of milliseconds specified",
+                "the passed function",
+                "`undefined`"
+            ],
+            "answer": "A",
+            "code": "setInterval(() => console.log('Hi'), 1000);"
+        },
+        {
+            "question": "43. What does this return?",
+            "choice": [
+                "`[\"L\", \"y\", \"d\", \"i\", \"a\"]`",
+                "`[\"Lydia\"]`",
+                "`[[], \"Lydia\"]`",
+                "`[[\"L\", \"y\", \"d\", \"i\", \"a\"]]`"
+            ],
+            "answer": "A",
+            "code": "[...'Lydia'];"
+        },
+        {
+            "question": "44. What's the output?",
+            "choice": [
+                "`[0, 10], [10, 20]`",
+                "`20, 20`",
+                "`10, 20`",
+                "`0, 10 and 10, 20`"
+            ],
+            "answer": "C",
+            "code": "function* generator(i) {\n  yield i;\n  yield i * 2;\n}\n\nconst gen = generator(10);\n\nconsole.log(gen.next().value);\nconsole.log(gen.next().value);"
+        },
+        {
+            "question": "45. What does this return?",
+            "choice": [
+                "`\"one\"`",
+                "`\"two\"`",
+                "`\"two\" \"one\"`",
+                "`\"one\" \"two\"`"
+            ],
+            "answer": "B",
+            "code": "const firstPromise = new Promise((res, rej) => {\n  setTimeout(res, 500, 'one');\n});\n\nconst secondPromise = new Promise((res, rej) => {\n  setTimeout(res, 100, 'two');\n});\n\nPromise.race([firstPromise, secondPromise]).then(res => console.log(res));"
+        },
+        {
+            "question": "46. What's the output?",
+            "choice": [
+                "`null`",
+                "`[null]`",
+                "`[{}]`",
+                "`[{ name: \"Lydia\" }]`"
+            ],
+            "answer": "D",
+            "code": "let person = { name: 'Lydia' };\nconst members = [person];\nperson = null;\n\nconsole.log(members);"
+        },
+        {
+            "question": "47. What's the output?",
+            "choice": [
+                "`{ name: \"Lydia\" }, { age: 21 }`",
+                "`\"name\", \"age\"`",
+                "`\"Lydia\", 21`",
+                "`[\"name\", \"Lydia\"], [\"age\", 21]`"
+            ],
+            "answer": "B",
+            "code": "const person = {\n  name: 'Lydia',\n  age: 21,\n};\n\nfor (const item in person) {\n  console.log(item);\n}"
+        },
+        {
+            "question": "48. What's the output?",
+            "choice": [
+                "`\"345\"`",
+                "`\"75\"`",
+                "`12`",
+                "`\"12\"`"
+            ],
+            "answer": "B",
+            "code": "console.log(3 + 4 + '5');"
+        },
+        {
+            "question": "49. What's the value of `num`?",
+            "choice": [
+                "`42`",
+                "`\"42\"`",
+                "`7`",
+                "`NaN`"
+            ],
+            "answer": "C",
+            "code": "const num = parseInt('7*6', 10);"
+        },
+        {
+            "question": "50. What's the output?",
+            "choice": [
+                "`[]`",
+                "`[null, null, null]`",
+                "`[undefined, undefined, undefined]`",
+                "`[ 3 x empty ]`"
+            ],
+            "answer": "C",
+            "code": "[1, 2, 3].map(num => {\n  if (typeof num === 'number') return;\n  return num * 2;\n});"
+        },
+        {
+            "question": "51. What's the output?",
+            "choice": [
+                "`{ name: \"Lydia\" }, \"1997\"`",
+                "`{ name: \"Sarah\" }, \"1998\"`",
+                "`{ name: \"Lydia\" }, \"1998\"`",
+                "`{ name: \"Sarah\" }, \"1997\"`"
+            ],
+            "answer": "A",
+            "code": "function getInfo(member, year) {\n  member.name = 'Lydia';\n  year = '1998';\n}\n\nconst person = { name: 'Sarah' };\nconst birthYear = '1997';\n\ngetInfo(person, birthYear);\n\nconsole.log(person, birthYear);"
+        },
+        {
+            "question": "52. What's the output?",
+            "choice": [
+                "`It worked! Hello world!`",
+                "`Oh no an error: undefined`",
+                "`SyntaxError: can only throw Error objects`",
+                "`Oh no an error: Hello world!`"
+            ],
+            "answer": "D",
+            "code": "function greeting() {\n  throw 'Hello world!';\n}\n\nfunction sayHi() {\n  try {\n    const data = greeting();\n    console.log('It worked!', data);\n  } catch (e) {\n    console.log('Oh no an error:', e);\n  }\n}\n\nsayHi();"
+        },
+        {
+            "question": "53. What's the output?",
+            "choice": [
+                "`\"Lamborghini\"`",
+                "`\"Maserati\"`",
+                "`ReferenceError`",
+                "`TypeError`"
+            ],
+            "answer": "B",
+            "code": "function Car() {\n  this.make = 'Lamborghini';\n  return { make: 'Maserati' };\n}\n\nconst myCar = new Car();\nconsole.log(myCar.make);"
+        },
+        {
+            "question": "54. What's the output?",
+            "choice": [
+                "`\"undefined\", \"number\"`",
+                "`\"number\", \"number\"`",
+                "`\"object\", \"number\"`",
+                "`\"number\", \"undefined\"`"
+            ],
+            "answer": "A",
+            "code": "(() => {\n  let x = (y = 10);\n})();\n\nconsole.log(typeof x);\nconsole.log(typeof y);"
+        },
+        {
+            "question": "55. What's the output?",
+            "choice": [
+                "`\"Woof I am Mara\"`, `TypeError`",
+                "`\"Woof I am Mara\"`, `\"Woof I am Mara\"`",
+                "`\"Woof I am Mara\"`, `undefined`",
+                "`TypeError`, `TypeError`"
+            ],
+            "answer": "A",
+            "code": "class Dog {\n  constructor(name) {\n    this.name = name;\n  }\n}\n\nDog.prototype.bark = function() {\n  console.log(`Woof I am ${this.name}`);\n};\n\nconst pet = new Dog('Mara');\n\npet.bark();\n\ndelete Dog.prototype.bark;\n\npet.bark();"
+        },
+        {
+            "question": "56. What's the output?",
+            "choice": [
+                "`[1, 1, 2, 3, 4]`",
+                "`[1, 2, 3, 4]`",
+                "`{1, 1, 2, 3, 4}`",
+                "`{1, 2, 3, 4}`"
+            ],
+            "answer": "D",
+            "code": "const set = new Set([1, 1, 2, 3, 4]);\n\nconsole.log(set);"
+        },
+        {
+            "question": "57. What's the output?",
+            "choice": [
+                "`10`",
+                "`11`",
+                "`Error`",
+                "`NaN`"
+            ],
+            "answer": "C",
+            "code": "// counter.js\nlet counter = 10;\nexport default counter;\n```\n\n```javascript\n// index.js\nimport myCounter from './counter';\n\nmyCounter += 1;\n\nconsole.log(myCounter);"
+        },
+        {
+            "question": "58. What's the output?",
+            "choice": [
+                "`false`, `true`",
+                "`\"Lydia\"`, `21`",
+                "`true`, `true`",
+                "`undefined`, `undefined`"
+            ],
+            "answer": "A",
+            "code": "const name = 'Lydia';\nage = 21;\n\nconsole.log(delete name);\nconsole.log(delete age);"
+        },
+        {
+            "question": "59. What's the output?",
+            "choice": [
+                "`[[1, 2, 3, 4, 5]]`",
+                "`[1, 2, 3, 4, 5]`",
+                "`1`",
+                "`[1]`"
+            ],
+            "answer": "C",
+            "code": "const numbers = [1, 2, 3, 4, 5];\nconst [y] = numbers;\n\nconsole.log(y);"
+        },
+        {
+            "question": "60. What's the output?",
+            "choice": [
+                "`{ admin: true, user: { name: \"Lydia\", age: 21 } }`",
+                "`{ admin: true, name: \"Lydia\", age: 21 }`",
+                "`{ admin: true, user: [\"Lydia\", 21] }`",
+                "`{ admin: true }`"
+            ],
+            "answer": "B",
+            "code": "const user = { name: 'Lydia', age: 21 };\nconst admin = { admin: true, ...user };\n\nconsole.log(admin);"
+        },
+        {
+            "question": "61. What's the output?",
+            "choice": [
+                "`{ name: \"Lydia\", age: 21 }`, `[\"name\", \"age\"]`",
+                "`{ name: \"Lydia\", age: 21 }`, `[\"name\"]`",
+                "`{ name: \"Lydia\"}`, `[\"name\", \"age\"]`",
+                "`{ name: \"Lydia\"}`, `[\"age\"]`"
+            ],
+            "answer": "B",
+            "code": "const person = { name: 'Lydia' };\n\nObject.defineProperty(person, 'age', { value: 21 });\n\nconsole.log(person);\nconsole.log(Object.keys(person));"
+        },
+        {
+            "question": "62. What's the output?",
+            "choice": [
+                "`\"{\"level\":19, \"health\":90}\"`",
+                "`\"{\"username\": \"lydiahallie\"}\"`",
+                "`\"[\"level\", \"health\"]\"`",
+                "`\"{\"username\": \"lydiahallie\", \"level\":19, \"health\":90}\"`"
+            ],
+            "answer": "A",
+            "code": "const settings = {\n  username: 'lydiahallie',\n  level: 19,\n  health: 90,\n};\n\nconst data = JSON.stringify(settings, ['level', 'health']);\nconsole.log(data);"
+        },
+        {
+            "question": "63. What's the output?",
+            "choice": [
+                "`10`, `10`",
+                "`10`, `11`",
+                "`11`, `11`",
+                "`11`, `12`"
+            ],
+            "answer": "A",
+            "code": "let num = 10;\n\nconst increaseNumber = () => num++;\nconst increasePassedNumber = number => number++;\n\nconst num1 = increaseNumber();\nconst num2 = increasePassedNumber(num1);\n\nconsole.log(num1);\nconsole.log(num2);"
+        },
+        {
+            "question": "64. What's the output?",
+            "choice": [
+                "`20`, `40`, `80`, `160`",
+                "`20`, `40`, `20`, `40`",
+                "`20`, `20`, `20`, `40`",
+                "`NaN`, `NaN`, `20`, `40`"
+            ],
+            "answer": "C",
+            "code": "const value = { number: 10 };\n\nconst multiply = (x = { ...value }) => {\n  console.log((x.number *= 2));\n};\n\nmultiply();\nmultiply();\nmultiply(value);\nmultiply(value);"
+        },
+        {
+            "question": "65. What's the output?",
+            "choice": [
+                "`1` `2` and `3` `3` and `6` `4`",
+                "`1` `2` and `2` `3` and `3` `4`",
+                "`1` `undefined` and `2` `undefined` and `3` `undefined` and `4` `undefined`",
+                "`1` `2` and `undefined` `3` and `undefined` `4`"
+            ],
+            "answer": "D",
+            "code": "[1, 2, 3, 4].reduce((x, y) => console.log(x, y));"
+        },
+        {
+            "question": "66. With which constructor can we successfully extend the `Dog` class?",
+            "choice": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "answer": "B",
+            "code": "class Dog {\n  constructor(name) {\n    this.name = name;\n  }\n};\n\nclass Labrador extends Dog {\n  // 1\n  constructor(name, size) {\n    this.size = size;\n  }\n  // 2\n  constructor(name, size) {\n    super(name);\n    this.size = size;\n  }\n  // 3\n  constructor(size) {\n    super(name);\n    this.size = size;\n  }\n  // 4\n  constructor(name, size) {\n    this.name = name;\n    this.size = size;\n  }\n\n};"
+        },
+        {
+            "question": "67. What's the output?",
+            "choice": [
+                "`running index.js`, `running sum.js`, `3`",
+                "`running sum.js`, `running index.js`, `3`",
+                "`running sum.js`, `3`, `running index.js`",
+                "`running index.js`, `undefined`, `running sum.js`"
+            ],
+            "answer": "B",
+            "code": "// index.js\nconsole.log('running index.js');\nimport { sum } from './sum.js';\nconsole.log(sum(1, 2));\n\n// sum.js\nconsole.log('running sum.js');\nexport const sum = (a, b) => a + b;"
+        },
+        {
+            "question": "68. What's the output?",
+            "choice": [
+                "`true`, `true`, `false`",
+                "`false`, `true`, `false`",
+                "`true`, `false`, `true`",
+                "`true`, `true`, `true`"
+            ],
+            "answer": "A",
+            "code": "console.log(Number(2) === Number(2));\nconsole.log(Boolean(false) === Boolean(false));\nconsole.log(Symbol('foo') === Symbol('foo'));"
+        },
+        {
+            "question": "69. What's the output?",
+            "choice": [
+                "`\"Lydia Hallie\"`, `\"Lydia Hallie\"`",
+                "`\" Lydia Hallie\"`, `\" Lydia Hallie\"` (`\"[13x whitespace]Lydia Hallie\"`, `\"[2x whitespace]Lydia Hallie\"`)",
+                "`\" Lydia Hallie\"`, `\"Lydia Hallie\"` (`\"[1x whitespace]Lydia Hallie\"`, `\"Lydia Hallie\"`)",
+                "`\"Lydia Hallie\"`, `\"Lyd\"`,"
+            ],
+            "answer": "C",
+            "code": "const name = 'Lydia Hallie';\nconsole.log(name.padStart(13));\nconsole.log(name.padStart(2));"
+        },
+        {
+            "question": "70. What's the output?",
+            "choice": [
+                "`\"\ud83e\udd51\ud83d\udcbb\"`",
+                "`257548`",
+                "A string containing their code points",
+                "Error"
+            ],
+            "answer": "A",
+            "code": "console.log('\ud83e\udd51' + '\ud83d\udcbb');"
+        },
+        {
+            "question": "71. How can we log the values that are commented out after the console.log statement?",
+            "choice": [
+                "`game.next(\"Yes\").value` and `game.next().value`",
+                "`game.next.value(\"Yes\")` and `game.next.value()`",
+                "`game.next().value` and `game.next(\"Yes\").value`",
+                "`game.next.value()` and `game.next.value(\"Yes\")`"
+            ],
+            "answer": "C",
+            "code": "function* startGame() {\n  const answer = yield 'Do you love JavaScript?';\n  if (answer !== 'Yes') {\n    return \"Oh wow... Guess we're done here\";\n  }\n  return 'JavaScript loves you back \u2764\ufe0f';\n}\n\nconst game = startGame();\nconsole.log(/* 1 */); // Do you love JavaScript?\nconsole.log(/* 2 */); // JavaScript loves you back \u2764\ufe0f"
+        },
+        {
+            "question": "72. What's the output?",
+            "choice": [
+                "`Hello world!`",
+                "`Hello` <br />&nbsp; &nbsp; &nbsp;`world`",
+                "`Hello\nworld`",
+                "`Hello\n` <br /> &nbsp; &nbsp; &nbsp;`world`"
+            ],
+            "answer": "C",
+            "code": "console.log(String.raw`Hello\nworld`);"
+        },
+        {
+            "question": "73. What's the output?",
+            "choice": [
+                "`\"I made it!\"`",
+                "`Promise {<resolved>: \"I made it!\"}`",
+                "`Promise {<pending>}`",
+                "`undefined`"
+            ],
+            "answer": "C",
+            "code": "async function getData() {\n  return await Promise.resolve('I made it!');\n}\n\nconst data = getData();\nconsole.log(data);"
+        },
+        {
+            "question": "74. What's the output?",
+            "choice": [
+                "`['apple', 'banana']`",
+                "`2`",
+                "`true`",
+                "`undefined`"
+            ],
+            "answer": "B",
+            "code": "function addToList(item, list) {\n  return list.push(item);\n}\n\nconst result = addToList('apple', ['banana']);\nconsole.log(result);"
+        },
+        {
+            "question": "75. What's the output?",
+            "choice": [
+                "`{ x: 100, y: 20 }`",
+                "`{ x: 10, y: 20 }`",
+                "`{ x: 100 }`",
+                "`ReferenceError`"
+            ],
+            "answer": "B",
+            "code": "const box = { x: 10, y: 20 };\n\nObject.freeze(box);\n\nconst shape = box;\nshape.x = 100;\n\nconsole.log(shape);"
+        },
+        {
+            "question": "76. What's the output?",
+            "choice": [
+                "`\"Lydia\"`",
+                "`\"myName\"`",
+                "`undefined`",
+                "`ReferenceError`"
+            ],
+            "answer": "D",
+            "code": "const { firstName: myName } = { firstName: 'Lydia' };\n\nconsole.log(firstName);"
+        },
+        {
+            "question": "77. Is this a pure function?",
+            "choice": [
+                "Yes",
+                "No"
+            ],
+            "answer": "A",
+            "code": "function sum(a, b) {\n  return a + b;\n}"
+        },
+        {
+            "question": "78. What is the output?",
+            "choice": [
+                "`Calculated! 20` `Calculated! 20` `Calculated! 20`",
+                "`Calculated! 20` `From cache! 20` `Calculated! 20`",
+                "`Calculated! 20` `From cache! 20` `From cache! 20`",
+                "`Calculated! 20` `From cache! 20` `Error`"
+            ],
+            "answer": "C",
+            "code": "const add = () => {\n  const cache = {};\n  return num => {\n    if (num in cache) {\n      return `From cache! ${cache[num]}`;\n    } else {\n      const result = num + 10;\n      cache[num] = result;\n      return `Calculated! ${result}`;\n    }\n  };\n};\n\nconst addFunction = add();\nconsole.log(addFunction(10));\nconsole.log(addFunction(10));\nconsole.log(addFunction(5 * 2));"
+        },
+        {
+            "question": "79. What is the output?",
+            "choice": [
+                "`0` `1` `2` `3` and `\"\u2615\"` `\"\ud83d\udcbb\"` `\"\ud83c\udf77\"` `\"\ud83c\udf6b\"`",
+                "`\"\u2615\"` `\"\ud83d\udcbb\"` `\"\ud83c\udf77\"` `\"\ud83c\udf6b\"` and `\"\u2615\"` `\"\ud83d\udcbb\"` `\"\ud83c\udf77\"` `\"\ud83c\udf6b\"`",
+                "`\"\u2615\"` `\"\ud83d\udcbb\"` `\"\ud83c\udf77\"` `\"\ud83c\udf6b\"` and `0` `1` `2` `3`",
+                "`0` `1` `2` `3` and `{0: \"\u2615\", 1: \"\ud83d\udcbb\", 2: \"\ud83c\udf77\", 3: \"\ud83c\udf6b\"}`"
+            ],
+            "answer": "A",
+            "code": "const myLifeSummedUp = ['\u2615', '\ud83d\udcbb', '\ud83c\udf77', '\ud83c\udf6b'];\n\nfor (let item in myLifeSummedUp) {\n  console.log(item);\n}\n\nfor (let item of myLifeSummedUp) {\n  console.log(item);\n}"
+        },
+        {
+            "question": "80. What is the output?",
+            "choice": [
+                "`[\"1 + 2\", \"1 * 2\", \"1 / 2\"]`",
+                "`[\"12\", 2, 0.5]`",
+                "`[3, 2, 0.5]`",
+                "`[1, 1, 1]`"
+            ],
+            "answer": "C",
+            "code": "const list = [1 + 2, 1 * 2, 1 / 2];\nconsole.log(list);"
+        },
+        {
+            "question": "81. What is the output?",
+            "choice": [
+                "`Hi there,`",
+                "`Hi there, undefined`",
+                "`Hi there, null`",
+                "`ReferenceError`"
+            ],
+            "answer": "B",
+            "code": "function sayHi(name) {\n  return `Hi there, ${name}`;\n}\n\nconsole.log(sayHi());"
+        },
+        {
+            "question": "82. What is the output?",
+            "choice": [
+                "`\"\ud83e\udd51\"` and `\"\ud83d\ude0d\"`",
+                "`\"\ud83e\udd51\"` and `\"\ud83d\ude0e\"`",
+                "`\"\ud83d\ude0d\"` and `\"\ud83d\ude0e\"`",
+                "`\"\ud83d\ude0e\"` and `\"\ud83d\ude0e\"`"
+            ],
+            "answer": "B",
+            "code": "var status = '\ud83d\ude0e';\n\nsetTimeout(() => {\n  const status = '\ud83d\ude0d';\n\n  const data = {\n    status: '\ud83e\udd51',\n    getStatus() {\n      return this.status;\n    },\n  };\n\n  console.log(data.getStatus());\n  console.log(data.getStatus.call(this));\n}, 0);"
+        },
+        {
+            "question": "83. What is the output?",
+            "choice": [
+                "`{ name: \"Lydia\", age: 21 }`",
+                "`{ name: \"Lydia\", age: 21, city: \"Amsterdam\" }`",
+                "`{ name: \"Lydia\", age: 21, city: undefined }`",
+                "`\"Amsterdam\"`"
+            ],
+            "answer": "A",
+            "code": "const person = {\n  name: 'Lydia',\n  age: 21,\n};\n\nlet city = person.city;\ncity = 'Amsterdam';\n\nconsole.log(person);"
+        },
+        {
+            "question": "84. What is the output?",
+            "choice": [
+                "`\"Sorry, you're too young.\"`",
+                "`\"Yay! You're old enough!\"`",
+                "`ReferenceError`",
+                "`undefined`"
+            ],
+            "answer": "C",
+            "code": "function checkAge(age) {\n  if (age < 18) {\n    const message = \"Sorry, you're too young.\";\n  } else {\n    const message = \"Yay! You're old enough!\";\n  }\n\n  return message;\n}\n\nconsole.log(checkAge(21));"
+        },
+        {
+            "question": "85. What kind of information would get logged?",
+            "choice": [
+                "The result of the `fetch` method.",
+                "The result of the second invocation of the `fetch` method.",
+                "The result of the callback in the previous `.then()`.",
+                "It would always be undefined."
+            ],
+            "answer": "C",
+            "code": "fetch('https://www.website.com/api/user/1')\n  .then(res => res.json())\n  .then(res => console.log(res));"
+        },
+        {
+            "question": "86. Which option is a way to set `hasName` equal to `true`, provided you cannot pass `true` as an argument?",
+            "choice": [
+                "`!!name`",
+                "`name`",
+                "`new Boolean(name)`",
+                "`name.length`"
+            ],
+            "answer": "A",
+            "code": "function getName(name) {\n  const hasName = //\n}"
+        },
+        {
+            "question": "87. What's the output?",
+            "choice": [
+                "`\"\"\"`",
+                "`\"I\"`",
+                "`SyntaxError`",
+                "`undefined`"
+            ],
+            "answer": "B",
+            "code": "console.log('I want pizza'[0]);"
+        },
+        {
+            "question": "88. What's the output?",
+            "choice": [
+                "`NaN`",
+                "`20`",
+                "`ReferenceError`",
+                "`undefined`"
+            ],
+            "answer": "B",
+            "code": "function sum(num1, num2 = num1) {\n  console.log(num1 + num2);\n}\n\nsum(10);"
+        },
+        {
+            "question": "89. What's the output?",
+            "choice": [
+                "`{ default: function default(), name: \"Lydia\" }`",
+                "`{ default: function default() }`",
+                "`{ default: \"Hello world\", name: \"Lydia\" }`",
+                "Global object of `module.js`"
+            ],
+            "answer": "A",
+            "code": "// module.js\nexport default () => 'Hello world';\nexport const name = 'Lydia';\n\n// index.js\nimport * as data from './module';\n\nconsole.log(data);"
+        },
+        {
+            "question": "90. What's the output?",
+            "choice": [
+                "`\"class\"`",
+                "`\"function\"`",
+                "`\"object\"`",
+                "`\"string\"`"
+            ],
+            "answer": "C",
+            "code": "class Person {\n  constructor(name) {\n    this.name = name;\n  }\n}\n\nconst member = new Person('John');\nconsole.log(typeof member);"
+        },
+        {
+            "question": "91. What's the output?",
+            "choice": [
+                "`[1, 2, 3, 4, 5]`",
+                "`[1, 2, 3, 5]`",
+                "`[1, 2, 3, 4]`",
+                "`Error`"
+            ],
+            "answer": "D",
+            "code": "let newList = [1, 2, 3].push(4);\n\nconsole.log(newList.push(5));"
+        },
+        {
+            "question": "92. What's the output?",
+            "choice": [
+                "`{ constructor: ...}` `{ constructor: ...}`",
+                "`{}` `{ constructor: ...}`",
+                "`{ constructor: ...}` `{}`",
+                "`{ constructor: ...}` `undefined`"
+            ],
+            "answer": "D",
+            "code": "function giveLydiaPizza() {\n  return 'Here is pizza!';\n}\n\nconst giveLydiaChocolate = () =>\n  \"Here's chocolate... now go hit the gym already.\";\n\nconsole.log(giveLydiaPizza.prototype);\nconsole.log(giveLydiaChocolate.prototype);"
+        },
+        {
+            "question": "93. What's the output?",
+            "choice": [
+                "`name` `Lydia` and `age` `21`",
+                "`[\"name\", \"Lydia\"]` and `[\"age\", 21]`",
+                "`[\"name\", \"age\"]` and `undefined`",
+                "`Error`"
+            ],
+            "answer": "A",
+            "code": "const person = {\n  name: 'Lydia',\n  age: 21,\n};\n\nfor (const [x, y] of Object.entries(person)) {\n  console.log(x, y);\n}"
+        },
+        {
+            "question": "94. What's the output?",
+            "choice": [
+                "`[\"banana\", \"apple\", \"pear\", \"orange\"]`",
+                "`[[\"banana\", \"apple\"], \"pear\", \"orange\"]`",
+                "`[\"banana\", \"apple\", [\"pear\"], \"orange\"]`",
+                "`SyntaxError`"
+            ],
+            "answer": "D",
+            "code": "function getItems(fruitList, ...args, favoriteFruit) {\n  return [...fruitList, ...args, favoriteFruit]\n}\n\ngetItems([\"banana\", \"apple\"], \"pear\", \"orange\")"
+        },
+        {
+            "question": "95. What's the output?",
+            "choice": [
+                "`a is bigger`, `6` and `b is bigger`, `3`",
+                "`a is bigger`, `undefined` and `b is bigger`, `undefined`",
+                "`undefined` and `undefined`",
+                "`SyntaxError`"
+            ],
+            "answer": "B",
+            "code": "function nums(a, b) {\n  if (a > b) console.log('a is bigger');\n  else console.log('b is bigger');\n  return\n  a + b;\n}\n\nconsole.log(nums(4, 2));\nconsole.log(nums(1, 2));"
+        },
+        {
+            "question": "96. What's the output?",
+            "choice": [
+                "`\"Lydia\"`",
+                "`\"Sarah\"`",
+                "`Error: cannot redeclare Person`",
+                "`SyntaxError`"
+            ],
+            "answer": "B",
+            "code": "class Person {\n  constructor() {\n    this.name = 'Lydia';\n  }\n}\n\nPerson = class AnotherPerson {\n  constructor() {\n    this.name = 'Sarah';\n  }\n};\n\nconst member = new Person();\nconsole.log(member.name);"
+        },
+        {
+            "question": "97. What's the output?",
+            "choice": [
+                "`{Symbol('a'): 'b'}` and `[\"{Symbol('a')\"]`",
+                "`{}` and `[]`",
+                "`{ a: \"b\" }` and `[\"a\"]`",
+                "`{Symbol('a'): 'b'}` and `[]`"
+            ],
+            "answer": "D",
+            "code": "const info = {\n  [Symbol('a')]: 'b',\n};\n\nconsole.log(info);\nconsole.log(Object.keys(info));"
+        },
+        {
+            "question": "98. What's the output?",
+            "choice": [
+                "`[1, [2, 3, 4]]` and `SyntaxError`",
+                "`[1, [2, 3, 4]]` and `{ name: \"Lydia\", age: 21 }`",
+                "`[1, 2, 3, 4]` and `{ name: \"Lydia\", age: 21 }`",
+                "`Error` and `{ name: \"Lydia\", age: 21 }`"
+            ],
+            "answer": "A",
+            "code": "const getList = ([x, ...y]) => [x, y]\nconst getUser = user => { name: user.name, age: user.age }\n\nconst list = [1, 2, 3, 4]\nconst user = { name: \"Lydia\", age: 21 }\n\nconsole.log(getList(list))\nconsole.log(getUser(user))"
+        },
+        {
+            "question": "99. What's the output?",
+            "choice": [
+                "`SyntaxError`",
+                "`ReferenceError`",
+                "`TypeError`",
+                "`undefined`"
+            ],
+            "answer": "C",
+            "code": "const name = 'Lydia';\n\nconsole.log(name());"
+        },
+        {
+            "question": "100. What's the value of output?",
+            "choice": [
+                "`possible! You should see a therapist after so much JavaScript lol`",
+                "`Impossible! You should see a therapist after so much JavaScript lol`",
+                "`possible! You shouldn't see a therapist after so much JavaScript lol`",
+                "`Impossible! You shouldn't see a therapist after so much JavaScript lol`"
+            ],
+            "answer": "B",
+            "code": "// \ud83c\udf89\u2728 This is my 100th question! \u2728\ud83c\udf89\n\nconst output = `${[] && 'Im'}possible!\nYou should${'' && `n't`} see a therapist after so much JavaScript lol`;"
+        },
+        {
+            "question": "101. What's the value of output?",
+            "choice": [
+                "`false` `null` `[]`",
+                "`null` `\"\"` `true`",
+                "`{}` `\"\"` `[]`",
+                "`null` `null` `true`"
+            ],
+            "answer": "C",
+            "code": "const one = false || {} || null;\nconst two = null || false || '';\nconst three = [] || 0 || true;\n\nconsole.log(one, two, three);"
+        },
+        {
+            "question": "102. What's the value of output?",
+            "choice": [
+                "`I have resolved!`, `second` and `I have resolved!`, `second`",
+                "`second`, `I have resolved!` and `second`, `I have resolved!`",
+                "`I have resolved!`, `second` and `second`, `I have resolved!`",
+                "`second`, `I have resolved!` and `I have resolved!`, `second`"
+            ],
+            "answer": "D",
+            "code": "const myPromise = () => Promise.resolve('I have resolved!');\n\nfunction firstFunction() {\n  myPromise().then(res => console.log(res));\n  console.log('second');\n}\n\nasync function secondFunction() {\n  console.log(await myPromise());\n  console.log('second');\n}\n\nfirstFunction();\nsecondFunction();"
+        },
+        {
+            "question": "103. What's the value of output?",
+            "choice": [
+                "`3`, `NaN`, `NaN`",
+                "`3`, `7`, `NaN`",
+                "`3`, `Lydia2`, `[object Object]2`",
+                "`\"12\"`, `Lydia2`, `[object Object]2`"
+            ],
+            "answer": "C",
+            "code": "const set = new Set();\n\nset.add(1);\nset.add('Lydia');\nset.add({ name: 'Lydia' });\n\nfor (let item of set) {\n  console.log(item + 2);\n}"
+        },
+        {
+            "question": "104. What's its value?",
+            "choice": [
+                "`5`",
+                "`Promise {<pending>: 5}`",
+                "`Promise\u00a0{<fulfilled>: 5}`",
+                "`Error`"
+            ],
+            "answer": "C",
+            "code": "Promise.resolve(5);"
+        },
+        {
+            "question": "105. What's its value?",
+            "choice": [
+                "`Not the same!`",
+                "`They are the same!`",
+                "`ReferenceError`",
+                "`SyntaxError`"
+            ],
+            "answer": "B",
+            "code": "function compareMembers(person1, person2 = person) {\n  if (person1 !== person2) {\n    console.log('Not the same!');\n  } else {\n    console.log('They are the same!');\n  }\n}\n\nconst person = { name: 'Lydia' };\n\ncompareMembers(person);"
+        },
+        {
+            "question": "106. What's its value?",
+            "choice": [
+                "`true`",
+                "`false`",
+                "`undefined`",
+                "`TypeError`"
+            ],
+            "answer": "D",
+            "code": "const colorConfig = {\n  red: true,\n  blue: false,\n  green: true,\n  black: true,\n  yellow: false,\n};\n\nconst colors = ['pink', 'red', 'blue'];\n\nconsole.log(colorConfig.colors[1]);"
+        },
+        {
+            "question": "107. What's its value?",
+            "choice": [
+                "`true`",
+                "`false`"
+            ],
+            "answer": "A",
+            "code": "console.log('\u2764\ufe0f' === '\u2764\ufe0f');"
+        },
+        {
+            "question": "108. Which of these methods modifies the original array?",
+            "choice": [
+                "`All of them`",
+                "`map` `reduce` `slice` `splice`",
+                "`map` `slice` `splice`",
+                "`splice`"
+            ],
+            "answer": "D",
+            "code": "const emojis = ['\u2728', '\ud83e\udd51', '\ud83d\ude0d'];\n\nemojis.map(x => x + '\u2728');\nemojis.filter(x => x !== '\ud83e\udd51');\nemojis.find(x => x !== '\ud83e\udd51');\nemojis.reduce((acc, cur) => acc + '\u2728');\nemojis.slice(1, 2, '\u2728');\nemojis.splice(1, 2, '\u2728');"
+        },
+        {
+            "question": "109. What's the output?",
+            "choice": [
+                "`['\ud83c\udf55', '\ud83c\udf6b', '\ud83e\udd51', '\ud83c\udf54']`",
+                "`['\ud83c\udf5d', '\ud83c\udf6b', '\ud83e\udd51', '\ud83c\udf54']`",
+                "`['\ud83c\udf5d', '\ud83c\udf55', '\ud83c\udf6b', '\ud83e\udd51', '\ud83c\udf54']`",
+                "`ReferenceError`"
+            ],
+            "answer": "A",
+            "code": "const food = ['\ud83c\udf55', '\ud83c\udf6b', '\ud83e\udd51', '\ud83c\udf54'];\nconst info = { favoriteFood: food[0] };\n\ninfo.favoriteFood = '\ud83c\udf5d';\n\nconsole.log(food);"
+        },
+        {
+            "question": "110. What does this method do?",
+            "choice": [
+                "Parses JSON to a JavaScript value",
+                "Parses a JavaScript object to JSON",
+                "Parses any JavaScript value to JSON",
+                "Parses JSON to a JavaScript object only"
+            ],
+            "answer": "A",
+            "code": "JSON.parse();"
+        },
+        {
+            "question": "111. What's the output?",
+            "choice": [
+                "Lydia",
+                "Sarah",
+                "`undefined`",
+                "`ReferenceError`"
+            ],
+            "answer": "D",
+            "code": "let name = 'Lydia';\n\nfunction getName() {\n  console.log(name);\n  let name = 'Sarah';\n}\n\ngetName();"
+        },
+        {
+            "question": "112. What's the output?",
+            "choice": [
+                "`a` and `a`",
+                "`a` and `undefined`",
+                "`['a', 'b', 'c']` and `a`",
+                "`a` and `['a', 'b', 'c']`"
+            ],
+            "answer": "C",
+            "code": "function* generatorOne() {\n  yield ['a', 'b', 'c'];\n}\n\nfunction* generatorTwo() {\n  yield* ['a', 'b', 'c'];\n}\n\nconst one = generatorOne();\nconst two = generatorTwo();\n\nconsole.log(one.next().value);\nconsole.log(two.next().value);"
+        },
+        {
+            "question": "113. What's the output?",
+            "choice": [
+                "`I love to program`",
+                "`undefined to program`",
+                "`${(x => x)('I love') to program`",
+                "`TypeError`"
+            ],
+            "answer": "A",
+            "code": "console.log(`${(x => x)('I love')} to program`);"
+        },
+        {
+            "question": "114. What will happen?",
+            "choice": [
+                "The `setInterval` callback won't be invoked",
+                "The `setInterval` callback gets invoked once",
+                "The `setInterval` callback will still be called every second",
+                "We never invoked `config.alert()`, config is `null`"
+            ],
+            "answer": "C",
+            "code": "let config = {\n  alert: setInterval(() => {\n    console.log('Alert!');\n  }, 1000),\n};\n\nconfig = null;"
+        },
+        {
+            "question": "115. Which method(s) will return the value `'Hello world!'`?",
+            "choice": [
+                "1",
+                "2",
+                "2 and 3",
+                "All of them"
+            ],
+            "answer": "B",
+            "code": "const myMap = new Map();\nconst myFunc = () => 'greeting';\n\nmyMap.set(myFunc, 'Hello world!');\n\n//1\nmyMap.get('greeting');\n//2\nmyMap.get(myFunc);\n//3\nmyMap.get(() => 'greeting');"
+        },
+        {
+            "question": "116. What's the output?",
+            "choice": [
+                "`{name: \"Sarah\", age: 22}`",
+                "`{name: \"Sarah\", age: 23}`",
+                "`{name: \"Lydia\", age: 22}`",
+                "`{name: \"Lydia\", age: 23}`"
+            ],
+            "answer": "C",
+            "code": "const person = {\n  name: 'Lydia',\n  age: 21,\n};\n\nconst changeAge = (x = { ...person }) => (x.age += 1);\nconst changeAgeAndName = (x = { ...person }) => {\n  x.age += 1;\n  x.name = 'Sarah';\n};\n\nchangeAge(person);\nchangeAgeAndName();\n\nconsole.log(person);"
+        },
+        {
+            "question": "117. Which of the following options will return `6`?",
+            "choice": [
+                "`sumValues([...1, 2, 3])`",
+                "`sumValues([...[1, 2, 3]])`",
+                "`sumValues(...[1, 2, 3])`",
+                "`sumValues([1, 2, 3])`"
+            ],
+            "answer": "C",
+            "code": "function sumValues(x, y, z) {\n  return x + y + z;\n}"
+        },
+        {
+            "question": "118. What's the output?",
+            "choice": [
+                "`\ud83e\udd20`",
+                "`\ud83e\udd70`",
+                "`SyntaxError`",
+                "`ReferenceError`"
+            ],
+            "answer": "B",
+            "code": "let num = 1;\nconst list = ['\ud83e\udd73', '\ud83e\udd20', '\ud83e\udd70', '\ud83e\udd2a'];\n\nconsole.log(list[(num += 1)]);"
+        },
+        {
+            "question": "119. What's the output?",
+            "choice": [
+                "`undefined` `undefined` `undefined` `undefined`",
+                "`Mara` `undefined` `Lydia Hallie` `ReferenceError`",
+                "`Mara` `null` `Lydia Hallie` `null`",
+                "`null` `ReferenceError` `null` `ReferenceError`"
+            ],
+            "answer": "B",
+            "code": "const person = {\n  firstName: 'Lydia',\n  lastName: 'Hallie',\n  pet: {\n    name: 'Mara',\n    breed: 'Dutch Tulip Hound',\n  },\n  getFullName() {\n    return `${this.firstName} ${this.lastName}`;\n  },\n};\n\nconsole.log(person.pet?.name);\nconsole.log(person.pet?.family?.name);\nconsole.log(person.getFullName?.());\nconsole.log(member.getLastName?.());"
+        },
+        {
+            "question": "120. What's the output?",
+            "choice": [
+                "We have to buy bananas!",
+                "We don't have to buy bananas",
+                "`undefined`",
+                "`1`"
+            ],
+            "answer": "B",
+            "code": "const groceries = ['banana', 'apple', 'peanuts'];\n\nif (groceries.indexOf('banana')) {\n  console.log('We have to buy bananas!');\n} else {\n  console.log(`We don't have to buy bananas!`);\n}"
+        },
+        {
+            "question": "121. What's the output?",
+            "choice": [
+                "`function language(lang) { this.languages.push(lang }`",
+                "`0`",
+                "`[]`",
+                "`undefined`"
+            ],
+            "answer": "D",
+            "code": "const config = {\n  languages: [],\n  set language(lang) {\n    return this.languages.push(lang);\n  },\n};\n\nconsole.log(config.language);"
+        },
+        {
+            "question": "122. What's the output?",
+            "choice": [
+                "`false` `true`",
+                "`true` `false`",
+                "`false` `false`",
+                "`true` `true`"
+            ],
+            "answer": "C",
+            "code": "const name = 'Lydia Hallie';\n\nconsole.log(!typeof name === 'object');\nconsole.log(!typeof name === 'string');"
+        },
+        {
+            "question": "123. What's the output?",
+            "choice": [
+                "`4` `5` `6`",
+                "`6` `5` `4`",
+                "`4` `function` `function`",
+                "`undefined` `undefined` `6`"
+            ],
+            "answer": "A",
+            "code": "const add = x => y => z => {\n  console.log(x, y, z);\n  return x + y + z;\n};\n\nadd(4)(5)(6);"
+        },
+        {
+            "question": "124. What's the output?",
+            "choice": [
+                "`Promise {1}` `Promise {2}` `Promise {3}`",
+                "`Promise {<pending>}` `Promise {<pending>}` `Promise {<pending>}`",
+                "`1` `2` `3`",
+                "`undefined` `undefined` `undefined`"
+            ],
+            "answer": "C",
+            "code": "async function* range(start, end) {\n  for (let i = start; i <= end; i++) {\n    yield Promise.resolve(i);\n  }\n}\n\n(async () => {\n  const gen = range(1, 3);\n  for await (const item of gen) {\n    console.log(item);\n  }\n})();"
+        },
+        {
+            "question": "125. What's the output?",
+            "choice": [
+                "`1` `2` `3`",
+                "`{1: 1}` `{2: 2}` `{3: 3}`",
+                "`{ 1: undefined }` `undefined` `undefined`",
+                "`undefined` `undefined` `undefined`"
+            ],
+            "answer": "D",
+            "code": "const myFunc = ({ x, y, z }) => {\n  console.log(x, y, z);\n};\n\nmyFunc(1, 2, 3);"
+        },
+        {
+            "question": "126. What's the output?",
+            "choice": [
+                "The driver drove 130 and has to pay 300",
+                "The driver drove 130 mph and has to pay \\$300.00",
+                "The driver drove undefined and has to pay undefined",
+                "The driver drove 130.00 and has to pay 300.00"
+            ],
+            "answer": "B",
+            "code": "function getFine(speed, amount) {\n  const formattedSpeed = new Intl.NumberFormat('en-US', {\n    style: 'unit',\n    unit: 'mile-per-hour'\n  }).format(speed);\n\n  const formattedAmount = new Intl.NumberFormat('en-US', {\n    style: 'currency',\n    currency: 'USD'\n  }).format(amount);\n\n  return `The driver drove ${formattedSpeed} and has to pay ${formattedAmount}`;\n}\n\nconsole.log(getFine(130, 300))"
+        },
+        {
+            "question": "127. What's the output?",
+            "choice": [
+                "`[\"\ud83d\udc7b\", \"\ud83c\udf83\", \"\ud83d\udd78\"]`",
+                "`[\"\ud83d\udc7b\", \"\ud83c\udf83\", \"\ud83d\udd78\", \"\ud83d\udc80\"]`",
+                "`[\"\ud83d\udc7b\", \"\ud83c\udf83\", \"\ud83d\udd78\", { item: \"\ud83d\udc80\" }]`",
+                "`[\"\ud83d\udc7b\", \"\ud83c\udf83\", \"\ud83d\udd78\", \"[object Object]\"]`"
+            ],
+            "answer": "B",
+            "code": "const spookyItems = ['\ud83d\udc7b', '\ud83c\udf83', '\ud83d\udd78'];\n({ item: spookyItems[3] } = { item: '\ud83d\udc80' });\n\nconsole.log(spookyItems);"
+        },
+        {
+            "question": "128. What's the output?",
+            "choice": [
+                "`true` `false` `true` `false`",
+                "`true` `false` `false` `false`",
+                "`false` `false` `true` `false`",
+                "`false` `true` `false` `true`"
+            ],
+            "answer": "C",
+            "code": "const name = 'Lydia Hallie';\nconst age = 21;\n\nconsole.log(Number.isNaN(name));\nconsole.log(Number.isNaN(age));\n\nconsole.log(isNaN(name));\nconsole.log(isNaN(age));"
+        },
+        {
+            "question": "129. What's the output?",
+            "choice": [
+                "`\"number\"`",
+                "`\"string\"`",
+                "`undefined`",
+                "`ReferenceError`"
+            ],
+            "answer": "D",
+            "code": "const randomValue = 21;\n\nfunction getInfo() {\n  console.log(typeof randomValue);\n  const randomValue = 'Lydia Hallie';\n}\n\ngetInfo();"
+        },
+        {
+            "question": "130. What's the output?",
+            "choice": [
+                "`Woah some cool data`",
+                "`Oh finally!`",
+                "`Woah some cool data` `Oh finally!`",
+                "`Oops didn't work` `Oh finally!`"
+            ],
+            "answer": "C",
+            "code": "const myPromise = Promise.resolve('Woah some cool data');\n\n(async () => {\n  try {\n    console.log(await myPromise);\n  } catch {\n    throw new Error(`Oops didn't work`);\n  } finally {\n    console.log('Oh finally!');\n  }\n})();"
+        },
+        {
+            "question": "131. What's the output?",
+            "choice": [
+                "`['\ud83e\udd51', ['\u2728', '\u2728', ['\ud83c\udf55', '\ud83c\udf55']]]`",
+                "`['\ud83e\udd51', '\u2728', '\u2728', ['\ud83c\udf55', '\ud83c\udf55']]`",
+                "`['\ud83e\udd51', ['\u2728', '\u2728', '\ud83c\udf55', '\ud83c\udf55']]`",
+                "`['\ud83e\udd51', '\u2728', '\u2728', '\ud83c\udf55', '\ud83c\udf55']`"
+            ],
+            "answer": "B",
+            "code": "const emojis = ['\ud83e\udd51', ['\u2728', '\u2728', ['\ud83c\udf55', '\ud83c\udf55']]];\n\nconsole.log(emojis.flat(1));"
+        },
+        {
+            "question": "132. What's the output?",
+            "choice": [
+                "`0`",
+                "`1`",
+                "`2`",
+                "`3`"
+            ],
+            "answer": "D",
+            "code": "class Counter {\n  constructor() {\n    this.count = 0;\n  }\n\n  increment() {\n    this.count++;\n  }\n}\n\nconst counterOne = new Counter();\ncounterOne.increment();\ncounterOne.increment();\n\nconst counterTwo = counterOne;\ncounterTwo.increment();\n\nconsole.log(counterOne.count);"
+        },
+        {
+            "question": "133. What's the output?",
+            "choice": [
+                "`Promise 1! Last line 1! Promise 2! Last line 2! Timeout 1! Timeout 2!`",
+                "`Last line 1! Timeout 1! Promise 1! Last line 2! Promise2! Timeout 2! `",
+                "`Last line 1! Promise 2! Last line 2! Promise 1! Timeout 1! Timeout 2!`",
+                "`Timeout 1! Promise 1! Last line 1! Promise 2! Timeout 2! Last line 2!`"
+            ],
+            "answer": "C",
+            "code": "const myPromise = Promise.resolve(Promise.resolve('Promise'));\n\nfunction funcOne() {\n  setTimeout(() => console.log('Timeout 1!'), 0);\n  myPromise.then(res => res).then(res => console.log(`${res} 1!`));\n  console.log('Last line 1!');\n}\n\nasync function funcTwo() {\n  const res = await myPromise;\n  console.log(`${res} 2!`)\n  setTimeout(() => console.log('Timeout 2!'), 0);\n  console.log('Last line 2!');\n}\n\nfuncOne();\nfuncTwo();"
+        },
+        {
+            "question": "134. How can we invoke `sum` in `sum.js` from `index.js?`",
+            "choice": [
+                "`sum(4)`",
+                "`sum.sum(4)`",
+                "`sum.default(4)`",
+                "Default aren't imported with `*`, only named exports"
+            ],
+            "answer": "C",
+            "code": "// sum.js\nexport default function sum(x) {\n  return x + x;\n}\n\n// index.js\nimport * as sum from './sum';"
+        },
+        {
+            "question": "135. What's the output?",
+            "choice": [
+                "`Added a new property!`",
+                "`Accessed a property!`",
+                "`Added a new property!` `Accessed a property!`",
+                "Nothing gets logged"
+            ],
+            "answer": "C",
+            "code": "const handler = {\n  set: () => console.log('Added a new property!'),\n  get: () => console.log('Accessed a property!'),\n};\n\nconst person = new Proxy({}, handler);\n\nperson.name = 'Lydia';\nperson.name;"
+        },
+        {
+            "question": "136. Which of the following will modify the `person` object?",
+            "choice": [
+                "`person.name = \"Evan Bacon\"`",
+                "`person.age = 21`",
+                "`delete person.name`",
+                "`Object.assign(person, { age: 21 })`"
+            ],
+            "answer": "A",
+            "code": "const person = { name: 'Lydia Hallie' };\n\nObject.seal(person);"
+        },
+        {
+            "question": "137. Which of the following will modify the `person` object?",
+            "choice": [
+                "`person.name = \"Evan Bacon\"`",
+                "`delete person.address`",
+                "`person.address.street = \"101 Main St\"`",
+                "`person.pet = { name: \"Mara\" }`"
+            ],
+            "answer": "C",
+            "code": "const person = {\n  name: 'Lydia Hallie',\n  address: {\n    street: '100 Main St',\n  },\n};\n\nObject.freeze(person);"
+        },
+        {
+            "question": "138. What's the output?",
+            "choice": [
+                "`2` `4` and `3` `6`",
+                "`2` `NaN` and `3` `NaN`",
+                "`2` `Error` and `3` `6`",
+                "`2` `4` and `3` `Error`"
+            ],
+            "answer": "A",
+            "code": "const add = x => x + x;\n\nfunction myFunc(num = 2, value = add(num)) {\n  console.log(num, value);\n}\n\nmyFunc();\nmyFunc(3);"
+        },
+        {
+            "question": "",
+            "choice": [
+                "139. What's the output?\n\n```javascript\nclass Counter {\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n `10`",
+                "`11`",
+                "`undefined`",
+                "`SyntaxError`"
+            ],
+            "answer": "D",
+            "code": ""
+        },
+        {
+            "question": "",
+            "choice": [
+                "`yield getMembers(teams[i].members)`",
+                "`yield* getMembers(teams[i].members)`",
+                "`return getMembers(teams[i].members)`",
+                "`return yield getMembers(teams[i].members)`"
+            ],
+            "answer": "B",
+            "code": ""
+        },
+        {
+            "question": "141. What's the output?",
+            "choice": [
+                "`[\"coding\"]`",
+                "`[\"coding\", \"dancing\"]`",
+                "`[\"coding\", \"dancing\", \"baking\"]`",
+                "`[\"coding\", \"running\", \"dancing\", \"baking\"]`"
+            ],
+            "answer": "C",
+            "code": "const person = {\n  name: 'Lydia Hallie',\n  hobbies: ['coding'],\n};\n\nfunction addHobby(hobby, hobbies = person.hobbies) {\n  hobbies.push(hobby);\n  return hobbies;\n}\n\naddHobby('running', []);\naddHobby('dancing');\naddHobby('baking', person.hobbies);\n\nconsole.log(person.hobbies);"
+        },
+        {
+            "question": "142. What's the output?",
+            "choice": [
+                "`I'm pink. \ud83c\udf38`",
+                "`I'm pink. \ud83c\udf38` `I'm a bird. \ud83e\udda2`",
+                "`I'm a bird. \ud83e\udda2` `I'm pink. \ud83c\udf38`",
+                "Nothing, we didn't call any method"
+            ],
+            "answer": "B",
+            "code": "class Bird {\n  constructor() {\n    console.log(\"I'm a bird. \ud83e\udda2\");\n  }\n}\n\nclass Flamingo extends Bird {\n  constructor() {\n    console.log(\"I'm pink. \ud83c\udf38\");\n    super();\n  }\n}\n\nconst pet = new Flamingo();"
+        },
+        {
+            "question": "143. Which of the options result(s) in an error?",
+            "choice": [
+                "1",
+                "1 and 2",
+                "3 and 4",
+                "3"
+            ],
+            "answer": "D",
+            "code": "const emojis = ['\ud83c\udf84', '\ud83c\udf85\ud83c\udffc', '\ud83c\udf81', '\u2b50'];\n\n/* 1 */ emojis.push('\ud83e\udd8c');\n/* 2 */ emojis.splice(0, 2);\n/* 3 */ emojis = [...emojis, '\ud83e\udd42'];\n/* 4 */ emojis.length = 0;"
+        },
+        {
+            "question": "144. What do we need to add to the `person` object to get `[\"Lydia Hallie\", 21]` as the output of `[...person]`?",
+            "choice": [
+                "Nothing, object are iterable by default",
+                "`*[Symbol.iterator]() { for (let x in this) yield* this[x] }`",
+                "`*[Symbol.iterator]() { yield* Object.values(this) }`",
+                "`*[Symbol.iterator]() { for (let x in this) yield this }`"
+            ],
+            "answer": "C",
+            "code": "const person = {\n  name: \"Lydia Hallie\",\n  age: 21\n}\n\n[...person] // [\"Lydia Hallie\", 21]"
+        },
+        {
+            "question": "145. What's the output?",
+            "choice": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "answer": "C",
+            "code": "let count = 0;\nconst nums = [0, 1, 2, 3];\n\nnums.forEach(num => {\n\tif (num) count += 1\n})\n\nconsole.log(count)"
+        },
+        {
+            "question": "146. What's the output?",
+            "choice": [
+                "`null`, `undefined`, \ud83c\udf4c",
+                "`[]`, `null`, \ud83c\udf4c",
+                "`[]`, `[]`, \ud83c\udf4c",
+                "`undefined`, `undefined`, \ud83c\udf4c"
+            ],
+            "answer": "D",
+            "code": "function getFruit(fruits) {\n\tconsole.log(fruits?.[1]?.[1])\n}\n\ngetFruit([['\ud83c\udf4a', '\ud83c\udf4c'], ['\ud83c\udf4d']])\ngetFruit()\ngetFruit([['\ud83c\udf4d'], ['\ud83c\udf4a', '\ud83c\udf4c']])"
+        },
+        {
+            "question": "147. What's the output?",
+            "choice": [
+                "`0`",
+                "`1`",
+                "`undefined`",
+                "`ReferenceError`"
+            ],
+            "answer": "A",
+            "code": "class Calc {\n\tconstructor() {\n\t\tthis.count = 0 \n\t}\n\n\tincrease() {\n\t\tthis.count++\n\t}\n}\n\nconst calc = new Calc()\nnew Calc().increase()\n\nconsole.log(calc.count)"
+        },
+        {
+            "question": "148. What's the output?",
+            "choice": [
+                "`false`",
+                "`true`",
+                "`TypeError`",
+                "`ReferenceError`"
+            ],
+            "answer": "B",
+            "code": "const user = {\n\temail: \"e@mail.com\",\n\tpassword: \"12345\"\n}\n\nconst updateUser = ({ email, password }) => {\n\tif (email) {\n\t\tObject.assign(user, { email })\n\t}\n\n\tif (password) {\n\t\tuser.password = password\n\t}\n\n\treturn user\n}\n\nconst updatedUser = updateUser({ email: \"new@email.com\" })\n\nconsole.log(updatedUser === user)"
+        },
+        {
+            "question": "149. What's the output?",
+            "choice": [
+                "`['\ud83c\udf4c', '\ud83c\udf4a', '\ud83c\udf4e']`",
+                "`['\ud83c\udf4a', '\ud83c\udf4e']`",
+                "`['\ud83c\udf47', '\ud83c\udf4a', '\ud83c\udf4e']`",
+                "`['\ud83c\udf47', '\ud83c\udf4c', '\ud83c\udf4a', '\ud83c\udf4e']`"
+            ],
+            "answer": "C",
+            "code": "const fruit = ['\ud83c\udf4c', '\ud83c\udf4a', '\ud83c\udf4e']\n\nfruit.slice(0, 1)\nfruit.splice(0, 1)\nfruit.unshift('\ud83c\udf47')\n\nconsole.log(fruit)"
+        },
+        {
+            "question": "150. What's the output?",
+            "choice": [
+                "`{ emoji: \"\ud83d\udc36\", name: \"Mara\" }`",
+                "`{ emoji: \"\ud83d\udc08\", name: \"Sara\" }`",
+                "`undefined`",
+                "`ReferenceError`"
+            ],
+            "answer": "B",
+            "code": "const animals = {};\nlet dog = { emoji: '\ud83d\udc36' }\nlet cat = { emoji: '\ud83d\udc08' }\n\nanimals[dog] = { ...dog, name: \"Mara\" }\nanimals[cat] = { ...cat, name: \"Sara\" }\n\nconsole.log(animals[dog])"
+        },
+        {
+            "question": "151. What's the output?",
+            "choice": [
+                "`my@email.com`",
+                "`new@email.com`",
+                "`undefined`",
+                "`ReferenceError`"
+            ],
+            "answer": "A",
+            "code": "const user = {\n\temail: \"my@email.com\",\n\tupdateEmail: email => {\n\t\tthis.email = email\n\t}\n}\n\nuser.updateEmail(\"new@email.com\")\nconsole.log(user.email)"
+        },
+        {
+            "question": "152. What's the output?",
+            "choice": [
+                "`[['First', 'Second'], ['Fourth']]`",
+                "`[['First', 'Second'], ['Third', 'Fourth']]`",
+                "`[['First', 'Second']]`",
+                "`'Third'`"
+            ],
+            "answer": "D",
+            "code": "const promise1 = Promise.resolve('First')\nconst promise2 = Promise.resolve('Second')\nconst promise3 = Promise.reject('Third')\nconst promise4 = Promise.resolve('Fourth')\n\nconst runPromises = async () => {\n\tconst res1 = await Promise.all([promise1, promise2])\n\tconst res2  = await Promise.all([promise3, promise4])\n\treturn [res1, res2]\n}\n\nrunPromises()\n\t.then(res => console.log(res))\n\t.catch(err => console.log(err))"
+        },
+        {
+            "question": "153. What should the value of `method` be to log `{ name: \"Lydia\", age: 22 }`? ",
+            "choice": [
+                "`entries`",
+                "`values`",
+                "`fromEntries`",
+                "`forEach`"
+            ],
+            "answer": "C",
+            "code": "const keys = [\"name\", \"age\"]\nconst values = [\"Lydia\", 22]\n\nconst method = /* ?? */\nObject[method](keys.map((_, i) => {\n\treturn [keys[i], values[i]]\n})) // { name: \"Lydia\", age: 22 }"
+        },
+        {
+            "question": "154. What's the output?",
+            "choice": [
+                "`{ email: \"my@email.com\", address: null }`",
+                "`{ email: \"my@email.com\" }`",
+                "`{ email: \"my@email.com\", address: {} }`",
+                "`{ email: \"my@email.com\", address: undefined }`"
+            ],
+            "answer": "C",
+            "code": "const createMember = ({ email, address = {}}) => {\n\tconst validEmail = /.+\\@.+\\..+/.test(email)\n\tif (!validEmail) throw new Error(\"Valid email pls\")\n\n\treturn {\n\t\temail,\n\t\taddress: address ? address : null\n\t}\n}\n\nconst member = createMember({ email: \"my@email.com\" })\nconsole.log(member)"
+        },
+        {
+            "question": "155. What's the output?",
+            "choice": [
+                "`It's not a string!`",
+                "`Yay it's a string!`",
+                "`TypeError`",
+                "`undefined`"
+            ],
+            "answer": "B",
+            "code": "let randomValue = { name: \"Lydia\" }\nrandomValue = 23\n\nif (!typeof randomValue === \"string\") {\n\tconsole.log(\"It's not a string!\")\n} else {\n\tconsole.log(\"Yay it's a string!\")\n}"
+        }
+    ]
+}

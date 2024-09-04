@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeExaminer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-part">
+            <div class="signup-form">
+                <div class="farm-content">
+                    <div class="step-header">
+                        <div class="steps-title">
+                            <p>name</p>
+                            <div class="step-line">
+                            </div>
+                            <p> &nbsp; &nbsp; email</p>
+                            <div class="step-line">
+                            </div>
+                            <p>password</p>
+                        </div>
+                        <div class="steps-bar">
+                            <div class="step">
+                                <div class="outer-circle outer-circle-black" id="outer-circle1">
+                                    <div class="circle-step circle-step-black" id="circle-step1">1</div>
+                                </div>
+                            </div>
+                            <div class="step-line">
+                                <div class="line line-gray" id="line1"></div>
+                            </div>
+                            <div class="step">
+                                <div class="outer-circle outer-circle-black" id="outer-circle2">
+                                    <div class="circle-step circle-step-black" id="circle-step2">2</div>
+                                </div>
+                            </div>
+                            <div class="step-line">
+                                <div class="line line-gray" id="line2"></div>
+                            </div>
+                            <div class="step">
+                                <div class="outer-circle outer-circle-black" id="outer-circle3">
+                                    <div class="circle-step circle-step-black" id="circle-step3">3</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <form action="" class="form-body">
+                        <label for="input-form1" class="label-form" id="label1">first name</label>
+                        <input type="text" class="input-form" name="input-form1" id="input-form1">
+                        <p class="error-first-input" id="error-input1"></p>
+                        <label for="last-name" class="label-form" id="label2">last name</label>
+                        <input type="text" class="input-form" name="input-form2" id="input-form2">
+                        <p class="error-first-input" id="error-input2"></p>
+                        <div class="input-form" id="pick-picture-part">
+
+                        </div>
+                        <div class="center-submit">
+                            <input type="button" value="next" class="button-next" id="next-btn" onclick="pressNext()">
+                        </div>
+                        <div class="center-submit">
+                            <input type="button" value="previous" class="button-next" id="previousbutton"
+                                onclick=" pressPrevious()">
+                        </div>
+                    </form>
+                </div>
+                <div class="rigt-part-form">
+                    <pam class="h1-style">Hello friend!</pam>
+                    <span>Enter your personal details and start jureny with us</span>
+
+                </div>
+            </div>
+        </div>
+        <div class="location-image">
+            <img class="back-ground-image" src="./signup-page/signup.svg">
+        </div>
+    </div>
+    <script src="./script.js">
+    </script>
+</body>
+
+</html>

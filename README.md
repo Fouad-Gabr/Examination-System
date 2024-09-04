@@ -14,7 +14,7 @@ HTML5, CSS3, JavaScript
 
 #### Project Structure:
 - **index.html:** Main page structure with signup, login, exam interface, and results display.
-- **styles.css:** Styling to enhance user interface and animations.
+- **style.css:** Styling to enhance user interface and animations.
 - **script.js:** JavaScript functionalities for exam logic, timer, and result calculation.
 
 #### Screenshots:

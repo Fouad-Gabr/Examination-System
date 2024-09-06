@@ -23,16 +23,16 @@
                 <div class="question" id="question">Question</div>
             </div>
             <div class="answers-location">
-                <button class="answer first-answer" id="ans0" onclick="makeChoice(0)">first</button>
-                <button class="answer second-answer"  id="ans1" onclick="makeChoice(1)">second</button>
-                <div class="answer third-answer" id="ans2" onclick="makeChoice(2)">third</div>
-                <div class="answer fourth-answer"  id="ans3" onclick="makeChoice(3)">fourth</div>
+                <button class="answer first-answer" id="ans0" onclick="obj1.makeChoice(0)">first</button>
+                <button class="answer second-answer"  id="ans1" onclick="obj1.makeChoice(1)">second</button>
+                <div class="answer third-answer" id="ans2" onclick="obj1.makeChoice(2)">third</div>
+                <div class="answer fourth-answer"  id="ans3" onclick="obj1.makeChoice(3)">fourth</div>
             </div>
 
             <div class="buttons-section">
-                <div class="btn previous-btn" onclick="clickPrev()">Previous</div>
-                <button class="btn flag-btn" onclick=" addFlage()"><i class="fa-solid fa-flag"></i></button>
-                <div class="btn next-btn" onclick="clickNext()">Next</div>
+                <div class="btn previous-btn" onclick="obj1.clickPrev()">Previous</div>
+                <button class="btn flag-btn" onclick=" obj1.addFlage()"><i class="fa-solid fa-flag"></i></button>
+                <div class="btn next-btn" onclick="obj1.clickNext()">Next</div>
             </div>
             <div class="circles-parent">
                 <div class="circle first-circle"></div>
@@ -74,7 +74,7 @@
             -->
             </div>
 
-            <button type="button" class="submit" onclick="getScore()">Submit</button>
+            <button type="button" class="submit" onclick="obj1.getScore()">Submit</button>
         </div>
     </div>
 
@@ -82,16 +82,17 @@
         <div class="left-side" id="leftSide">
             <p class="welcome-paragraph" id="para">
                 Welcome to CodeExaminer Exam,<br>We wish you success as you embark<br>on this assessment.<br>Begin
-                confidently & do your best!
+                confidently & do your best!<br>
+               <strong class="important-info"> you should open the screen record on entire screen to open exam</strong>
             </p>
-            <button class="start-btn" id="startBtn" onclick="startExam()">Start Now - ></button>
+            <button class="start-btn" id="startBtn" onclick="obj1.startExam()">Start Now - ></button>
         </div>
         <div class="svg-location" id="svg">
             <img src="./welcome.svg" alt="svg image for exam">
         </div>
     </div>
 
-    <script src="./welcome.js"></script>
+    <script src="./welcome.js" type="module"></script>
 </body>
 
 </html>

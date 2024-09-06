@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeExaminer</title>
     <link rel="stylesheet" href="./style.css">
+   
 </head>
 
 <body>
@@ -59,11 +60,11 @@
 
                         </div>
                         <div class="center-submit">
-                            <input type="button" value="next" class="button-next" id="next-btn" onclick="pressNext()">
+                            <input type="button" value="next" class="button-next" id="next-btn" onclick="obj1.pressNext()">
                         </div>
                         <div class="center-submit">
                             <input type="button" value="previous" class="button-next" id="previousbutton"
-                                onclick=" pressPrevious()">
+                                onclick=" obj1.pressPrevious()">
                         </div>
                     </form>
                 </div>
@@ -77,9 +78,11 @@
         <div class="location-image">
             <img class="back-ground-image" src="./signup-page/signup.svg">
         </div>
-    </div>
-    <script src="./script.js">
+        <script  type="module" src="./script.js">
+           
     </script>
+    </div>
+   
 </body>
 
 </html>

@@ -218,6 +218,7 @@ img {
   padding-top: 20px;
   text-align: center;
   margin: 20px 0;
+  overflow-y: scroll ;
 }
 
 .question {
@@ -508,4 +509,7 @@ h3 {
 
 .retest:hover {
   background-color: #383e46;
+}
+.important-info{
+  color: black;
 }

@@ -1,5 +1,6 @@
 export default class ExamScreen{
     constructor(){
+      this.flagesMap={};
       this.svg = document.getElementById("svg");
   this.para = document.getElementById("para");
   this.btn = document.getElementById("startBtn");
@@ -69,16 +70,22 @@ export default class ExamScreen{
   }
    get_flage(){
     this.index;
-    this.update_qustion(this.questionsList[this.index]);
+    this.self.update_qustion(this.self.questionsList[this.index]);
     this.self.cur_qustion=this.index;
   }
    addFlage(){
+    if(this.flagesMap[this.cur_qustion]!=null){
+      this.flagesMap[this.cur_qustion].remove();
+      this.flagesMap[this.cur_qustion]=null;
+      return;
+    }
     let flageBar=document.getElementsByClassName("flags-questions")[0];
     let bt1=document.createElement("button");
     bt1.classList.add("flag");
     bt1.innerText=`Question ${this.cur_qustion+1}`;
     let f1=this.get_flage.bind({index:this.cur_qustion,self:this});
     bt1.onclick=f1;
+    this.flagesMap[this.cur_qustion]=bt1;
     flageBar.appendChild(bt1);
   }
    update_qustion(qustInfo){

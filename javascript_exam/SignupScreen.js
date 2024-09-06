@@ -109,21 +109,7 @@
     }
   }
   class SingUpPage2 extends SingUpPage {
-    static pickImage() {
-      let file = document.getElementById("file");
-      file.click();
-      file.addEventListener("change", () => {
-        let pick_label = document.getElementById("picture-label");
-        pick_label.innerText = file.files[0].name;
-        const fr = new FileReader();
-        fr.readAsDataURL(file.files[0]);
-        fr.addEventListener("load", () => {
-          const url = fr.result;
-          sessionStorage.setItem("file", url);
-          sessionStorage.setItem("file-name", file.files[0].name);
-        });
-      });
-    }
+   
     constructor(max_circle, labelNum) {
       super();
       this.max_circle = max_circle;
@@ -135,7 +121,7 @@
       let u = ["email", "last name"];
       let pick_pict = document.getElementById("pick-picture-part");
       pick_pict.innerHTML = `<input type="file" accept="image/png, image/gif, image/jpeg"  style="visibility: hidden;height: 0;width: 0;"  id="file">
-                              <input type="button" value="Pick Picture" class="pick-picture" onclick="SingUpPage2.pickImage()">
+                              <input type="button" value="Pick Picture" class="pick-picture" onclick="pickImage()">
                               <span id="picture-label"></span>`;
       let inputStr = "input-form";
       let file_name = sessionStorage.getItem("file-name");

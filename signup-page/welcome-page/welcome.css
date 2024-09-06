@@ -28,7 +28,7 @@ p {
 
 .left-side {
   transform: translateY(-50px);
-  height: 320px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -40,6 +40,7 @@ p {
   flex: 1;
   flex-basis: 300px;
   margin-right: 100px;
+  margin-left: 100px;
 }
 
 img {
@@ -48,7 +49,12 @@ img {
 }
 
 .svg-location {
+  transform: translateY(-50px);
   margin-right: 50px;
+  -webkit-transform: translateY(-50px);
+  -moz-transform: translateY(-50px);
+  -ms-transform: translateY(-50px);
+  -o-transform: translateY(-50px);
 }
 
 .start-btn {
@@ -511,5 +517,5 @@ h3 {
   background-color: #383e46;
 }
 .important-info{
-  color: black;
+  color: red;
 }

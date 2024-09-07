@@ -62,15 +62,16 @@ export default class ExamScreen{
     while(nums.size!=10){
       nums.add(Math.floor(Math.random() * json["result"].length));
     }
-    console.log(nums)
+    //console.log(nums)
     for(let num1 of nums){
       this.questionsList.push(json["result"][num1]);
     }
-    console.log(this.questionsList);
+    //console.log(this.questionsList);
   }
    get_flage(){
     this.index;
-    this.self.update_qustion(this.self.questionsList[this.index],this.cur_qustion);
+    console.log(typeof this.index);
+    this.self.update_qustion(this.self.questionsList[this.index],this.index);
     this.self.cur_qustion=this.index;
   }
    addFlage(){
@@ -89,7 +90,7 @@ export default class ExamScreen{
     flageBar.appendChild(bt1);
   }
    update_qustion(qustInfo,index){
-    console.log(qustInfo);
+    //console.log(qustInfo);
     
     let qustion=document.getElementById("question");
     qustion.innerHTML=""
@@ -257,7 +258,7 @@ export default class ExamScreen{
     var presentTime = document.getElementById("timer").innerHTML;
     var timeArray = presentTime.split(/[:]+/);
     var m = timeArray[0];
-    console.log(this);
+    //console.log(this);
     var s = this.checkSecond(timeArray[1] - 1);
     if (s == 59) {
       m = m - 1;

@@ -213,11 +213,9 @@ export default class ExamScreen{
     this.container.innerHTML = "";
     this.examParent.innerHTML = "";
     this.container.classList.add("score-page");
-    this.container.innerHTML = `<div class='score-parent'>
-                              <p>Hi ${this.username} you end the screen record before exam end <br>you should start again</p>
-                              <button type='button' class='retest' id='retest' onclick='obj1.retest()'>ReStart</button>
-                          </div>
-                          <div><img src='./score.svg' class='score-svg'></div>`;
+    this.container.innerHTML = `<strong class="important-info"><br><i class="fa-solid fa-triangle-exclamation"></i> you should not close screen record before exam end</strong>
+
+                          <div><img src='../undraw_warning_re_eoyh.svg' class='score-svg'></div>`;
   }
   async  getScore() {
     // calc score

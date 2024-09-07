@@ -28,7 +28,6 @@ p {
 
 .left-side {
   transform: translateY(-50px);
-  height: 320px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -40,6 +39,7 @@ p {
   flex: 1;
   flex-basis: 300px;
   margin-right: 100px;
+  margin-left: 100px;
 }
 
 img {
@@ -48,7 +48,12 @@ img {
 }
 
 .svg-location {
+  transform: translateY(-50px);
   margin-right: 50px;
+  -webkit-transform: translateY(-50px);
+  -moz-transform: translateY(-50px);
+  -ms-transform: translateY(-50px);
+  -o-transform: translateY(-50px);
 }
 
 .start-btn {
@@ -99,8 +104,8 @@ img {
 
 .left-after-click {
   position: absolute;
-  top: 7%;
-  left: 10%;
+  top: 8%;
+  left: 2.5%;
   width: 60%;
   display: flex;
   justify-content: center;
@@ -131,13 +136,13 @@ img {
 
 @keyframes scaley {
   to {
-    height: 80vh;
+    height: 90vh;
   }
 }
 
 @keyframes scalex {
   to {
-    width: 950px;
+    width: 120%;
   }
 }
 
@@ -155,7 +160,7 @@ img {
 .exam {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 5px;
   width: 70%;
   position: relative;
   margin-left: 60px;
@@ -174,8 +179,8 @@ img {
   -o-border-radius: 50px;
   background-color: #383e46;
   position: relative;
-  margin-bottom: 80px;
-  margin-top: 3%;
+  margin-bottom: 2%;
+  margin-top: 1%;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -199,14 +204,14 @@ img {
 .time-percent {
   color: #383e46;
   position: absolute;
-  margin-left: 45px;
-  margin-top: 70px;
+  margin-left: 35px;
+  margin-top: 35px;
   top: 0;
   left: 0;
 }
 
 .question-location {
-  height: 330px;
+  height: 300px;
   background-color: #383e46;
   color: white;
   border-radius: 15px;
@@ -217,8 +222,9 @@ img {
   padding: 20px;
   padding-top: 20px;
   text-align: center;
-  margin: 20px 0;
-  overflow-y: scroll ;
+  margin: 50px 0;
+  margin-bottom: 10px;
+  overflow-y: auto ;
 }
 
 .question {
@@ -281,7 +287,7 @@ img {
 }
 
 .btn {
-  margin: 20px 0;
+  margin: 15px 0;
   background-color: #939aad;
   color: #eee;
   border-radius: 15px;
@@ -316,7 +322,6 @@ img {
   width: 20px;
   height: 20px;
   margin: 5px;
-  margin-top: 10px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -512,5 +517,5 @@ h3 {
   background-color: #383e46;
 }
 .important-info{
-  color: black;
+  color: red;
 }

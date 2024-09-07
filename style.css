@@ -4,6 +4,9 @@ body {
   margin: 0;
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container {
   display: flex;
@@ -14,6 +17,7 @@ body {
   flex-wrap: wrap;
 }
 .left-part {
+  margin-right: 100px;
   margin-left: 10px;
   display: flex;
   align-self: stretch;
@@ -22,16 +26,16 @@ body {
   justify-content: center;
   align-content: center;
   align-items: center;
-  width: 500px;
 }
 .location-image {
+
   display: flex;
-  align-content: center;
+  justify-content: center;
   align-items: center;
 }
 .signup-form {
   height: 600px;
-  width: 800px;
+  width: 650px;
   display: flex;
   box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.6);
   border-radius: 20px;

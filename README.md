@@ -20,13 +20,13 @@ HTML5, CSS3, JavaScript
 #### Screenshots:
 
 - **Signup page**
-![signup](https://github.com/user-attachments/assets/b4111119-0ee3-489f-a606-40df0b105631)
+![signup](https://github.com/user-attachments/assets/6c7d3a40-2dff-4bb7-afd4-99efa939d1b9)
 
-![signup4](https://github.com/user-attachments/assets/ae72849b-f275-4d87-9734-28606b1008d2)
+![signup2](https://github.com/user-attachments/assets/11585d26-ce1a-458b-821c-5beaf245ba6d)
 
-![signup3](https://github.com/user-attachments/assets/a5be1524-c67b-4369-97dc-bb2e143e9c6e)
+![signup3](https://github.com/user-attachments/assets/539f2d2b-53b5-41be-881f-eae112495419)
 
-![signup2](https://github.com/user-attachments/assets/99a65e9e-b6fe-4624-9467-e21470f5de4e)
+![signup4](https://github.com/user-attachments/assets/a49cb45b-b57e-4631-9cb8-fe79e10f62ae)
 
 
 - **Login page**

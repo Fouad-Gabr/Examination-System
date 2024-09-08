@@ -1,13 +1,22 @@
-### CodeExaminer
+**CodeExaminer**
 
-CodeExaminer is a dynamic web-based examination system developed as part of the Digital Egypt Pioneers Initiative. The exam focuses on programming questions related to JavaScript, It offers a seamless user experience with animated interfaces and robust functionalities tailored for educational assessments.
+CodeExaminer is a dynamic web-based examination system developed as part of the Digital Egypt Pioneers Initiative. Designed to focus on programming questions related to JavaScript, CodeExaminer offers a seamless user experience with interactive and animated interfaces, alongside robust functionalities tailored for educational assessments.
 
-#### Key Features:
-- **User Authentication:** Secure account registration and login functionalities ensure user privacy.
-- **Interactive Interface:** Engaging animations enhance user interaction and usability.
-- **Exam Experience:** Users can take exams featuring multiple-choice questions with dynamic answer options.
-- **Timer Functionality:** A built-in timer keeps track of exam duration, ensuring timely completion within 5 minutes.
-- **Results Display:** Immediate display of exam scores and feedback upon completion.
+**Key Features:**
+
+- **User Authentication:** Secure account registration and login functionalities with enhanced validation to ensure user privacy and prevent unauthorized access.
+  
+- **Interactive Interface:** Engaging animations enhance user interaction and usability throughout the exam process.
+  
+- **Exam Experience:** Users can take exams featuring multiple-choice questions with dynamic answer options, providing a comprehensive assessment experience.
+  
+- **Timer Functionality:** A built-in 5-minute timer tracks exam duration, ensuring timely completion and adding a layer of challenge to the examination process.
+  
+- **Screen Recording:** To prevent cheating and searching for answers, the system records the screen once the exam starts, ensuring the integrity of the examination process.
+  
+- **Results Display:** Immediate display of exam scores and feedback upon completion, allowing users to review their performance and identify areas for improvement.
+
+---
 
 #### Technologies Used:
 HTML5, CSS3, JavaScript

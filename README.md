@@ -20,23 +20,27 @@ HTML5, CSS3, JavaScript
 #### Screenshots:
 
 - **Signup page**
-![Signup](https://github.com/user-attachments/assets/531a757d-7b32-44c8-ad64-2675ebfb86f0)
+![signup](https://github.com/user-attachments/assets/b4111119-0ee3-489f-a606-40df0b105631)
 
-![Signup2](https://github.com/user-attachments/assets/e84a5209-efb0-47c7-954f-40d7da0fba29)
+![signup4](https://github.com/user-attachments/assets/ae72849b-f275-4d87-9734-28606b1008d2)
 
-![Signup3](https://github.com/user-attachments/assets/4b807293-8a2d-4ab6-943c-3d4239bd35d8)
+![signup3](https://github.com/user-attachments/assets/a5be1524-c67b-4369-97dc-bb2e143e9c6e)
+
+![signup2](https://github.com/user-attachments/assets/99a65e9e-b6fe-4624-9467-e21470f5de4e)
 
 
 - **Login page**
-![login](https://github.com/user-attachments/assets/4847c924-1553-48ef-a44c-b64b81c475b1)
+![login](https://github.com/user-attachments/assets/8781bd1c-06f6-43af-a98f-32d80d6ceab0)
 
 
 - **Welcome page**
-![Welcome-page](https://github.com/user-attachments/assets/8ad10650-5196-46bd-bcb5-8e0ce2a4c9d6)
+![welcomepage](https://github.com/user-attachments/assets/d981dfa9-32ec-444d-a819-1d943bfd7d49)
 
 
 - **Exam page**
-![exampage](https://github.com/user-attachments/assets/10177cbe-29cb-495d-a327-243907d13708)
+![exam2](https://github.com/user-attachments/assets/7702ac95-4094-487c-9abd-8955a7260f6f)
+![exam1](https://github.com/user-attachments/assets/eb2bc30c-6a75-492c-8810-175513ab9771)
+![warning](https://github.com/user-attachments/assets/4287395c-2a17-40d6-84ca-90a803aa8fc1)
 
 
 - **Timeout page**
@@ -45,6 +49,7 @@ HTML5, CSS3, JavaScript
 
 - **Score page**
 ![Scorepage](https://github.com/user-attachments/assets/84d91c3c-ad28-4701-8354-24da40995b92)
+![fullmark](https://github.com/user-attachments/assets/e0e57ce4-0814-467d-911a-b91c57a672cd)
 
 
 #### Future Enhancements:

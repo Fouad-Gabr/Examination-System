@@ -38,8 +38,10 @@ HTML5, CSS3, JavaScript
 
 
 - **Exam page**
-![exam2](https://github.com/user-attachments/assets/7702ac95-4094-487c-9abd-8955a7260f6f)
 ![exam1](https://github.com/user-attachments/assets/eb2bc30c-6a75-492c-8810-175513ab9771)
+
+![exam2](https://github.com/user-attachments/assets/7702ac95-4094-487c-9abd-8955a7260f6f)
+
 ![warning](https://github.com/user-attachments/assets/4287395c-2a17-40d6-84ca-90a803aa8fc1)
 
 
@@ -49,6 +51,7 @@ HTML5, CSS3, JavaScript
 
 - **Score page**
 ![Scorepage](https://github.com/user-attachments/assets/84d91c3c-ad28-4701-8354-24da40995b92)
+
 ![fullmark](https://github.com/user-attachments/assets/e0e57ce4-0814-467d-911a-b91c57a672cd)
 
 

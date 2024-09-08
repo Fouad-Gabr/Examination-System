@@ -74,19 +74,17 @@ export default class ExamScreen {
     while (nums.size != 10) {
       nums.add(Math.floor(Math.random() * json["result"].length));
     }
-    console.log(nums);
-    for (let num1 of nums) {
+    //console.log(nums)
+    for(let num1 of nums){
       this.questionsList.push(json["result"][num1]);
     }
-    console.log(this.questionsList);
+    //console.log(this.questionsList);
   }
   get_flage() {
     this.index;
-    this.self.update_qustion(
-      this.self.questionsList[this.index],
-      this.cur_qustion
-    );
-    this.self.cur_qustion = this.index;
+    console.log(typeof this.index);
+    this.self.update_qustion(this.self.questionsList[this.index],this.index);
+    this.self.cur_qustion=this.index;
   }
   addFlage() {
     if (this.flagesMap[this.cur_qustion] != null) {
@@ -103,13 +101,13 @@ export default class ExamScreen {
     this.flagesMap[this.cur_qustion] = bt1;
     flageBar.appendChild(bt1);
   }
-  update_qustion(qustInfo, index) {
-    console.log(qustInfo);
-
-    let qustion = document.getElementById("question");
-    qustion.innerHTML = "";
-    let h3 = document.createElement("h3");
-    h3.innerText = `Question ${index + 1}`;
+   update_qustion(qustInfo,index){
+    //console.log(qustInfo);
+    
+    let qustion=document.getElementById("question");
+    qustion.innerHTML=""
+    let h3=document.createElement("h3");
+    h3.innerText=`Question ${index+1}`
     question.appendChild(h3);
     qustion.appendChild(document.createElement("br"));
     let p1 = document.createElement("p");
@@ -230,11 +228,9 @@ export default class ExamScreen {
     this.container.innerHTML = "";
     this.examParent.innerHTML = "";
     this.container.classList.add("score-page");
-    this.container.innerHTML = `<div class='score-parent'>
-                              <p>Hi ${this.username} you end the screen record before exam end <br>you should start again</p>
-                              <button type='button' class='retest' id='retest' onclick='obj1.retest()'>Retake</button>
-                          </div>
-                          <div><img src='./score.svg' class='score-svg'></div>`;
+    this.container.innerHTML = `<strong class="important-info"><br><i class="fa-solid fa-triangle-exclamation"></i> you should not close screen record before exam end</strong>
+
+                          <div><img src='../undraw_warning_re_eoyh.svg' class='score-svg'></div>`;
   }
   async getScore() {
     // calc score
@@ -283,7 +279,7 @@ export default class ExamScreen {
     var presentTime = document.getElementById("timer").innerHTML;
     var timeArray = presentTime.split(/[:]+/);
     var m = timeArray[0];
-    console.log(this);
+    //console.log(this);
     var s = this.checkSecond(timeArray[1] - 1);
     if (s == 59) {
       m = m - 1;

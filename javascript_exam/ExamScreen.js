@@ -245,6 +245,8 @@ export default class ExamScreen {
     this.examParent.innerHTML = "";
     this.container.classList.add("score-page");
     if (score == 10) {
+      this.bodyFull = document.getElementById('body')
+      this.bodyFull.style.backgroundColor = '#E91E63'
       this.container.innerHTML = `<div class='score-parent'>
                                 <p>Hi ${this.username} you got the full mark <br>${score} / 10</p>
                                 <button type='button' class='retest' id='retest' onclick='obj1.retest()'>Retake</button>

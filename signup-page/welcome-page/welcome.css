@@ -520,3 +520,22 @@ h3 {
   color: red;
   font-size: 30px;;
 }
+.flex-container-column{
+  display: flex;
+  flex-direction: column;
+}
+.video-container{
+  height: 300px;
+  width: 80%;
+  background-color: black;
+}
+.video-container-hidden{
+  height: 300px;
+  width: 80%;
+  background-color: transparent;
+}
+.video-container-remove{
+  height: 300px;
+  width: 80%;
+  display: none; 
+}

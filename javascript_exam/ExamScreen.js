@@ -15,7 +15,6 @@ export default class ExamScreen{
   this.username = firstName + " " + lastName;
   this.userPhoto = document.getElementById("userPhoto");
   this.photoFile = sessionStorage.getItem("file");
-  console.log(this.photoFile);
   this.usernameField = document.getElementById("userField");
   this.timeBar = document.getElementById("timeBar");
   this.Percent = document.getElementById("timePercent");
@@ -23,6 +22,11 @@ export default class ExamScreen{
   this.questionsList=[];
   this.cur_qustion=0;
   this.global_screen_record=null;
+  this.stream_video_record=null;
+  this.global_video_record=null;
+  this.screen_record_chunks=[];
+  this.chunks_screen_record=[];
+  this.start_video_record=false;
     }
    clickPrev(){
     if(this.cur_qustion==0){
@@ -40,6 +44,63 @@ export default class ExamScreen{
     this.update_qustion(this.questionsList[this.cur_qustion],this.cur_qustion);
   }
   
+  async startVideoRecord(ava_func,stop_func){
+    if(this.stream_video_record!=null){
+      this.stream_video_record.stop();
+    }
+    let stream = await navigator.mediaDevices.getUserMedia({video: true,audio: true});
+   let camera=await navigator.permissions.query({name: 'camera'});
+   let audio =await navigator.permissions.query({name: 'microphone'});
+    camera.onchange=(evt)=>{
+      const allowed = camera.state === "granted";
+      if( allowed ) {
+        // ...
+      }
+      else {
+        this.endRecordBeforeExamEnd("camera permission");
+      }
+    }
+  audio.onchange=(evt)=>{
+    const allowed = audio.state === "granted";
+    if( allowed ) {
+      // ...
+    }
+    else {
+      this.endRecordBeforeExamEnd("audio permission");
+    }
+  }
+  this.stream_video_record=stream;
+  let mediaRecorder=new MediaRecorder(stream);
+  this.global_video_record=mediaRecorder
+/*
+
+  let f1=
+*/
+  mediaRecorder.start();
+  console.log(ava_func);
+  
+  mediaRecorder.addEventListener("dataavailable",ava_func.bind(this));
+  let f2=stop_func.bind(this);
+  mediaRecorder.onstop=f2;
+   let video1=document.getElementById("video");
+   video1.srcObject = stream;
+  let recorder = new RecordRTCPromisesHandler(stream, {
+      type: 'video'
+  });
+  recorder.startRecording();
+  recorder.recordRTC.onStateChanged = function(state) {
+    
+  };
+  let video_container = document.getElementById("video-container");
+  video_container.classList.remove(...video_container.classList);
+  video_container.classList.add("video-container-hidden"); 
+
+  //record2=recorder;
+  //let blob = await recorder.getBlob();
+  //invokeSaveAsDialog(blob);
+  return 1;
+  
+  }
   
   
    makeChoice(val){
@@ -70,7 +131,6 @@ export default class ExamScreen{
   }
    get_flage(){
     this.index;
-    console.log(typeof this.index);
     this.self.update_qustion(this.self.questionsList[this.index],this.index);
     this.self.cur_qustion=this.index;
   }
@@ -131,27 +191,28 @@ export default class ExamScreen{
     if(stream.getVideoTracks()[0].getSettings().displaySurface!="monitor"){
       return false;
     }
-      console.log(stream);
     const mime = MediaRecorder.isTypeSupported("video/webm; codecs=vp9") 
              ? "video/webm; codecs=vp9" 
              : "video/webm"
     let mediaRecorder = new MediaRecorder(stream, {
         mimeType: mime
     })
-    
-    let chunks = []
-    mediaRecorder.addEventListener('dataavailable',function (e) {
-        chunks.push(e.data)
-    })
+    let f2=function (e) {      
+      this.chunks_screen_record.push(e.data)
+}.bind(this);
+      mediaRecorder.addEventListener('dataavailable',f2)
     let f1=function (){
+      console.log(this.start_video_record);
+      console.log("jjjjjjjjjj");
       if(!sessionStorage.getItem("end-exam")){
-        this.endScreenRecordBeforeExamEnd();
+        this.endRecordBeforeExamEnd("screen recording");
         return;
       }
       sessionStorage.removeItem("end-exam");
-      let blob = new Blob(chunks, {
-          type: chunks[0].type
+      let blob = new Blob(this.chunks_screen_record, {
+          type:this.chunks_screen_record.type
       })
+      
       let a = document.createElement('a')
       a.href = URL.createObjectURL(blob)
       a.download = 'video.webm'
@@ -166,11 +227,41 @@ export default class ExamScreen{
       return false;
     }
   }
+  removeRecordScreen(){
+    console.log("killer");
+    
+    let video_container = document.getElementById("video-container");
+  video_container.classList.remove(...video_container.classList);
+  video_container.classList.add("video-container-remove");  
+  console.log(video_container.classList);
+  }
   async  startExam() {
+    //await this.startVideoRecord();
+    //this.chunks.splice(0,this.chunks.length);
     let flage=await this.startScreenRecord();
     if(!flage){
       return;
     }
+    this.startVideoRecord(function(env){
+      this.chunks_screen_record.push(env.data);      
+    },function(e){
+      console.log(this.chunks_screen_record);
+      
+      
+        let blob=new Blob(this.chunks_screen_record, { type: 'video/webm' });
+        let a = document.createElement('a')
+        a.href = URL.createObjectURL(blob)
+        a.download = 'video.webm'
+        a.click()
+        this.chunks_screen_record=[];
+    
+        this.start_video_record=true;
+    });
+    this.removeRecordScreen();
+    let video_container = document.getElementById("video-container");
+    video_container.style.display = 'none';
+    console.log(video_container.classList);
+    
     this.svg.style.opacity = "0";
     this.para.style.opacity = "0";
     this.btn.innerText = "";
@@ -208,17 +299,19 @@ export default class ExamScreen{
     clearTimeout(this.time1);
     clearTimeout(this.time2);
   }
-   endScreenRecordBeforeExamEnd(){
+   endRecordBeforeExamEnd(string1){
    this.clearTimeoutClass();
     this.container.innerHTML = "";
     this.examParent.innerHTML = "";
     this.container.classList.add("score-page");
-    this.container.innerHTML = `<strong class="important-info"><br><i class="fa-solid fa-triangle-exclamation"></i> you should not close screen record before exam end</strong>
+    this.container.innerHTML = `<strong class="important-info"><br><i class="fa-solid fa-triangle-exclamation"></i> you should not close ${string1} before exam end</strong>
 
                           <div><img src='../undraw_warning_re_eoyh.svg' class='score-svg'></div>`;
   }
+ 
   async  getScore() {
     // calc score
+    this.stream_video_record.stop();
     this.clearTimeoutClass();
     sessionStorage.setItem("end-exam", true);
     let score =  this.checkAnswer();

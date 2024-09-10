@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 export default class ExamScreen{
     constructor(){
       this.flagesMap={};
@@ -31,39 +30,6 @@ export default class ExamScreen{
     }
    clickPrev(){
     if(this.cur_qustion==0){
-=======
-export default class ExamScreen {
-  constructor() {
-    this.flagesMap = {};
-    this.svg = document.getElementById("svg");
-    this.para = document.getElementById("para");
-    this.btn = document.getElementById("startBtn");
-    this.container = document.getElementById("container");
-    this.leftSide = document.getElementById("leftSide");
-    this.examParent = document.getElementById("examParent");
-    this.exam = document.getElementById("exam");
-    this.infoBar = document.getElementById("infoBar");
-    this.body = document.getElementsByName("body");
-    let firstName = sessionStorage.getItem("first-name");
-    let lastName = sessionStorage.getItem("last-name");
-    this.username = firstName + " " + lastName;
-    this.userPhoto = document.getElementById("userPhoto");
-    this.photoFile = sessionStorage.getItem("file");
-    console.log(this.photoFile);
-    this.usernameField = document.getElementById("userField");
-    this.timeBar = document.getElementById("timeBar");
-    this.Percent = document.getElementById("timePercent");
-    this.barFillEle = document.getElementById("barFill");
-    this.questionsList = [];
-    this.cur_qustion = 0;
-    this.global_screen_record = null;
-    this.currentCircle = document.getElementById(
-      `circle${this.cur_qustion + 1}`
-    ).style.backgroundColor = "#939aad";
-  }
-  clickPrev() {
-    if (this.cur_qustion == 0) {
->>>>>>> main
       return;
     }
     this.currentCircle = document.getElementById(
@@ -89,7 +55,6 @@ export default class ExamScreen {
       `circle${this.cur_qustion + 1}`
     ).style.backgroundColor = "#939aad";
   }
-<<<<<<< HEAD
   
   async startVideoRecord(ava_func,stop_func){
     if(this.stream_video_record!=null){
@@ -153,12 +118,6 @@ export default class ExamScreen {
    makeChoice(val){
     for(let i=0;i<4;i++){
       let answer=document.getElementById(`ans${i}`);
-=======
-
-  makeChoice(val) {
-    for (let i = 0; i < 4; i++) {
-      let answer = document.getElementById(`ans${i}`);
->>>>>>> main
       answer.classList.remove(...answer.classList);
       answer.classList.add("answer");
     }
@@ -183,14 +142,8 @@ export default class ExamScreen {
   }
   get_flage() {
     this.index;
-<<<<<<< HEAD
     this.self.update_qustion(this.self.questionsList[this.index],this.index);
     this.self.cur_qustion=this.index;
-=======
-    console.log(typeof this.index);
-    this.self.update_qustion(this.self.questionsList[this.index], this.index);
-    this.self.cur_qustion = this.index;
->>>>>>> main
   }
   addFlage() {
     if (this.flagesMap[this.cur_qustion] != null) {
@@ -243,7 +196,6 @@ export default class ExamScreen {
   async startScreenRecord() {
     try {
       let stream = await navigator.mediaDevices.getDisplayMedia({
-<<<<<<< HEAD
         video: true,audio: true
     })
     this.global_screen_record=stream;
@@ -299,54 +251,6 @@ export default class ExamScreen {
     //this.chunks.splice(0,this.chunks.length);
     let flage=await this.startScreenRecord();
     if(!flage){
-=======
-        video: true,
-        audio: true,
-      });
-      this.global_screen_record = stream;
-      if (
-        stream.getVideoTracks()[0].getSettings().displaySurface != "monitor"
-      ) {
-        return false;
-      }
-      console.log(stream);
-      const mime = MediaRecorder.isTypeSupported("video/webm; codecs=vp9")
-        ? "video/webm; codecs=vp9"
-        : "video/webm";
-      let mediaRecorder = new MediaRecorder(stream, {
-        mimeType: mime,
-      });
-
-      let chunks = [];
-      mediaRecorder.addEventListener("dataavailable", function (e) {
-        chunks.push(e.data);
-      });
-      let f1 = function () {
-        if (!sessionStorage.getItem("end-exam")) {
-          this.endScreenRecordBeforeExamEnd();
-          return;
-        }
-        sessionStorage.removeItem("end-exam");
-        let blob = new Blob(chunks, {
-          type: chunks[0].type,
-        });
-        let a = document.createElement("a");
-        a.href = URL.createObjectURL(blob);
-        a.download = "video.webm";
-        a.click();
-      }.bind(this);
-      mediaRecorder.addEventListener("stop", f1);
-
-      mediaRecorder.start();
-      return true;
-    } catch (e) {
-      return false;
-    }
-  }
-  async startExam() {
-    let flage = await this.startScreenRecord();
-    if (!flage) {
->>>>>>> main
       return;
     }
     this.startVideoRecord(function(env){
@@ -407,7 +311,6 @@ export default class ExamScreen {
     clearTimeout(this.time1);
     clearTimeout(this.time2);
   }
-<<<<<<< HEAD
    endRecordBeforeExamEnd(string1){
    this.clearTimeoutClass();
     this.container.innerHTML = "";
@@ -419,18 +322,6 @@ export default class ExamScreen {
   }
  
   async  getScore() {
-=======
-  endScreenRecordBeforeExamEnd() {
-    this.clearTimeoutClass();
-    this.container.innerHTML = "";
-    this.examParent.innerHTML = "";
-    this.container.classList.add("score-page");
-    this.container.innerHTML = `<strong class="important-info"><br><i class="fa-solid fa-triangle-exclamation"></i> you should not close screen record before exam end</strong>
-    <div><img src='../undraw_warning_re_eoyh.svg' class='score-svg'></div>
-    <button type='button' class='retest' id='retest' onclick='obj1.retest()'>Retake</button>`;
-  }
-  async getScore() {
->>>>>>> main
     // calc score
     this.stream_video_record.stop();
     this.clearTimeoutClass();

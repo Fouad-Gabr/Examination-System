@@ -11,7 +11,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body id="body">
     <div class="exam-parent hidden" id="examParent">
         <div class="exam hidden" id="exam">
             <div class="time-bar" id="timeBar">
@@ -23,8 +23,8 @@
                 <div class="question" id="question">Question</div>
             </div>
             <div class="answers-location">
-                <button class="answer first-answer" id="ans0" onclick="obj1.makeChoice(0)">first</button>
-                <button class="answer second-answer"  id="ans1" onclick="obj1.makeChoice(1)">second</button>
+                <div class="answer first-answer" id="ans0" onclick="obj1.makeChoice(0)">first</div>
+                <div class="answer second-answer"  id="ans1" onclick="obj1.makeChoice(1)">second</div>
                 <div class="answer third-answer" id="ans2" onclick="obj1.makeChoice(2)">third</div>
                 <div class="answer fourth-answer"  id="ans3" onclick="obj1.makeChoice(3)">fourth</div>
             </div>
@@ -35,16 +35,16 @@
                 <div class="btn next-btn" onclick="obj1.clickNext()">Next</div>
             </div>
             <div class="circles-parent">
-                <div class="circle first-circle"></div>
-                <div class="circle second-circle"></div>
-                <div class="circle third-circle"></div>
-                <div class="circle fourth-circle"></div>
-                <div class="circle fifth-circle"></div>
-                <div class="circle sixth-circle"></div>
-                <div class="circle seventh-circle"></div>
-                <div class="circle eighth-circle"></div>
-                <div class="circle ninth-circle"></div>
-                <div class="circle tenth-circle"></div>
+                <div class="circle" id="circle1"></div>
+                <div class="circle" id="circle2"></div>
+                <div class="circle" id="circle3"></div>
+                <div class="circle" id="circle4"></div>
+                <div class="circle" id="circle5"></div>
+                <div class="circle" id="circle6"></div>
+                <div class="circle" id="circle7"></div>
+                <div class="circle" id="circle8"></div>
+                <div class="circle" id="circle9"></div>
+                <div class="circle" id="circle10"></div>
             </div>
         </div>
 
